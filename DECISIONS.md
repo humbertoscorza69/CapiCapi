@@ -147,3 +147,19 @@ Alternatives considered: Treating `CAPI_V0_BRIEF.md` as the visual identity sour
 Consequences: `docs/product/CAPI_V0_BRIEF.md` is reclassified as a future engineering prototype brief. The active Phase 1A identity source is `docs/brand/CAPI_VISUAL_DNA.md`. Capi v0 still precedes Capi Master v1.0 production lock and Series 01, but it no longer defines CAPICAPI's visual identity.
 
 Reversible? YES, with owner approval and a recorded replacement phase decision.
+
+## Decision D-0010
+
+Date: 2026-09-04
+
+Decision: Phase 1A visual exploration uses four materially different lanes: Grounded Loaf Collectible, Designer Toy Mascot, Expressive Stylized / Anime-adjacent, and Sculptural Art Toy.
+
+Reason: The three-lane model did not sufficiently test the expressive/stylized end of the character design space. CAPICAPI needs to compare base character DNA before costumes, props, expression tricks, or material styling influence the decision.
+
+Evidence: Owner approved Phase 1A architecture with a required amendment adding an expressive stylized lane, a mandatory base character round, expression tests, role stress tests, a structured scorecard, and an external visual reference policy.
+
+Alternatives considered: Keeping three directions; allowing role/costume concepts before base comparison; treating scorecard ranking as automatic approval.
+
+Consequences: No visual generation begins until the four base-character prompts are reviewed. Scores are advisory only; human judgment remains authoritative.
+
+Reversible? YES, with owner approval and a recorded replacement exploration decision.

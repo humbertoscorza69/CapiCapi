@@ -21,7 +21,7 @@ Phase 1A - Visual direction exploration
 
 Objective:
 
-- define three materially different visual directions
+- define four materially different visual directions
 - evaluate each direction through identical views and role tests
 - choose no final direction without human approval
 

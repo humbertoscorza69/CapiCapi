@@ -7,7 +7,7 @@ Date: 2026-09-04
 | Phase | Name | State | Notes |
 |---|---|---:|---|
 | Phase 0 | Project Operating System | PASS | Owner approved Phase 0; repository and Drive operating structure are active. |
-| Phase 1A | CAPICAPI Visual DNA Definition | BLOCKED | Canonical Phase 1A docs define visual DNA requirements, exploration process, reference standard, and modeling bible; human visual approval is required next. |
+| Phase 1A | CAPICAPI Visual DNA Definition | BLOCKED | Four-lane visual exploration rules and base-character prompts are drafted; human prompt approval is required before candidate generation. |
 | Phase 1B | Provisional Visual Master / Reference Pack | BLOCKED | Requires owner selection or revision of a Phase 1A visual direction. |
 | Phase 1C | Provisional 3D Master Adapted for DFM | BLOCKED | Requires approved 2D/reference package from Phase 1B. |
 | Phase 2 | Engineering / Physical Capi v0 Validation | BLOCKED | Requires provisional DFM-adapted 3D master; `CAPI_V0_BRIEF.md` is an engineering prototype brief only. |
@@ -42,7 +42,8 @@ Date: 2026-09-04
 
 ## Required Before Phase 1A PASS
 
-- Owner reviews the three materially different visual direction requirements.
+- Owner reviews the four materially different visual direction requirements and base-character generation prompts.
+- Owner approves or revises the exact Base Character Round prompts before generation.
 - Owner approves one direction, requests revisions, or orders additional exploration.
 - No final numeric ratios are frozen unless they come from an approved visual master.
 - No Capi v0 engineering prototype work begins.

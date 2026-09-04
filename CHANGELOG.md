@@ -27,11 +27,13 @@ All notable project operating-system changes are recorded here.
 - Added Phase 0 filesystem/architecture audit.
 - Added Phase 1A visual DNA, character reference, visual exploration, 3D modeling, and master-character pipeline documents.
 - Added a spec-only 3D Modeling Agent home for future model handoffs.
+- Added Phase 1A visual reference policy, base-character-first generation prompts, and a structured visual direction scorecard.
 
 ### Changed
 
 - Split Phase 1 into Phase 1A visual direction exploration, Phase 1B provisional visual master/reference pack, and Phase 1C provisional 3D master adapted for DFM.
 - Reclassified `docs/product/CAPI_V0_BRIEF.md` as a future engineering prototype brief instead of the source of visual identity.
+- Amended Phase 1A exploration from three lanes to four lanes by adding Expressive Stylized / Anime-adjacent as a separate test direction.
 
 ### Removed
 

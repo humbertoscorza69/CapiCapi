@@ -313,7 +313,7 @@ Reject candidates that drift into:
 
 ## Required Phase 1A Outcome
 
-Phase 1A does not approve a final character. It must produce three materially different visual direction packages and a human decision about which direction, if any, should proceed to Phase 1B.
+Phase 1A does not approve a final character. It must produce four materially different visual direction packages and a human decision about which direction, if any, should proceed to Phase 1B.
 
 Human decision options:
 

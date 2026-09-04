@@ -52,7 +52,7 @@ Objectives:
 
 - define the required CAPICAPI visual identity attributes before final geometry
 - define the final character reference package standard
-- define three materially different base-character art directions
+- define four materially different base-character art directions
 - define a future 3D modeling bible without beginning final 3D modeling
 - reclassify `docs/product/CAPI_V0_BRIEF.md` as a future engineering prototype brief
 
@@ -68,8 +68,9 @@ Required artifacts:
 Acceptance criteria:
 
 - visual DNA requirements cover head/body proportions, silhouettes, muzzle, eyes, ears, paws, stance, curvature, expressions, accessory zones, immutable/flexible traits, and forbidden drift
-- exploration process requires three materially different directions evaluated with identical views and costume tests
+- exploration process requires four materially different directions evaluated first through a naked/base character round, then expression and role stress tests for surviving directions
 - no final numeric proportions, filament colors, consumer characters, Capi v0 models, or Series 01 assets are frozen
+- owner approves or revises Base Character Round prompts before generation
 - owner approves one direction, requests revisions, or requests additional exploration
 
 Unresolved risks:
