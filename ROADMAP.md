@@ -6,11 +6,9 @@ This roadmap is gate-driven. Later phases do not begin until the current phase h
 
 Objectives:
 
-- Establish repository structure.
+- Establish repository and Drive operating structure.
 - Create canonical status, roadmap, changelog, and decision log.
-- Draft foundation standards.
-- Define initial agent specifications.
-- Create versioned schemas.
+- Draft foundation standards, schemas, agents, and integration scaffolds.
 - Prepare Google Drive mirroring without credentials in Git.
 
 Acceptance criteria:
@@ -18,72 +16,105 @@ Acceptance criteria:
 - Required files exist and are understandable without this conversation.
 - Source-of-truth policy is documented.
 - Secrets policy is documented and enforced through `.gitignore`.
-- Phase gate status is recorded.
+- Drive hierarchy exists for operational assets.
 
 Status: PASS
 
-## Phase 1 - Product / Brand Foundations
+## Phase 1A - CAPICAPI Visual DNA Definition
 
 Objectives:
 
-- Stabilize Capi Master visual rules.
-- Freeze Capi v0 design intent.
-- Define initial palette constraints before buying filament.
-- Confirm rarity and series architecture principles without fake probabilities.
+- Define what makes a CAPICAPI character recognizable before final 3D modeling.
+- Create the standard for future approved reference images.
+- Define three materially different visual direction candidates for human evaluation.
+- Define how visual identity survives costume, role, and series changes.
+- Create the modeling bible without modeling Capi v0.
 
 Acceptance criteria:
 
-- `docs/brand/CAPI_MASTER_SPEC.md` accepted.
-- `docs/brand/VISUAL_LANGUAGE.md` accepted.
-- `docs/product/CAPI_V0_BRIEF.md` accepted.
-- Manufacturing standards are ready for digital DFM review.
+- `docs/brand/CAPI_VISUAL_DNA.md` exists and is accepted or revised.
+- `docs/brand/CHARACTER_REFERENCE_STANDARD.md` exists and is accepted or revised.
+- `docs/brand/VISUAL_DIRECTION_EXPLORATION.md` defines the three-direction exploration workflow.
+- `docs/product/3D_MODELING_BIBLE.md` and `docs/product/MASTER_CHARACTER_PIPELINE.md` define future 3D handoff rules.
+- Human owner explicitly approves the next visual direction step.
 
-Status: BLOCKED pending review and Capi v0 design brief completion.
+Status: BLOCKED pending human visual approval.
 
-## Phase 2 - Capi v0 Engineering Prototype
+## Phase 1B - Provisional Visual Master / Reference Pack
 
 Objectives:
 
-- Produce one engineering test character model.
-- Exercise 4 colors, face, clothing, one accessory, embossed/recessed details, and support-free geometry.
-- Prepare slicer-ready files for DFM review.
+- Produce the approved 2D visual master and reference package.
+- Define provisional proportions, silhouette rules, expression limits, accessory zones, and immutable features from approved reference images.
+- Record approved and rejected examples.
 
 Acceptance criteria:
 
-- Digital model passes DFM review.
-- Color-Z audit is completed from slicer data.
-- No Series 01 work begins.
+- Required reference package passes `docs/brand/CHARACTER_REFERENCE_STANDARD.md`.
+- Visual DNA values move from TBD to provisional only where supported by approved images.
+- Owner approves the provisional visual master.
 
 Status: BLOCKED
 
-## Phase 3 - Physical Manufacturing Validation
+## Phase 1C - Provisional 3D Master Adapted for DFM
 
 Objectives:
 
-- Run size, quality, and batching tests.
-- Compare slicer estimates against measured physical results.
-- Identify production size, layer height, batching approach, and unit economics.
+- Translate the approved 2D/reference package into provisional 3D master geometry.
+- Adapt the design for support-free FDM production on the Bambu Lab A1.
+- Preserve base-character geometry while preparing for slicer and physical testing.
 
 Acceptance criteria:
 
-- Test matrix recorded with real measurements.
-- Blind perceived-quality comparison completed.
-- Manufacturing standard updated from measured data.
+- 3D candidate follows `docs/product/3D_MODELING_BIBLE.md`.
+- DFM and Color-Z checks are completed.
+- Handoff to the Print Agent is ready.
 
 Status: BLOCKED
 
-## Phase 4 - Capi Master + First 3 Characters
+## Phase 2 - Engineering / Physical Capi v0 Validation
 
 Objectives:
 
-- Promote tested Capi Master rules.
-- Design first three sellable characters from one coherent IP language.
-- Validate variants against manufacturing data.
+- Use `docs/product/CAPI_V0_BRIEF.md` as an engineering prototype brief.
+- Print and measure what survives real FDM production.
+- Validate scale, strength, detail, color-region behavior, purge waste, print time, and operator effort.
 
 Acceptance criteria:
 
-- First three characters pass product, visual, DFM, and QA review.
-- Edition and rarity claims are truthful and trackable.
+- Physical tests are recorded with real measurements.
+- Minimum feature values are updated from evidence.
+- Provisional master changes are proposed where physical production requires them.
+
+Status: BLOCKED
+
+## Phase 3 - Capi Master v1.0 Production Lock
+
+Objectives:
+
+- Lock Capi Master v1.0 only after physical validation.
+- Convert provisional visual/DFM findings into production rules.
+- Define what may and may not change across sellable variants.
+
+Acceptance criteria:
+
+- Production-lock decision is recorded.
+- Visual DNA, modeling bible, and manufacturing standards agree.
+- Capi Master v1.0 is ready for sellable character development.
+
+Status: BLOCKED
+
+## Phase 4 - First Sellable Character Set
+
+Objectives:
+
+- Design first sellable CAPICAPI characters from the locked master.
+- Validate role, costume, expression, and accessory variation against production rules.
+
+Acceptance criteria:
+
+- Characters read as one IP family.
+- Each character passes visual, product, DFM, and QA review.
 
 Status: BLOCKED
 
@@ -91,13 +122,12 @@ Status: BLOCKED
 
 Objectives:
 
-- Define a coherent launch series.
-- Control common, uncommon, rare, epic, legendary, and secret/shiny mechanics.
-- Prepare packaging and fulfillment assumptions for validation.
+- Define a coherent launch series after sellable character validation.
+- Control rarity, SKU, packaging, inventory, and truthful scarcity mechanics.
 
 Acceptance criteria:
 
-- Series plan, SKUs, production constraints, and truth-in-scarcity controls are approved.
+- Series plan, SKUs, production constraints, and scarcity controls are approved.
 
 Status: BLOCKED
 

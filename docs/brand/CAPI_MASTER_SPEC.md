@@ -1,12 +1,14 @@
 # CAPI MASTER SPEC v1.0
 
-Status: DRAFT
+Status: DRAFT - PROVISIONAL MASTER RULES
 Date: 2026-09-04
 Truth level: PROVISIONAL except where explicitly marked `KNOWN` or `TBD — REQUIRES PHYSICAL TEST`.
 
 ## Purpose
 
 The Capi Master defines the visual and manufacturing rules that make every CAPICAPI character recognizable as part of one IP family. Variants such as Doctor, Biker, Wizard, or Astronaut must read as the same core character in different roles, not as unrelated capybara models.
+
+Phase 1A note: this document is structurally useful but not specific enough to define final proprietary visual IP by itself. `docs/brand/CAPI_VISUAL_DNA.md` now owns Phase 1A visual identity definition, and this master spec remains provisional until visual reference and physical manufacturing validation are complete.
 
 ## Immutable Features
 

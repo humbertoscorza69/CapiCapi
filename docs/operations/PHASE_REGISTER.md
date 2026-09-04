@@ -1,4 +1,4 @@
-# PHASE REGISTER v1.0
+# PHASE REGISTER v1.1
 
 Status: ACTIVE
 Date: 2026-09-04
@@ -37,118 +37,188 @@ Acceptance criteria:
 - Drive integration is prepared without credentials
 - phase gates and decisions are documented
 - Drive operational hierarchy is created idempotently
+- owner approves Phase 0
 
 Unresolved risks:
 
-- no owner review yet
 - no physical manufacturing data
-- no Drive credentials configured
+- no approved visual master
 
-## Phase 1 - Product / Brand Foundations
+## Phase 1A - CAPICAPI Visual DNA Definition
 
-State: BLOCKED
+State: BLOCKED pending human visual approval
 
 Objectives:
 
-- approve Capi Master visual rules
-- approve Capi v0 brief
-- refine visual language
-- prepare digital DFM entry criteria
+- define the required CAPICAPI visual identity attributes before final geometry
+- define the final character reference package standard
+- define three materially different base-character art directions
+- define a future 3D modeling bible without beginning final 3D modeling
+- reclassify `docs/product/CAPI_V0_BRIEF.md` as a future engineering prototype brief
 
 Required artifacts:
 
-- `docs/brand/CAPI_MASTER_SPEC.md`
-- `docs/product/CAPI_V0_BRIEF.md`
-- `docs/brand/VISUAL_LANGUAGE.md`
-- `docs/product/FDM_DESIGN_STANDARD.md`
-- `docs/product/COLOR_DFM_STANDARD.md`
+- `docs/brand/CAPI_VISUAL_DNA.md`
+- `docs/brand/CHARACTER_REFERENCE_STANDARD.md`
+- `docs/brand/VISUAL_DIRECTION_EXPLORATION.md`
+- `docs/product/3D_MODELING_BIBLE.md`
+- `docs/product/MASTER_CHARACTER_PIPELINE.md`
+- updated `docs/product/CAPI_V0_BRIEF.md`
 
 Acceptance criteria:
 
-- owner accepts or revises the foundation docs
-- Capi v0 concept is ready for digital design
-- palette constraints are clear before filament purchasing
+- visual DNA requirements cover head/body proportions, silhouettes, muzzle, eyes, ears, paws, stance, curvature, expressions, accessory zones, immutable/flexible traits, and forbidden drift
+- exploration process requires three materially different directions evaluated with identical views and costume tests
+- no final numeric proportions, filament colors, consumer characters, Capi v0 models, or Series 01 assets are frozen
+- owner approves one direction, requests revisions, or requests additional exploration
 
 Unresolved risks:
 
-- proportions are provisional
-- minimum printable details are unmeasured
-- no visual character sheet exists yet
+- no approved visual master exists yet
+- no approved reference images exist yet
+- final numeric ratios remain `TBD — REQUIRES APPROVED VISUAL MASTER`
+- printable minimums remain `TBD — REQUIRES PHYSICAL TEST`
 
-## Phase 2 - Capi v0 Engineering Prototype
+## Phase 1B - Provisional Visual Master / Reference Pack
 
 State: BLOCKED
 
 Objectives:
 
-- produce one engineering test character
-- exercise face, clothing, accessory, four colors, and relief details
-- prepare slicer-ready files
+- create the approved base Capi 2D visual master
+- assemble the full reference package required by `docs/brand/CHARACTER_REFERENCE_STANDARD.md`
+- define provisional visual DNA values from approved reference images
+- record approved and rejected examples
 
 Required artifacts:
 
-- Capi v0 model files
-- design brief
-- intended build orientation notes
-- preliminary Color-Z audit
-- slicer export package
+- approved orthographic and 3/4 reference sheets
+- silhouette sheet
+- proportion grid
+- expression sheet
+- color and material reference
+- accessory-zone map
+- immutable-feature map
+- approved/rejected example set
+- updated `docs/brand/CAPI_VISUAL_DNA.md`
 
 Acceptance criteria:
 
-- digital model passes DFM review
-- no supports required or escalation is documented
-- no manual assembly or painting required
+- owner approves the provisional visual master
+- reference package is complete enough for future Design and 3D Modeling Agents
+- visual identity survives costume tests
 
 Unresolved risks:
 
-- model does not exist
-- slicer data unavailable
-- accessory fragility unknown
+- selected direction may fail costume/series stress tests
+- visual master may require simplification for FDM later
 
-## Phase 3 - Physical Manufacturing Validation
+## Phase 1C - Provisional 3D Master Adapted for DFM
 
 State: BLOCKED
 
 Objectives:
 
-- run size/layer/batch test matrix
-- measure actual print time, material, waste, and quality
-- compare slicer estimates to physical results
+- translate approved 2D/reference geometry into a provisional 3D master candidate
+- preserve base-character visual DNA while adapting for FDM
+- prepare slicer-ready geometry for engineering validation
 
 Required artifacts:
 
+- source modeling file
+- STL/3MF export package
+- visual QA report
+- DFM QA report
+- Color-Z audit
+- handoff package to the Print Agent
+
+Acceptance criteria:
+
+- candidate follows `docs/product/3D_MODELING_BIBLE.md`
+- geometry is manifold, watertight, intentionally oriented, and zero-support by design or escalated
+- base-character geometry changes are documented and approved
+
+Unresolved risks:
+
+- 2D visual features may not survive printable scale
+- color-region boundaries may create unacceptable purge or print risk
+
+## Phase 2 - Engineering / Physical Capi v0 Validation
+
+State: BLOCKED
+
+Objectives:
+
+- use `docs/product/CAPI_V0_BRIEF.md` as an engineering prototype brief
+- print and measure the provisional master under realistic constraints
+- validate detail, scale, strength, color changes, purge waste, print time, failure rate, and operator effort
+
+Required artifacts:
+
+- Capi v0 engineering model package
+- slicer profile/package
 - print experiment records
-- photos or sample references
-- measured material/time data
-- blind quality comparison notes
-- manufacturing standard revision proposal
+- photos/videos of test prints
+- measured material/time/waste data
+- issue and revision log
 
 Acceptance criteria:
 
-- at least one production candidate setting is supported by evidence
-- failure modes are documented
-- cost/unit inputs are traceable
+- physical test matrix is complete enough to revise standards
+- minimum feature values are evidence-backed
+- the visual master is revised if FDM evidence requires it
 
 Unresolved risks:
 
-- filament palette not purchased
+- filament palette not selected
 - measurement tools not confirmed
 - printer utilization unknown
+- accessory fragility unknown
 
-## Phase 4 - Capi Master + First 3 Characters
+## Phase 3 - Capi Master v1.0 Production Lock
 
 State: BLOCKED
 
 Objectives:
 
-- promote validated Capi Master rules
-- design first three sellable characters
-- test variants against measured manufacturing constraints
+- lock Capi Master v1.0 only after physical validation
+- reconcile visual DNA, 3D model, DFM rules, and manufacturing evidence
+- define the production-safe invariant base for future variants
 
 Required artifacts:
 
-- Capi Master v1 approved spec
-- first three character briefs
+- Capi Master v1.0 approved spec
+- production-locked source model
+- production export package
+- physical validation report
+- updated manufacturing standards
+- recorded production-lock decision
+
+Acceptance criteria:
+
+- visual identity and FDM survivability are both proven
+- all remaining TBD values are either measured, approved provisional, or explicitly deferred
+- owner approves production lock
+
+Unresolved risks:
+
+- physical test data may require visual redesign
+- unit economics may be unacceptable at desired quality
+
+## Phase 4 - First Sellable Character Set
+
+State: BLOCKED
+
+Objectives:
+
+- design first sellable characters from Capi Master v1.0
+- validate roles, costumes, accessories, and expressions against locked visual DNA
+- avoid beginning Series 01 before sellable character readiness
+
+Required artifacts:
+
+- first sellable character briefs
+- reference sheets
 - DFM reports
 - Color-Z audits
 - QA reports
@@ -156,14 +226,13 @@ Required artifacts:
 Acceptance criteria:
 
 - characters read as one IP family
-- each character passes DFM and QA
+- each character passes product, visual, DFM, and QA review
 - production constraints are evidence-backed
 
 Unresolved risks:
 
-- Capi Master not physically validated
 - no sellable character roster approved
-- unit economics unknown
+- packaging and pricing may change scope
 
 ## Phase 5 - Series 01
 
@@ -172,7 +241,7 @@ State: BLOCKED
 Objectives:
 
 - define first launch series
-- assign rarity tiers
+- assign rarity tiers only after production feasibility is known
 - plan truthful mystery/edition mechanics
 
 Required artifacts:

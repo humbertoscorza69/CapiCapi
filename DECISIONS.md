@@ -56,6 +56,8 @@ Date: 2026-09-04
 
 Decision: Capi v0 must precede Capi Master approval and Series 01.
 
+Amendment: Refined by D-0009. This means Capi v0 must precede Capi Master v1.0 production lock and Series 01, not that Capi v0 defines CAPICAPI's visual identity.
+
 Reason: Capi v0 is the engineering test asset that discovers size, quality, purge behavior, and production constraints.
 
 Evidence: Project brief explicitly forbids beginning Series 01 before Capi v0 validation.
@@ -129,3 +131,19 @@ Alternatives considered: Keeping heavy assets in Git; treating Drive folder name
 Consequences: Heavy/operational assets stay out of Git. Structured metadata starts as JSON/CSV under `data/metadata` and validates against schemas. Future n8n workflows must use IDs and metadata, not filenames alone.
 
 Reversible? YES
+
+## Decision D-0009
+
+Date: 2026-09-04
+
+Decision: Phase 1 is split into Phase 1A visual direction exploration, Phase 1B provisional visual master/reference pack, and Phase 1C provisional 3D master adapted for DFM before Phase 2 Capi v0 engineering validation.
+
+Reason: CAPICAPI needs proprietary, repeatable visual IP before engineering the first physical prototype, but the final production master must not be locked before physical FDM evidence shows what survives manufacturing.
+
+Evidence: Phase 1A identified that `CAPI_MASTER_SPEC.md` and `VISUAL_LANGUAGE.md` were structurally sound but too broad to define stable character recognition, reference-package requirements, or 3D modeling handoff rules.
+
+Alternatives considered: Treating `CAPI_V0_BRIEF.md` as the visual identity source; locking a consumer character before physical testing; beginning final 3D modeling before human visual approval.
+
+Consequences: `docs/product/CAPI_V0_BRIEF.md` is reclassified as a future engineering prototype brief. The active Phase 1A identity source is `docs/brand/CAPI_VISUAL_DNA.md`. Capi v0 still precedes Capi Master v1.0 production lock and Series 01, but it no longer defines CAPICAPI's visual identity.
+
+Reversible? YES, with owner approval and a recorded replacement phase decision.

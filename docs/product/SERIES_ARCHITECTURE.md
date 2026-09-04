@@ -12,13 +12,15 @@ Series architecture defines how CAPICAPI groups characters, variants, rarity tie
 
 The order is mandatory:
 
-1. Capi v0 engineering prototype
-2. Physical manufacturing validation
-3. Capi Master approval
-4. First 3 sellable characters
-5. Series 01
+1. Phase 1A visual direction approval
+2. Phase 1B provisional visual master / reference pack
+3. Phase 1C provisional 3D master adapted for DFM
+4. Phase 2 engineering / physical Capi v0 validation
+5. Phase 3 Capi Master v1.0 production lock
+6. first sellable character set
+7. Series 01
 
-Series 01 must not begin before Capi v0 and Capi Master validation.
+Series 01 must not begin before Capi Master v1.0 production lock and sellable character validation.
 
 ## Series Anatomy
 

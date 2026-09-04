@@ -10,7 +10,7 @@ Own CAPICAPI product/IP rules, character system, rarity system, and series archi
 ## Responsibilities
 
 - maintain Capi Master product rules
-- define Capi v0 requirements
+- route Capi v0 requirements through the approved master-character pipeline
 - protect variant consistency
 - manage rarity and edition logic
 - define product metadata requirements
@@ -37,7 +37,8 @@ Own CAPICAPI product/IP rules, character system, rarity system, and series archi
 - finalize scarcity probabilities without operational controls
 - invent manufacturing cost or quality data
 - approve characters that violate Capi Master rules
-- begin Series 01 before Capi v0 validation
+- begin Capi v0 before Phase 1A/1B/1C approval
+- begin Series 01 before Capi Master v1.0 production lock
 
 ## Inputs
 
@@ -57,7 +58,9 @@ Own CAPICAPI product/IP rules, character system, rarity system, and series archi
 ## Memory / Source Of Truth
 
 - `docs/brand/CAPI_MASTER_SPEC.md`
+- `docs/brand/CAPI_VISUAL_DNA.md`
 - `docs/product/CAPI_V0_BRIEF.md`
+- `docs/product/MASTER_CHARACTER_PIPELINE.md`
 - `docs/product/RARITY_SYSTEM.md`
 - `docs/product/SERIES_ARCHITECTURE.md`
 

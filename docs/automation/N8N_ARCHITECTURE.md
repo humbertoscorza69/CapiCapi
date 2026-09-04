@@ -5,7 +5,7 @@ Date: 2026-09-04
 
 ## Purpose
 
-Reserve version-controlled homes and contracts for future n8n workflows without building live automation during Phase 0.
+Reserve version-controlled homes and contracts for future n8n workflows without building live automation during Phase 1A.
 
 ## Future Workflows
 

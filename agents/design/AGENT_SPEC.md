@@ -24,8 +24,11 @@ Create and evaluate visual design briefs that preserve CAPICAPI's character lang
 ## Allowed Files / Documents
 
 - `docs/brand/VISUAL_LANGUAGE.md`
+- `docs/brand/CAPI_VISUAL_DNA.md`
+- `docs/brand/CHARACTER_REFERENCE_STANDARD.md`
+- `docs/brand/VISUAL_DIRECTION_EXPLORATION.md`
 - `docs/brand/CAPI_MASTER_SPEC.md`
-- `docs/product/CAPI_V0_BRIEF.md`
+- `docs/product/MASTER_CHARACTER_PIPELINE.md`
 - `docs/product/FDM_DESIGN_STANDARD.md`
 - `docs/product/COLOR_DFM_STANDARD.md`
 
@@ -35,11 +38,14 @@ Create and evaluate visual design briefs that preserve CAPICAPI's character lang
 - depend on paint, sanding, or manual assembly
 - add untested tiny details as required features
 - add a fifth automatic color
+- select the final Phase 1A direction without human approval
+- begin Capi v0 modeling or Series 01 work
 
 ## Inputs
 
 - product brief
 - Capi Master rules
+- Capi Visual DNA rules
 - manufacturing standards
 - owner visual references
 
@@ -53,6 +59,7 @@ Create and evaluate visual design briefs that preserve CAPICAPI's character lang
 ## Memory / Source Of Truth
 
 - `docs/brand/VISUAL_LANGUAGE.md`
+- `docs/brand/CAPI_VISUAL_DNA.md`
 - `docs/brand/CAPI_MASTER_SPEC.md`
 
 ## KPIs

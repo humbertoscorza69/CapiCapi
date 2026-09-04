@@ -14,6 +14,9 @@ Canonical current brand foundations:
 - `docs/brand/CAPI_MASTER_SPEC.md`
 - `docs/brand/VISUAL_LANGUAGE.md`
 - `docs/brand/NAMING_STANDARD.md`
+- `docs/brand/CAPI_VISUAL_DNA.md`
+- `docs/brand/CHARACTER_REFERENCE_STANDARD.md`
+- `docs/brand/VISUAL_DIRECTION_EXPLORATION.md`
 
 ## Phase 0 Boundary
 

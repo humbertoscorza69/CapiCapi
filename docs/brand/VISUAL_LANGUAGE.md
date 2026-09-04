@@ -1,12 +1,14 @@
 # VISUAL LANGUAGE v1.0
 
-Status: DRAFT
+Status: DRAFT - SUPPORTING BRAND LANGUAGE
 Date: 2026-09-04
 Truth level: PROVISIONAL
 
 ## Purpose
 
 This document defines the recognizable CAPICAPI visual language. It protects the IP from becoming a disconnected set of generic capybara prints.
+
+Phase 1A note: this document describes broad brand feel and shape grammar. `docs/brand/CAPI_VISUAL_DNA.md` is the active visual identity specification for proprietary repeatability.
 
 ## Brand Feel
 

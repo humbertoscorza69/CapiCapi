@@ -27,6 +27,7 @@ Initial agent runtime status:
 | Orchestrator | SPEC_ONLY |
 | Product | SPEC_ONLY |
 | Design | SPEC_ONLY |
+| 3D Modeling | SPEC_ONLY |
 | Manufacturing / DFM | SPEC_ONLY |
 | Print Lab | SPEC_ONLY |
 | Analytics | SPEC_ONLY |

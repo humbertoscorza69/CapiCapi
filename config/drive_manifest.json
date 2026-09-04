@@ -9,63 +9,103 @@
       "drive_path": "CAPICAPI/Operating System/README",
       "drive_file_id": "1pAjJH_ufX6GZ0E3NZqAHH6II9lf39dQ-zXXBeTZa5G4",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:45:25.289874Z",
-      "source_hash": "c5f5c77c9b6cb0234fb93e7d3900fe8764c6c352242bee66dfef8bb043933034"
+      "last_synced_at": "2026-09-04T15:18:17.430772Z",
+      "source_hash": "2cc1f2417f92ee7d56f2074a45aec38db3812e949670f0266758e0d756639eb8"
     },
     {
       "repo_path": "PROJECT_STATUS.md",
       "drive_path": "CAPICAPI/Operating System/PROJECT STATUS",
       "drive_file_id": "1Q79zpRUHoRq2YHTmWp73pVOkx5bWaFj3l5jTikkP12E",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:45:27.543974Z",
-      "source_hash": "1fbe909ecca63cf6c07c72fc01a058116e5c4f7596f26e2c592cb13f63429480"
+      "last_synced_at": "2026-09-04T15:18:20.572659Z",
+      "source_hash": "1412e88b38ed294cdbeb4aaff61c35921471f297249b2943ce56cbd5610a0960"
     },
     {
       "repo_path": "ROADMAP.md",
       "drive_path": "CAPICAPI/Operating System/ROADMAP",
       "drive_file_id": "1KUPTWlU1LTe1FLaet2YPYdXtTIvDEMkGNx70dLOwnfE",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:45:29.718163Z",
-      "source_hash": "7b43491daa951bef431bc5585f458f92d768a0100ac2c925fadfa59abd8dc232"
+      "last_synced_at": "2026-09-04T15:18:23.144655Z",
+      "source_hash": "0de99fd3ee2d699a8d9816842b9a25773602aa57207e0aa37dae5ec13d09d01d"
     },
     {
       "repo_path": "DECISIONS.md",
       "drive_path": "CAPICAPI/Operating System/DECISIONS",
       "drive_file_id": "1S16rOvZcG0-mjZ37aHliH7Hj-s4kfhPMRCmJw1xWubQ",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:45:31.846261Z",
-      "source_hash": "d4c46dda6faacfb920d078794bd2bf5dae253886cb01240b7eca13fc7e2fece1"
+      "last_synced_at": "2026-09-04T15:18:26.361129Z",
+      "source_hash": "b304a6217f596f53cbd2bc9f63264aa8b988a1f6b7901665628e261b7cc1be60"
     },
     {
       "repo_path": "docs/operations/PHASE_REGISTER.md",
       "drive_path": "CAPICAPI/Operating System/PHASE REGISTER",
       "drive_file_id": "1lewVHcH-HNFpILJW3_BqbvQzYyqqTeUosk1iEWb3Ekg",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:45:34.069468Z",
-      "source_hash": "e0d718d06f9a4c43a52b43bfd211cc51b3de3736822cac821d9abce2dffd113f"
+      "last_synced_at": "2026-09-04T15:18:29.429357Z",
+      "source_hash": "4d8c7a8203295f54aa4873b6ca585b5b96b4e82ebc4b6ccaf426902af191aa1f"
     },
     {
       "repo_path": "docs/brand/CAPI_MASTER_SPEC.md",
       "drive_path": "CAPICAPI/Product/CAPI MASTER SPEC",
       "drive_file_id": "1_QUd2b8nS0QEyOS2ZUupN4pp2b-AT5yZkv0ck_LNp8w",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:45:36.262525Z",
-      "source_hash": "0794d211bf5b2d13da4a9e88fe2ac164b9267731894d84423c119264e305a792"
+      "last_synced_at": "2026-09-04T15:18:32.482626Z",
+      "source_hash": "d995e4e20b536ebc3733b60a7e6c2989362d20d7697f173e4023ca5690d1ab75"
+    },
+    {
+      "repo_path": "docs/brand/CAPI_VISUAL_DNA.md",
+      "drive_path": "CAPICAPI/Brand/CAPI VISUAL DNA",
+      "drive_file_id": "1uhQn5MhYA6gLaWSgFgMNNrixvxYXU1HTbX01kD6RXFw",
+      "mirror_type": "google_doc",
+      "last_synced_at": "2026-09-04T15:18:36.564386Z",
+      "source_hash": "b7d9439a3f7b54db3a389c910ec46a6eb12a33497584cffe0fdb332e7a05458d"
+    },
+    {
+      "repo_path": "docs/brand/CHARACTER_REFERENCE_STANDARD.md",
+      "drive_path": "CAPICAPI/Brand/CHARACTER REFERENCE STANDARD",
+      "drive_file_id": "1FhUxb2Kk8Ddb8kV169e33eZRpGheG270wZDapHbwm5M",
+      "mirror_type": "google_doc",
+      "last_synced_at": "2026-09-04T15:18:39.765750Z",
+      "source_hash": "0145419a2903832c3d88249676b0a404f7040d56db4288857473077b633890e2"
+    },
+    {
+      "repo_path": "docs/brand/VISUAL_DIRECTION_EXPLORATION.md",
+      "drive_path": "CAPICAPI/Brand/VISUAL DIRECTION EXPLORATION",
+      "drive_file_id": "1NhYDABPyZq7kmSeFdLHpM60fbJ16Oz8Bu9VdIC7bH74",
+      "mirror_type": "google_doc",
+      "last_synced_at": "2026-09-04T15:18:43.459461Z",
+      "source_hash": "f707582d4e4618ff2e30eabd7301153c67a5e1eca73600c1d2887f0d33c0c535"
+    },
+    {
+      "repo_path": "docs/product/3D_MODELING_BIBLE.md",
+      "drive_path": "CAPICAPI/Product/3D MODELING BIBLE",
+      "drive_file_id": "1dq6v6eayZ3Q7AesD_OMJCVrBWyQLmwe80NrO0O65X9Y",
+      "mirror_type": "google_doc",
+      "last_synced_at": "2026-09-04T15:18:47.070229Z",
+      "source_hash": "df705d39c0f655c3043d58f52e0176195138a46e3c251d8121eb4cc55e83b0a6"
+    },
+    {
+      "repo_path": "docs/product/MASTER_CHARACTER_PIPELINE.md",
+      "drive_path": "CAPICAPI/Product/MASTER CHARACTER PIPELINE",
+      "drive_file_id": "17KD57EPTl4EXOQW4iGIKmX_a_m1pPFbfD_y692BZlAg",
+      "mirror_type": "google_doc",
+      "last_synced_at": "2026-09-04T15:18:51.261196Z",
+      "source_hash": "34038623df2e37768f222c2f7e219daee98fe533ce440e3cfdc82bad8f7f94ce"
     },
     {
       "repo_path": "docs/product/CAPI_V0_BRIEF.md",
       "drive_path": "CAPICAPI/Product/CAPI V0 BRIEF",
       "drive_file_id": "1JiWrZlCpjLb6vB_-xIW4FIpRJ4D7DmLJNfR58xeMYH4",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:45:38.594024Z",
-      "source_hash": "b4af171a639f440fd1964b5df42d8336572dc928dabbc00f7c1ec563b567dff6"
+      "last_synced_at": "2026-09-04T15:18:54.098237Z",
+      "source_hash": "e9cacf57f31f43c79665e5c801ab565360f0f46fb82a2ffe67b84ccc09870e5a"
     },
     {
       "repo_path": "docs/product/RARITY_SYSTEM.md",
       "drive_path": "CAPICAPI/Product/RARITY SYSTEM",
       "drive_file_id": "1wI4-a-4EvIIw0QyC7VOg1RZGKRJtWKd4BZB2TjQMyug",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:45:40.849124Z",
+      "last_synced_at": "2026-09-04T15:18:57.610549Z",
       "source_hash": "412cbb7a872bf58b99b3bfaac590e6fc65b4578f574012ddedce34f6ae4b397b"
     },
     {
@@ -73,23 +113,23 @@
       "drive_path": "CAPICAPI/Product/SERIES ARCHITECTURE",
       "drive_file_id": "1JDE0a5tRwexLfWuX8hq69Xn7fDONoq55wpn_DW3DkdM",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:45:43.205699Z",
-      "source_hash": "bb7dccf861b03569c51c277a41905d53ac828b5298b294c8f9f5f0bc30a5a69e"
+      "last_synced_at": "2026-09-04T15:19:00.626410Z",
+      "source_hash": "13d9f3577765087b3cbab2503e52241d28c3e8e1cf5ca4ddd1b72d704d0a8a19"
     },
     {
       "repo_path": "docs/brand/VISUAL_LANGUAGE.md",
       "drive_path": "CAPICAPI/Brand/VISUAL LANGUAGE",
       "drive_file_id": "1we4rDJP1WdfWmke3chKQSVP5kaTlygz15PsPcUBxmK8",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:45:45.362290Z",
-      "source_hash": "4a0977e0cf0d42b2ff0033b1aaa44b35da20397d24e70323093b85641258cf3c"
+      "last_synced_at": "2026-09-04T15:19:03.893783Z",
+      "source_hash": "60c8b57dcaea9c12671161dba4585ea9c5af368883cd98e5c743faa4f70b6fb1"
     },
     {
       "repo_path": "docs/product/FDM_DESIGN_STANDARD.md",
       "drive_path": "CAPICAPI/Manufacturing/FDM DESIGN STANDARD",
       "drive_file_id": "1e1TFZqWArfZpF-aVP_t9O7hHJ_WZdKThDDTQeFAOnx4",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:45:49.165549Z",
+      "last_synced_at": "2026-09-04T15:19:06.393332Z",
       "source_hash": "66b206119588e1d831959770455aea1f1295b90847d29af373ac5fb7815455d6"
     },
     {
@@ -97,7 +137,7 @@
       "drive_path": "CAPICAPI/Manufacturing/COLOR DFM STANDARD",
       "drive_file_id": "1LrwnTsmYgeEC4g_isFAbjZ7UwZ_DHCq2U6glbnD7DWM",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:45:51.253727Z",
+      "last_synced_at": "2026-09-04T15:19:09.203374Z",
       "source_hash": "03caed9fb6a9f2fb21551618f58f9dd85c9c4d1d4852e679a94e14d8b4b6c5a5"
     },
     {
@@ -105,7 +145,7 @@
       "drive_path": "CAPICAPI/Experiments/PRINT EXPERIMENT PROTOCOL",
       "drive_file_id": "1hJeXSMxQ-zgIXm2oyrBtpOjswUh34Rgbk77X54kMUNM",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:45:54.024655Z",
+      "last_synced_at": "2026-09-04T15:19:12.361561Z",
       "source_hash": "473a99b81faed526c114045a5d43e679bcd53344d312d54dfbffbe7401edc004"
     },
     {
@@ -113,7 +153,7 @@
       "drive_path": "CAPICAPI/Experiments/EXPERIMENTATION PROTOCOL",
       "drive_file_id": "1Yz7oo-r4I5esGVs4EId_Yh4NUzpVjy3faDbsv3Goig8",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:45:56.127496Z",
+      "last_synced_at": "2026-09-04T15:19:14.833086Z",
       "source_hash": "6e54f217b768c7656851304ea9e5494195660dd40dc0075f141f403c6380804f"
     },
     {
@@ -121,7 +161,7 @@
       "drive_path": "CAPICAPI/Marketing/CONTENT BIBLE",
       "drive_file_id": "1Smtb2aolhOxDuM6ZlutvLZvGTgnV6bTeuJXG7eQ1kB8",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:45:58.218388Z",
+      "last_synced_at": "2026-09-04T15:19:17.784853Z",
       "source_hash": "a141ff19dbe3b3f20bdc6cb9a3c1a5715bbc98dd3b3672082d5c7f8d458ce3e0"
     },
     {
@@ -129,7 +169,7 @@
       "drive_path": "CAPICAPI/Marketing/CREATIVE TAXONOMY",
       "drive_file_id": "1uyCQyg-OuAv60rY5rphgpmXIBQ6NGj4UCcEX9z6ORVs",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:00.462133Z",
+      "last_synced_at": "2026-09-04T15:19:20.591971Z",
       "source_hash": "180b5e3cf64f18c2723dc2f40a47e98ab0215ebcec877899403d41460ca0533c"
     },
     {
@@ -137,23 +177,23 @@
       "drive_path": "CAPICAPI/Operating System/PHASE 0 REPORT",
       "drive_file_id": "1Ge-nHMv6t51XYfPzytnssGRBIezwqRZICaiJKaTv_tk",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:02.440902Z",
-      "source_hash": "176ed124af639a04225e9e7b3855496e92b4b02628fc1142dee3dae63cfea1c5"
+      "last_synced_at": "2026-09-04T15:19:23.527905Z",
+      "source_hash": "273ff48f84dc69768149abbe70be9759f8ea25c3f7590be49c9fca0927cdfa9e"
     },
     {
       "repo_path": "AGENTS.md",
       "drive_path": "CAPICAPI/Operating System/AGENTS",
       "drive_file_id": "1GKimF2JrXh0B3gcSVjWuq9H17nMtYtD7WeZaIaVXigc",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:04.985684Z",
-      "source_hash": "84a5ece7151dac0cb1eafbfc6e4defeff877ed0ee2f30d27d16ee51f78ce9119"
+      "last_synced_at": "2026-09-04T15:19:26.122918Z",
+      "source_hash": "6fd9a71eaf5a41e1f3b866bf2eb0dd6e85f4cc7519bdce7b1043ebadfd58a270"
     },
     {
       "repo_path": "docs/operations/FILESYSTEM_ARCHITECTURE.md",
       "drive_path": "CAPICAPI/Operating System/FILESYSTEM ARCHITECTURE",
       "drive_file_id": "1DvEHA_Xl0b5Q3AxZlBnMxcMPj4_mtXIRSOgvGuS5SSA",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:07.105120Z",
+      "last_synced_at": "2026-09-04T15:19:28.829104Z",
       "source_hash": "c34834cc8f4d80be5b1f6531fd39fe27f09b9ee188b7aad7739a7cf52dc68def"
     },
     {
@@ -161,7 +201,7 @@
       "drive_path": "CAPICAPI/Operating System/DRIVE WORKSPACE ARCHITECTURE",
       "drive_file_id": "1ot8RHyywKyKBOsG1JT1m_6BLoKCGJK660AqDMv3D-Sw",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:09.390807Z",
+      "last_synced_at": "2026-09-04T15:19:31.648005Z",
       "source_hash": "966e9deb42ab98012b52c2515a5f7e82d0957110dfdddb88f8b3d74fb7eb1f5e"
     },
     {
@@ -169,7 +209,7 @@
       "drive_path": "CAPICAPI/Operating System/ID STANDARD",
       "drive_file_id": "1y31Qf-w6_khl4uolwIft155hONoH-d-mU1uBhWhsblA",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:11.689130Z",
+      "last_synced_at": "2026-09-04T15:19:34.336948Z",
       "source_hash": "ec158e23bfab56fb388524f9b5d9de07103b7bf1978f30cbbfa5a5da1ded074d"
     },
     {
@@ -177,7 +217,7 @@
       "drive_path": "CAPICAPI/Operating System/LIFECYCLE STATUS",
       "drive_file_id": "1Ne848YtUFgsfIBElffunyjDSCWXXU9zduNA2Zc7bDsg",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:13.880164Z",
+      "last_synced_at": "2026-09-04T15:19:36.860834Z",
       "source_hash": "0c37750fdff50022ffa34b514ba8d33faf1e53d3800c4cdf63baa84ee1260029"
     },
     {
@@ -185,7 +225,7 @@
       "drive_path": "CAPICAPI/Operating System/LOGGING STANDARD",
       "drive_file_id": "1xfwj-3x2wR0pEQ4B4GPZoePPgat9NJad7EVsxEQMoN4",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:16.009984Z",
+      "last_synced_at": "2026-09-04T15:19:39.135385Z",
       "source_hash": "950d67588642fc717956123afeac0376074181cdbf08e2080bf166ab80ed3d7a"
     },
     {
@@ -193,7 +233,7 @@
       "drive_path": "CAPICAPI/Operating System/SECURITY STANDARD",
       "drive_file_id": "19L3ryT8PVqlNkZFQ1KaUGqwdqxXDwMuiliURhLgRd4Q",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:18.083692Z",
+      "last_synced_at": "2026-09-04T15:19:41.757148Z",
       "source_hash": "4002803a163f80e2182eed9831cf73d2f55e4207094c5f69e384383d6711e671"
     },
     {
@@ -201,15 +241,15 @@
       "drive_path": "CAPICAPI/Automation/N8N ARCHITECTURE",
       "drive_file_id": "1JPZAFU4SnWUCUMQlr3kcT3HG07NTDSjQpnBmVZzAfrI",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:19.973038Z",
-      "source_hash": "194147352d485ebd3ab32a1d0b70f4a9e6f4c3ad1b46878cf354e449a386f2bc"
+      "last_synced_at": "2026-09-04T15:19:44.493878Z",
+      "source_hash": "a9682c87048abe4c66e521ae0751e3ef75a0a154b14a96e2639a0ae77e5cc672"
     },
     {
       "repo_path": "docs/automation/APPROVAL_FLOW.md",
       "drive_path": "CAPICAPI/Automation/APPROVAL FLOW",
       "drive_file_id": "1o0VLE7bXuYbOpyitcrhkmRdTjDhAEcO6cccMFTQKLFo",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:22.227099Z",
+      "last_synced_at": "2026-09-04T15:19:48.153159Z",
       "source_hash": "e0a0495bcab64c08fed808915fbcf0e3b7207246bf2b5c955d96045055fd64b9"
     },
     {
@@ -217,7 +257,7 @@
       "drive_path": "CAPICAPI/Automation/INTEGRATION MAP",
       "drive_file_id": "1fLLIYp12eGFW2oWLWjv42pFwGuCfNLq1PQhnz8tmjyc",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:24.378913Z",
+      "last_synced_at": "2026-09-04T15:19:51.321987Z",
       "source_hash": "c1d4ffcc386cd5ee3ca2e50f9effe252a75a9e20ca0fc8f5f5e04d9873b7afa3"
     },
     {
@@ -225,7 +265,7 @@
       "drive_path": "CAPICAPI/Operating System/PHASE 0 ARCHITECTURE AUDIT",
       "drive_file_id": "1BtggmqCA4ZDZaNkGuq9bJyW0ZzOAFBfJ8B0iWXn7rYI",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:26.734175Z",
+      "last_synced_at": "2026-09-04T15:19:54.752085Z",
       "source_hash": "5792513d9601a212c228d673bd031130a4407693c660afe6fa0af36997fe5826"
     },
     {
@@ -233,7 +273,7 @@
       "drive_path": "CAPICAPI/Operating System/SOURCE OF TRUTH",
       "drive_file_id": "14Yb-71cf8PJquDsEddLalrK1D6rNrujcJoilxAh0roo",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:28.932134Z",
+      "last_synced_at": "2026-09-04T15:19:57.435305Z",
       "source_hash": "ff28b84ab6c11345a0d52a3a71aaff31175357d7c7af3b457ea111f369691cfa"
     },
     {
@@ -241,7 +281,7 @@
       "drive_path": "CAPICAPI/Operations/PRODUCTION WORKFLOW",
       "drive_file_id": "1Sj72XzZa6FfaTasWy2Uz8JxRC3oG3KN8iulJ5VDLaXU",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:31.483027Z",
+      "last_synced_at": "2026-09-04T15:19:59.777074Z",
       "source_hash": "20b08acb8ef4eaa6dea7ff9d420dbb7464e0d709085e5bff58df634eb4eefbdd"
     },
     {
@@ -249,7 +289,7 @@
       "drive_path": "CAPICAPI/Operations/INVENTORY STANDARD",
       "drive_file_id": "1kmfarE2Xks09Mfp-gmSTNHHqrEaY4N92HZFJDYQu40c",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:33.535203Z",
+      "last_synced_at": "2026-09-04T15:20:02.688837Z",
       "source_hash": "56965d8cb12526afd9e6f99def68086c43104f682a739903efac423231392d6d"
     },
     {
@@ -257,7 +297,7 @@
       "drive_path": "CAPICAPI/Operations/QA STANDARD",
       "drive_file_id": "1n4R3h6N5Qmf2xvHoV_4KvpsVLyBzBNo3NtoKBKFywwc",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:35.907545Z",
+      "last_synced_at": "2026-09-04T15:20:05.587525Z",
       "source_hash": "bdc6cc70ecf87b81ead86ff78e373efc0b93ada19f406ffc3b0b333673a76945"
     },
     {
@@ -265,15 +305,15 @@
       "drive_path": "CAPICAPI/Brand/BRAND BOOK",
       "drive_file_id": "12C9eN9Zl5rhRQh95zH7i8jdCbG-tYTUnVrUCsL3LAtA",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:38.483402Z",
-      "source_hash": "355aaa5d6cd39f709f35695a599214ded46e41c5b4948ba39e9c83878a8aa7ff"
+      "last_synced_at": "2026-09-04T15:20:08.406691Z",
+      "source_hash": "d99c110c82c232e05c6de49a2e39c43a87794385412866bd02c844a058c11dc6"
     },
     {
       "repo_path": "docs/brand/NAMING_STANDARD.md",
       "drive_path": "CAPICAPI/Brand/NAMING STANDARD",
       "drive_file_id": "1jg-BBqjLHRS5HjvP45n7ZePBy0iOGwI-dsOxz0wELrE",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:40.479233Z",
+      "last_synced_at": "2026-09-04T15:20:11.062501Z",
       "source_hash": "0c8e4f4a1195b5553dd45efb6562f679b23d038fb8c13f188f1a57f9cd794e3d"
     },
     {
@@ -281,7 +321,7 @@
       "drive_path": "CAPICAPI/Product/PRINT STANDARD",
       "drive_file_id": "1EZchQBszrirLOVuVzFSF0GbTW2up2ixT8WpgAz9IplU",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:43.078229Z",
+      "last_synced_at": "2026-09-04T15:20:14.155565Z",
       "source_hash": "1b0f957e36ad0a99948c762478d36e8b42a99848badc0e322bc2dbc538dda4f5"
     },
     {
@@ -289,7 +329,7 @@
       "drive_path": "CAPICAPI/Product/PACKAGING STANDARD",
       "drive_file_id": "1ZOi613R4DrAnP2YemSviswGPvdlcWvSvQb6PxF3a2ig",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:45.193381Z",
+      "last_synced_at": "2026-09-04T15:20:16.888938Z",
       "source_hash": "4310a388433f6ab1c18532b3ab48624e45c81444623ff145b885713e1e24012a"
     },
     {
@@ -297,7 +337,7 @@
       "drive_path": "CAPICAPI/Marketing/CONTENT STRATEGY",
       "drive_file_id": "1QWnyMe6pFAWNB86hZ_DkbsUrun-oiwkD3XVSqs6Ju8c",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:47.295206Z",
+      "last_synced_at": "2026-09-04T15:20:19.417521Z",
       "source_hash": "f31e3f85e569f7986406fb00d32b0c9cf1ddeb53b3fbb40d04f0e3bf145a48df"
     },
     {
@@ -305,7 +345,7 @@
       "drive_path": "CAPICAPI/Marketing/VIRALITY FRAMEWORK",
       "drive_file_id": "1pkc2xunJu_PXz3hd9WWGtS59eWA0eM95W5EFTwQ1yS0",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:49.866664Z",
+      "last_synced_at": "2026-09-04T15:20:22.252557Z",
       "source_hash": "ad564a2f5b65427ea499a7355406a1682e7d875b8699a54337d05ba740874de3"
     },
     {
@@ -313,7 +353,7 @@
       "drive_path": "CAPICAPI/Marketing/CONTENT EXPERIMENT STANDARD",
       "drive_file_id": "1dtX6x9PMvTxXIok1OV2dIzvM3iBd7faOTp5jIscFilA",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:52.015832Z",
+      "last_synced_at": "2026-09-04T15:20:24.731276Z",
       "source_hash": "0fe690e4fc0a22b5d5aba6ee766540c3f0597af8948c55c8aed395ca56bd2e78"
     },
     {
@@ -321,7 +361,7 @@
       "drive_path": "CAPICAPI/Marketing/KPI DEFINITIONS",
       "drive_file_id": "1qxwzBSUtrI9lt5cxPAcyZLJgmzbHN7gk-6CDshQYXek",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T12:46:54.423735Z",
+      "last_synced_at": "2026-09-04T15:20:27.457887Z",
       "source_hash": "b0a2999ca6a29977970de6cad1b20ca929f733a1cee21989e86c1c98609aa5fa"
     }
   ],
@@ -675,6 +715,11 @@
       "drive_path": "CAPICAPI/11_AGENT_OUTPUTS/DESIGN_AGENT",
       "drive_folder_id": "16geGW7BAkD8Zg_PO1mvj7ozjVgClbBmH",
       "purpose": "Design agent outputs"
+    },
+    {
+      "drive_path": "CAPICAPI/11_AGENT_OUTPUTS/MODELING_AGENT",
+      "drive_folder_id": "1_mdziLwo_FPgD--2JTJZ6eCR25tXLpUj",
+      "purpose": "3D modeling agent outputs"
     },
     {
       "drive_path": "CAPICAPI/11_AGENT_OUTPUTS/PRODUCTION_AGENT",

@@ -29,7 +29,9 @@ Evaluate printability, supports, overhangs, color-Z behavior, geometry robustnes
 - `docs/product/COLOR_DFM_STANDARD.md`
 - `docs/product/PRINT_STANDARD.md`
 - `docs/brand/CAPI_MASTER_SPEC.md`
-- `docs/product/CAPI_V0_BRIEF.md`
+- `docs/brand/CAPI_VISUAL_DNA.md`
+- `docs/product/3D_MODELING_BIBLE.md`
+- `docs/product/MASTER_CHARACTER_PIPELINE.md`
 - `schemas/color_z_audit.v1.schema.json`
 - `schemas/agent_handoff.v1.schema.json`
 
@@ -39,6 +41,7 @@ Evaluate printability, supports, overhangs, color-Z behavior, geometry robustnes
 - invent filament swaps, purge volume, or print time
 - approve manual assembly as default
 - rely on auto-orient as the design solution
+- perform Phase 2 physical validation before Phase 1C approval
 
 ## Inputs
 
@@ -82,5 +85,5 @@ Send digitally approved candidates to Print Lab Agent with slicer package requir
 ## Stop Conditions
 
 - no model or sufficient geometry description exists
-- palette is not frozen for physical testing
+- palette is not approved for physical testing
 - candidate violates mandatory manufacturing philosophy

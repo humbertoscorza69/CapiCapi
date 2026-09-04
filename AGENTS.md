@@ -5,7 +5,7 @@ Date: 2026-09-04
 
 ## Purpose
 
-This file is the root contract for future CAPICAPI agents. Agent runtimes are not activated in Phase 0; this repository establishes their homes, responsibilities, permissions, prompts, and data contracts.
+This file is the root contract for future CAPICAPI agents. Agent runtimes are not activated yet; this repository establishes their homes, responsibilities, permissions, prompts, and data contracts.
 
 ## Logical Agents
 
@@ -13,6 +13,7 @@ This file is the root contract for future CAPICAPI agents. Agent runtimes are no
 |---|---|---|---|
 | ORCHESTRATOR | `agents/orchestrator` | `CAPICAPI/11_AGENT_OUTPUTS/ORCHESTRATOR` | Coordinates phases, handoffs, decisions, and gate discipline. |
 | DESIGN AGENT | `agents/design` | `CAPICAPI/11_AGENT_OUTPUTS/DESIGN_AGENT` | Owns Capi visual rules, variants, colors, and DFM-aware design briefs. |
+| 3D MODELING AGENT | `agents/modeling` | `CAPICAPI/11_AGENT_OUTPUTS/MODELING_AGENT` | Turns approved reference packages into DFM-aware 3D production candidates after Phase 1B approval. |
 | PRODUCTION AGENT | `agents/production` | `CAPICAPI/11_AGENT_OUTPUTS/PRODUCTION_AGENT` | Owns production planning, batch records, inventory requirements, and fulfillment readiness. |
 | PRINT AGENT | `agents/print` | `CAPICAPI/11_AGENT_OUTPUTS/PRINT_AGENT` | Owns Bambu/FDM profiles, print tests, waste, material/time benchmarks, and test evidence. |
 | CONTENT AGENT | `agents/content` | `CAPICAPI/11_AGENT_OUTPUTS/CONTENT_AGENT` | Owns content concepts, hooks, scripts, captions, creative variants, and approval packets. |
@@ -63,6 +64,6 @@ Git owns agent definitions, prompts, schemas, workflow definitions, tests, and c
 
 Structured metadata must be recorded in version-controlled JSON/CSV files for Phase 0/MVP. A database may be introduced later only if actual workflow volume justifies it.
 
-## Phase 0 Stop Rule
+## Phase 1A Stop Rule
 
-Phase 0 establishes the operating structure. It does not begin Capi v0 modeling, filament selection, social publishing automation, or live n8n workflows.
+Phase 1A establishes visual DNA, reference standards, and modeling rules. It does not begin Capi v0 modeling, filament selection, Series 01, social publishing automation, or live n8n workflows.

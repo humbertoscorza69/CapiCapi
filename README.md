@@ -8,17 +8,21 @@ This repository is the canonical technical source of truth. Google Drive may mir
 
 Active work is limited to:
 
-- Phase 0 - Project Operating System
-- Phase 0 architecture audit only
+- Phase 1A - CAPICAPI Visual DNA Definition
+- visual direction exploration architecture
+- reference package and 3D modeling standards
+- Drive sync of canonical Phase 1A documents
 
-Out of scope for this first run:
+Out of scope until explicit approval:
 
 - Series 01 character design
+- final Capi v0 modeling
+- consumer character freeze
+- filament color selection
 - n8n workflow implementation
 - cloud infrastructure
 - content publishing automation
 - fake manufacturing, sales, or content performance data
-- filament purchasing decisions
 
 ## Manufacturing Starting Point
 
@@ -70,4 +74,6 @@ The slicer is part of product design.
 
 ## Immediate Next Action
 
-Review `PHASE_0_ARCHITECTURE_AUDIT.md` and `PHASE_0_REPORT.md`. Do not begin Phase 1 until the Phase 0 architecture is accepted.
+Review and approve or revise the Phase 1A visual direction workflow in `docs/brand/VISUAL_DIRECTION_EXPLORATION.md`.
+
+Do not begin Capi v0 modeling, filament color selection, Series 01, or consumer character production until the Phase 1A visual direction receives explicit human approval.

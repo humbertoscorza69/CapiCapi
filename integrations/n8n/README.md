@@ -23,6 +23,6 @@ RAW CONTENT
 
 ## Current Rule
 
-Do not build n8n workflows during Phase 0.
+Do not build live n8n workflows during Phase 1A.
 
 Future n8n workflows must consume canonical repository documents or approved mirrored documents. They must not become the source of truth.

@@ -39,7 +39,7 @@ Date: 2026-09-04
 
 ## 4. Unresolved Questions
 
-- What is the target first palette for Capi v0?
+- What eventual engineering-test palette should be selected after visual direction and provisional 3D master approval?
 - What visual references should define the first Capi Master character sheet?
 - What physical workspace constraints affect printer placement, safety, and batching?
 - What packaging format will be tested later?
@@ -63,4 +63,6 @@ Rationale: The operating system, repository structure, filesystem/data architect
 
 ## 8. Exact Recommended Next Action
 
-Stop after the Phase 0 architecture audit. The next separate run should begin Phase 1 review only after the owner accepts `PHASE_0_ARCHITECTURE_AUDIT.md`.
+Phase 0 was approved by the owner on 2026-09-04.
+
+Next action: begin Phase 1A only. Phase 1A defines CAPICAPI visual DNA, reference standards, visual direction exploration, and future 3D modeling rules. It must not begin Capi v0 modeling, select filament colors, create Series 01, or freeze a consumer character.

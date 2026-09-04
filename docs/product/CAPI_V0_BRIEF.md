@@ -1,12 +1,14 @@
 # CAPI V0 BRIEF v1.0
 
-Status: DRAFT
+Status: FUTURE ENGINEERING PROTOTYPE BRIEF - NOT ACTIVE IN PHASE 1A
 Date: 2026-09-04
 Truth level: PROVISIONAL
 
 ## Purpose
 
-Capi v0 is an engineering test character, not a sellable launch character. Its purpose is to reveal physical constraints before CAPICAPI commits to a master character, palette, rarity system, or Series 01.
+Capi v0 is a future engineering test character, not the source of CAPICAPI's visual identity and not a sellable launch character. Its purpose is to reveal physical constraints after Phase 1A visual direction work, Phase 1B provisional reference pack approval, and Phase 1C provisional 3D master adaptation.
+
+Phase 1A must not model Capi v0. The active identity source for Phase 1A is `docs/brand/CAPI_VISUAL_DNA.md`.
 
 ## Required Test Loads
 
@@ -37,7 +39,7 @@ Capi v0 must intentionally exercise:
 
 Working concept: `CAPI_ENGINEER_V0_TEST`
 
-Reason: an engineer/test-lab theme can naturally include clothing, one fused tool/accessory, embossed details, and contrast zones without implying a final consumer character.
+Reason: an engineer/test-lab theme can naturally include clothing, one fused tool/accessory, embossed details, and contrast zones without implying a final consumer character. This concept remains dormant until the visual direction and provisional 3D master pipeline are approved.
 
 PROVISIONAL visual elements:
 
@@ -49,7 +51,7 @@ PROVISIONAL visual elements:
 
 ## Palette
 
-Do not buy filament until this palette is frozen.
+Do not buy filament until the visual direction, provisional 3D master, and engineering test requirements justify a frozen test palette.
 
 | Role | Color | Status |
 |---|---|---|
