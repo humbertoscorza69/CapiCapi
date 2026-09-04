@@ -10,20 +10,29 @@ The repository is the canonical source. Google Drive is only a controlled mirror
 4. Create OAuth 2.0 Client ID credentials for a desktop application.
 5. Download the client secret JSON.
 6. Save it locally as `integrations/google_drive/credentials.json`.
-7. Copy `.env.example` to `.env`.
-8. Confirm `.env` points to the credential and token paths.
-9. Review `config/drive_manifest.json`.
-10. Run a dry run:
+7. If the OAuth app is in Testing mode, add the owner Google account as a test user in Google Cloud Console.
+8. Copy `.env.example` to `.env`.
+9. Confirm `.env` points to the credential and token paths.
+10. Review `config/drive_manifest.json`.
+11. Run a dry run:
 
 ```powershell
 python integrations/google_drive/sync.py --dry-run
 ```
 
-11. When the dry run looks correct, run:
+12. When the dry run looks correct, run:
 
 ```powershell
 python integrations/google_drive/sync.py --apply
 ```
+
+If the browser authorization prompt does not appear clearly, run:
+
+```powershell
+python integrations/google_drive/sync.py --apply --no-browser
+```
+
+Then open the printed Google authorization URL manually.
 
 ## Service Account Alternative
 
@@ -42,6 +51,18 @@ These are covered by `.gitignore`, but the operator is still responsible for rev
 
 ## Current Status
 
-Drive integration status: PREPARED, NOT AUTHENTICATED.
+Drive integration status: PREPARED, CREDENTIAL FILE SAVED, NOT AUTHENTICATED.
 
-No credentials are present, no Drive folders have been created, and no documents have been uploaded.
+The local OAuth client secret may be present at `integrations/google_drive/credentials.json`, which is ignored by Git. No token has been created, no Drive folders have been created, and no documents have been uploaded.
+
+## Known OAuth Blocker
+
+If Google shows `Access blocked: Capi Capi has not completed the Google verification process` with `Error 403: access_denied`, the OAuth app is still in Testing mode and the signed-in account is not allowed as a tester.
+
+Fix in Google Cloud Console:
+
+1. Open the Google Cloud project that owns the OAuth client.
+2. Go to APIs & Services > OAuth consent screen.
+3. Add the Google account that will authorize Drive access under Test users.
+4. Save the change.
+5. Run `python integrations/google_drive/sync.py --apply --no-browser` again.

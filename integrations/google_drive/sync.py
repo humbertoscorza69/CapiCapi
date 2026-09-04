@@ -84,7 +84,7 @@ def require_google_client_libs() -> dict[str, Any]:
     }
 
 
-def authenticate(libs: dict[str, Any]) -> Any:
+def authenticate(libs: dict[str, Any], open_browser: bool) -> Any:
     credentials_path = REPO_ROOT / os.getenv(
         "CAPICAPI_GOOGLE_CREDENTIALS",
         "integrations/google_drive/credentials.json",
@@ -115,7 +115,17 @@ def authenticate(libs: dict[str, Any]) -> Any:
                 str(credentials_path),
                 SCOPES,
             )
-            creds = flow.run_local_server(port=0)
+            creds = flow.run_local_server(
+                port=0,
+                open_browser=open_browser,
+                authorization_prompt_message=(
+                    "Open this Google authorization URL, approve Drive access, "
+                    "then return here:\n{url}\n"
+                ),
+                success_message=(
+                    "CAPICAPI Drive authorization complete. You can close this browser tab."
+                ),
+            )
         token_path.parent.mkdir(parents=True, exist_ok=True)
         token_path.write_text(creds.to_json(), encoding="utf-8")
 
@@ -217,7 +227,7 @@ def update_or_create_doc(
     return created["id"]
 
 
-def sync(manifest_path: Path, apply: bool) -> int:
+def sync(manifest_path: Path, apply: bool, open_browser: bool = True) -> int:
     manifest = load_manifest(manifest_path)
     docs = manifest.get("documents", [])
     if not docs:
@@ -241,7 +251,7 @@ def sync(manifest_path: Path, apply: bool) -> int:
         return 0
 
     libs = require_google_client_libs()
-    service = authenticate(libs)
+    service = authenticate(libs, open_browser=open_browser)
 
     for item in planned:
         doc = item["doc"]
@@ -276,6 +286,11 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         default=DEFAULT_MANIFEST,
         help="Path to drive manifest JSON.",
     )
+    parser.add_argument(
+        "--no-browser",
+        action="store_true",
+        help="Print the Google authorization URL instead of opening a browser automatically.",
+    )
     return parser.parse_args(argv)
 
 
@@ -283,7 +298,11 @@ def main(argv: list[str]) -> int:
     args = parse_args(argv)
     apply = bool(args.apply)
     try:
-        return sync(args.manifest.resolve(), apply=apply)
+        return sync(
+            args.manifest.resolve(),
+            apply=apply,
+            open_browser=not args.no_browser,
+        )
     except SyncError as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 2
