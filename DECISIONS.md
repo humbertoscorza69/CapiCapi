@@ -152,7 +152,7 @@ Reversible? YES, with owner approval and a recorded replacement phase decision.
 
 Date: 2026-09-04
 
-Decision: Phase 1A visual exploration uses four materially different lanes: Grounded Loaf Collectible, Designer Toy Mascot, Expressive Stylized / Anime-adjacent, and Sculptural Art Toy.
+Decision: Phase 1A visual exploration uses four materially different lanes: Grounded Loaf Collectible, Designer Toy Mascot, Expressive Stylized Character / Game-Character Language, and Sculptural Art Toy.
 
 Reason: The three-lane model did not sufficiently test the expressive/stylized end of the character design space. CAPICAPI needs to compare base character DNA before costumes, props, expression tricks, or material styling influence the decision.
 
@@ -160,6 +160,8 @@ Evidence: Owner approved Phase 1A architecture with a required amendment adding 
 
 Alternatives considered: Keeping three directions; allowing role/costume concepts before base comparison; treating scorecard ranking as automatic approval.
 
-Consequences: No visual generation begins until the four base-character prompts are reviewed. Scores are advisory only; human judgment remains authoritative.
+Consequences: No visual generation begins until the four Round 0 hero concept prompts are reviewed. Scores are advisory only; human judgment remains authoritative.
+
+Amendment: Round 0 screens one neutral front-3/4 matte neutral-grey clay/prototype hero concept per direction before any multi-view generation. Surviving Round 0 concepts become mandatory image references for later front, front 3/4, side, back, and silhouette view development.
 
 Reversible? YES, with owner approval and a recorded replacement exploration decision.

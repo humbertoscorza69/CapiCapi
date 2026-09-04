@@ -68,10 +68,10 @@ Required artifacts:
 Acceptance criteria:
 
 - visual DNA requirements cover head/body proportions, silhouettes, muzzle, eyes, ears, paws, stance, curvature, expressions, accessory zones, immutable/flexible traits, and forbidden drift
-- exploration process requires four materially different directions evaluated first through a naked/base character round, then expression and role stress tests for surviving directions
+- exploration process requires four materially different directions evaluated first through a Round 0 neutral front-3/4 hero concept screen, then full base-character views, expression tests, and role stress tests for surviving directions
 - no final numeric proportions, filament colors, consumer characters, Capi v0 models, or Series 01 assets are frozen
-- owner approves or revises Base Character Round prompts before generation
-- owner approves one direction, requests revisions, or requests additional exploration
+- owner approves or revises Round 0 Hero Concept Screen prompts before generation
+- owner decides which Round 0 candidates proceed to Base Character Round development, requests revisions, or requests additional exploration
 
 Unresolved risks:
 

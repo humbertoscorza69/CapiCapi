@@ -22,7 +22,7 @@ Phase 1A - Visual direction exploration
 Objective:
 
 - define four materially different visual directions
-- evaluate each direction through identical views and role tests
+- evaluate each direction first through one neutral front-3/4 Round 0 hero concept, then use surviving hero concepts as references for identical views and role tests
 - choose no final direction without human approval
 
 Artifacts:
@@ -32,7 +32,7 @@ Artifacts:
 - `docs/brand/CHARACTER_REFERENCE_STANDARD.md`
 - exploration scorecard or report later
 
-Gate state after this documentation pass: BLOCKED pending human visual approval and candidate reference generation.
+Gate state after this documentation pass: BLOCKED pending human approval of Round 0 prompts and candidate reference generation.
 
 ## Phase 1B - Provisional Visual Master / Reference Pack
 

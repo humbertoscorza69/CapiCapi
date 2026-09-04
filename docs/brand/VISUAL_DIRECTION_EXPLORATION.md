@@ -1,4 +1,4 @@
-# VISUAL DIRECTION EXPLORATION v1.1
+# VISUAL DIRECTION EXPLORATION v1.2
 
 Status: DRAFT - PHASE 1A AMENDED
 Date: 2026-09-04
@@ -21,12 +21,14 @@ Do not:
 - create Series 01
 - approve a permanent production master
 - treat generated candidate images as final reference sheets
+- begin multi-view generation before Round 0 human review
 
 Do:
 
 - define candidate visual directions
 - generate/evaluate reference images later
-- compare directions using identical views
+- compare directions using identical constraints
+- screen form language before view-sheet development
 - test whether visual DNA survives expression and role stress tests
 - require human approval before Phase 1B
 
@@ -66,11 +68,11 @@ Risks:
 - may invite fragile limbs or accessories
 - head/body separation must remain FDM-friendly
 
-### Direction C - Expressive Stylized / Anime-Adjacent
+### Direction C - Expressive Stylized Character / Game-Character Language
 
-Premise: a more expressive character-oriented interpretation suitable for roles such as Biker, Samurai, Wizard, Gamer, or equivalent, while remaining recognizably CAPICAPI and FDM-compatible.
+Premise: a more expressive character-oriented capybara interpretation suitable for roles such as Biker, Samurai, Wizard, Gamer, or equivalent, while remaining recognizably CAPICAPI and FDM-compatible.
 
-`Anime-adjacent` means expressive graphic language, readable emotion, dynamic character energy, and bold simplified shape design. It does not mean generic anime eyes, human anatomy, thin human limbs, or a capybara merely wearing a human costume.
+This direction may carry anime-adjacent energy through graphic shape rhythm, expression potential, and stronger character hierarchy. It must not use anime eye construction, sparkling oversized eyes, human facial structure, human body anatomy, hair/anime hairstyle language, or a capybara merely wearing a human costume.
 
 Distinctive questions:
 
@@ -80,7 +82,7 @@ Distinctive questions:
 
 Risks:
 
-- may drift into generic anime mascot language
+- may drift into generic anime mascot or game mascot language
 - may over-prioritize expression over base silhouette
 - may add detail density that fails FDM or color efficiency
 
@@ -100,21 +102,40 @@ Risks:
 - expression range may be limited
 - must avoid becoming abstract enough to lose capybara identity
 
-## Base Character Round
+## Round 0 - Hero Concept Screen
 
-Before generating costume, role, prop, or expression concepts, every direction must complete a base character round.
+Do not begin by asking the image model to create five perfectly consistent views of each candidate in one generation. Multi-view image generation can introduce geometry drift between views and contaminate visual-direction comparison.
 
-All four base candidates must use:
+Round 0 generates exactly one neutral front-3/4 hero concept for each direction:
 
-- identical neutral background
-- identical visual scale
-- equivalent camera framing
+- A - Grounded Loaf Collectible
+- B - Designer Toy Mascot
+- C - Expressive Stylized Character / Game-Character Language
+- D - Sculptural Art Toy
+
+Every candidate must use:
+
+- identical plain neutral background
+- approximately identical framing and visual scale
+- neutral standing/base pose
+- neutral expression
+- uniform matte neutral-grey clay/prototype material
+- no selected filament palette
+- no fur rendering
 - no costume
 - no accessories
 - no props
-- no environmental scene
-- no special materials
-- neutral expression
+- no environment
+- no dramatic cinematic lighting
+- no text or branding
+
+Round 0 evaluates form language only.
+
+Human review determines which candidates deserve full Base Character Round development.
+
+## Base Character Round
+
+Only surviving Round 0 candidates proceed to the Base Character Round.
 
 Required views:
 
@@ -124,13 +145,27 @@ Required views:
 - back
 - silhouette
 
+For later Base Character Round views, use the approved Round 0 Hero Concept itself as a mandatory image reference to minimize geometry drift.
+
+All Base Character Round candidates must use:
+
+- identical neutral background
+- identical visual scale
+- equivalent camera framing
+- no costume
+- no accessories
+- no props
+- no environmental scene
+- no special materials beyond the approved neutral prototype/clay treatment
+- neutral expression
+
 Purpose: compare character DNA rather than render quality, costume appeal, lighting tricks, material tricks, or environmental styling.
 
 Failure condition: if a direction is not recognizable and distinctive in the base character round, it does not advance to expression or role stress testing without revision.
 
 ## Expression Test
 
-Only surviving directions from the base character round receive expression testing.
+Only surviving directions from the Base Character Round receive expression testing.
 
 Expression set:
 
@@ -144,7 +179,7 @@ Rules:
 
 - keep base anatomy consistent across expressions
 - do not change the head/body relationship to force emotion
-- do not introduce generic anime eyes, human face anatomy, or unprintable micro-detail
+- do not introduce anime eye construction, sparkling oversized eyes, human face anatomy, hair/anime hairstyle language, or unprintable micro-detail
 - expression must remain readable at collectible scale
 
 ## Role Stress Test
@@ -175,6 +210,7 @@ Score each direction from 1 to 5 for each criterion. Scores are advisory only; h
 |---|---:|---|
 | capybara recognition | TBD | Does it clearly read as capybara-derived without captions? |
 | proprietary/distinctive silhouette | TBD | Is the outline ownable and repeatable? |
+| ownable visual hook | TBD | Does it have a simple memorable trait that can be verbally described and recognized later, beyond being a cute stylized capybara? |
 | emotional appeal | TBD | Does it create attachment without depending on costume? |
 | recognizability without costume | TBD | Does the base character remain CAPICAPI when naked/base? |
 | expression range | TBD | Can it support neutral, curious, sleepy, proud, and surprised? |
@@ -213,54 +249,56 @@ Reference handling rules:
 
 After the CAPICAPI Master is approved, the CAPICAPI Master becomes the dominant visual authority for future variants. External references may still inform accessories, materials, or role language, but they must not override the approved master.
 
-## Base Character Generation Briefs
+## Round 0 Generation Briefs
 
-Use these prompts only to generate the Base Character Round. Do not generate costume, expression, role, color, or final 3D geometry from these prompts.
+Use these prompts only to generate the Round 0 Hero Concept Screen. Do not generate multi-view sheets, costume, expression, role, color, or final 3D geometry from these prompts.
 
 Shared generation constraints for all four prompts:
 
 ```text
-Create a clean character design exploration sheet for one CAPICAPI base character direction. Use an identical plain neutral background, identical visual scale across views, equivalent camera framing, no costume, no accessories, no props, no environmental scene, no special materials, and a neutral expression. Show exactly five views: front, front 3/4, side, back, and a solid black silhouette view. The character must be a stylized capybara-derived collectible figure, original and proprietary, suitable for later FDM 3D printing on a Bambu Lab A1. Keep forms simple, sturdy, rounded or deliberately planar as requested, with no thin fragile details, no separate parts, no unprintable micro-detail, no selected filament colors, and no final numeric proportions. This is an exploratory visual candidate, not a final master.
+Create exactly one neutral front-3/4 hero concept image for a CAPICAPI base character direction. Use an identical plain neutral background, approximately identical framing and visual scale, neutral standing/base pose, neutral expression, uniform matte neutral-grey clay/prototype material, no selected filament palette, no fur rendering, no costume, no accessories, no props, no environment, no dramatic cinematic lighting, and no text or branding. The character must be an original stylized capybara-derived collectible figure suitable for later FDM 3D printing on a Bambu Lab A1. Evaluate form language only: simple sturdy geometry, clear capybara-derived identity, readable silhouette, no thin fragile details, no separate parts, no unprintable micro-detail, no final numeric proportions. This is an exploratory Round 0 visual candidate, not a final master.
 ```
 
-### Prompt A - Grounded Loaf Collectible
+### Round 0 Prompt A - Grounded Loaf Collectible
 
 ```text
-Create Direction A for CAPICAPI: Grounded Loaf Collectible. Low, calm, compact, strongly capybara-derived, high animal recognition, minimal mascot/humanization. The base should feel like a small collectible capybara with a grounded loaf-like body, recognizable muzzle, small integrated ears, sturdy low paw/leg language, and a quiet neutral stance. Avoid human anatomy, upright mascot posing, exaggerated cartoon limbs, generic bean-animal shapes, costumes, accessories, props, environmental scene, special materials, final proportions, and filament colors. Apply the shared generation constraints exactly.
+Create Direction A for CAPICAPI: Grounded Loaf Collectible. Low, calm, compact, strongly capybara-derived, high animal recognition, minimal mascot/humanization. The base should feel like a small collectible capybara with a grounded loaf-like body, recognizable muzzle, small integrated ears, sturdy low paw/leg language, and a quiet neutral stance. Avoid human anatomy, upright mascot posing, exaggerated cartoon limbs, generic bean-animal shapes, costumes, accessories, props, environmental scene, special materials beyond matte neutral-grey clay/prototype material, final proportions, selected filament palette, and fur rendering. Apply the shared Round 0 generation constraints exactly.
 ```
 
-### Prompt B - Designer Toy Mascot
+### Round 0 Prompt B - Designer Toy Mascot
 
 ```text
-Create Direction B for CAPICAPI: Designer Toy Mascot. More iconic collectible proportions, stronger head/body separation, broader future expression and costume capability while retaining clear capybara anatomy. The base should feel like an original designer toy character, with a readable capybara muzzle, small ears, sturdy simplified limbs, and a neutral stance designed for future role variants. Avoid teddy bear, chibi human, generic mascot, generic plush toy, thin arms, separate parts, costumes, accessories, props, environmental scene, special materials, final proportions, and filament colors. Apply the shared generation constraints exactly.
+Create Direction B for CAPICAPI: Designer Toy Mascot. More iconic collectible proportions, stronger head/body separation, broader future expression and costume capability while retaining clear capybara anatomy. The base should feel like an original designer toy character, with a readable capybara muzzle, small ears, sturdy simplified limbs, and a neutral stance designed for future role variants. Avoid teddy bear, chibi human, generic mascot, generic plush toy, thin arms, separate parts, costumes, accessories, props, environmental scene, special materials beyond matte neutral-grey clay/prototype material, final proportions, selected filament palette, and fur rendering. Apply the shared Round 0 generation constraints exactly.
 ```
 
-### Prompt C - Expressive Stylized / Anime-Adjacent
+### Round 0 Prompt C - Expressive Stylized Character / Game-Character Language
 
 ```text
-Create Direction C for CAPICAPI: Expressive Stylized / Anime-adjacent. A more expressive character-oriented capybara interpretation with graphic energy and strong character appeal, suitable later for roles like Biker, Samurai, Wizard, or Gamer, while remaining recognizably CAPICAPI and FDM-compatible. Anime-adjacent means expressive simplified graphic language and character energy, not generic anime eyes, not human anatomy, not thin human limbs, and not a capybara wearing a human costume. The base should still show capybara-derived muzzle, ears, sturdy simplified body, and a neutral stance with no role elements. Avoid generic anime mascot, human face structure, oversized sparkling eyes, hair, costumes, accessories, props, environmental scene, special materials, final proportions, and filament colors. Apply the shared generation constraints exactly.
+Create Direction C for CAPICAPI: Expressive Stylized Character / Game-Character Language. A more expressive character-oriented capybara interpretation with graphic shape rhythm, expression potential, and stronger character hierarchy, suitable later for roles like Biker, Samurai, Wizard, or Gamer, while remaining unmistakably capybara-derived and FDM-compatible. The base should still show capybara-derived muzzle, small ears, sturdy simplified body, neutral standing/base pose, and no role elements. Explicitly avoid anime eye construction, sparkling oversized eyes, human facial structure, human body anatomy, hair/anime hairstyle language, generic anime mascot language, generic game mascot language, costumes, accessories, props, environmental scene, special materials beyond matte neutral-grey clay/prototype material, final proportions, selected filament palette, and fur rendering. Apply the shared Round 0 generation constraints exactly.
 ```
 
-### Prompt D - Sculptural Art Toy
+### Round 0 Prompt D - Sculptural Art Toy
 
 ```text
-Create Direction D for CAPICAPI: Sculptural Art Toy. Stronger plane and silhouette design, reduced surface noise, premium sculptural character, highly deliberate geometry. The base should feel like an original art-toy capybara, with simplified planes, controlled curves, clear muzzle identity, small integrated ears, stable stance, and minimal surface detail. Prioritize memorable silhouette and FDM-friendly geometry over decoration. Avoid abstraction that loses capybara recognition, excessive flatness, generic vinyl toy language, costumes, accessories, props, environmental scene, special materials, final proportions, and filament colors. Apply the shared generation constraints exactly.
+Create Direction D for CAPICAPI: Sculptural Art Toy. Stronger plane and silhouette design, reduced surface noise, premium sculptural character, highly deliberate geometry. The base should feel like an original art-toy capybara, with simplified planes, controlled curves, clear muzzle identity, small integrated ears, stable stance, and minimal surface detail. Prioritize memorable silhouette and FDM-friendly geometry over decoration. Avoid abstraction that loses capybara recognition, excessive flatness, generic vinyl toy language, costumes, accessories, props, environmental scene, special materials beyond matte neutral-grey clay/prototype material, final proportions, selected filament palette, and fur rendering. Apply the shared Round 0 generation constraints exactly.
 ```
 
 ## Decision Workflow
 
-1. Human reviews these four Base Character Round prompts.
-2. Generate Direction A base sheet only after prompt approval.
-3. Generate Direction B base sheet using the same constraints.
-4. Generate Direction C base sheet using the same constraints.
-5. Generate Direction D base sheet using the same constraints.
-6. Normalize all sheets for identical background, scale, framing, and view order.
-7. Score the base characters with the evaluation scorecard.
+1. Human reviews these four Round 0 Hero Concept Screen prompts.
+2. Generate Direction A Round 0 hero concept only after prompt approval.
+3. Generate Direction B Round 0 hero concept using the same constraints.
+4. Generate Direction C Round 0 hero concept using the same constraints.
+5. Generate Direction D Round 0 hero concept using the same constraints.
+6. Normalize all Round 0 concepts for background, scale, framing, material, pose, and lighting.
+7. Score the Round 0 concepts with the evaluation scorecard.
 8. Human chooses which directions survive, require revision, or are rejected.
-9. Only surviving directions receive expression tests.
-10. Only surviving expression-tested directions receive role stress tests.
-11. Human chooses: approve one for Phase 1B, revise, combine specific traits, request more exploration, or reject all.
-12. Only after approval, enter Phase 1B provisional visual master/reference pack.
+9. Only surviving directions receive Base Character Round view-sheet development.
+10. Use each approved Round 0 hero concept as a mandatory image reference for later front, front 3/4, side, back, and silhouette views.
+11. Only surviving Base Character Round directions receive expression tests.
+12. Only surviving expression-tested directions receive role stress tests.
+13. Human chooses: approve one for Phase 1B, revise, combine specific traits, request more exploration, or reject all.
+14. Only after approval, enter Phase 1B provisional visual master/reference pack.
 
 ## Output Package Per Direction
 
@@ -269,6 +307,7 @@ Each direction should eventually produce:
 - direction ID
 - written premise
 - categorized visual references
+- Round 0 hero concept
 - base character view sheet
 - silhouette sheet
 - expression examples
@@ -280,6 +319,6 @@ Each direction should eventually produce:
 
 ## Human Decision Required
 
-The project owner must approve the Base Character Round prompts before generation.
+The project owner must approve the Round 0 Hero Concept Screen prompts before generation.
 
-The project owner must later decide which visual direction enters Phase 1B. The agent may recommend, but must not autonomously select the final direction.
+The project owner must later decide which visual directions proceed to Base Character Round development, and eventually which direction enters Phase 1B. The agent may recommend, but must not autonomously select the final direction.
