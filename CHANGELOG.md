@@ -28,6 +28,8 @@ All notable project operating-system changes are recorded here.
 - Added Phase 1A visual DNA, character reference, visual exploration, 3D modeling, and master-character pipeline documents.
 - Added a spec-only 3D Modeling Agent home for future model handoffs.
 - Added Phase 1A visual reference policy, Round 0 hero concept generation prompts, and a structured visual direction scorecard.
+- Added generated Phase 1A Round 0 hero concept observation metadata.
+- Added Google Drive asset uploader for generated/heavy operational assets.
 
 ### Changed
 
@@ -35,6 +37,7 @@ All notable project operating-system changes are recorded here.
 - Reclassified `docs/product/CAPI_V0_BRIEF.md` as a future engineering prototype brief instead of the source of visual identity.
 - Amended Phase 1A exploration from three lanes to four lanes by adding Expressive Stylized Character / Game-Character Language as a separate test direction.
 - Added Round 0 hero concept screening before any multi-view base character generation.
+- Generated 12 Round 0 hero concepts and stored them in the approved Drive concept workspace by direction.
 
 ### Removed
 
