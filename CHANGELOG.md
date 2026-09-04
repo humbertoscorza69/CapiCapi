@@ -15,6 +15,13 @@ All notable project operating-system changes are recorded here.
 - Added Google Drive integration scaffold with dry-run-first sync script.
 - Added `.env.example` and `.gitignore` secret protections.
 
+### Updated
+
+- Verified and activated Google Drive OAuth using the Desktop client for project `capicapi`.
+- Mirrored configured documents to a separate `CAPICAPI` Google Drive folder.
+- Updated Drive manifest with stable folder/file IDs and source hashes.
+- Ignored the generated Google Drive sync log.
+
 ### Changed
 
 - None.

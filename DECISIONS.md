@@ -97,3 +97,19 @@ Alternatives considered: Creating launch probabilities now.
 Consequences: Rarity system defines tiers and controls, not production odds.
 
 Reversible? YES
+
+## Decision D-0007
+
+Date: 2026-09-04
+
+Decision: The Google Drive mirror is activated through the Desktop OAuth client in the current CapiCapi Google Cloud project.
+
+Reason: The project needs a separate human-readable Drive mirror while preserving the local Git repository as canonical source of truth.
+
+Evidence: Google Cloud Console showed project `CapiCapi`, OAuth client `Desktop client 1`, type `Escritorio`, and a client ID matching the local credentials file. The Google Auth Platform audience is External users, Testing status, with `humbertoscorza69@gmail.com` registered as a test user. The sync completed and a follow-up dry run reported all configured documents unchanged.
+
+Alternatives considered: Publishing the app; creating fake homepage/privacy-policy URLs; using a service account.
+
+Consequences: `config/drive_manifest.json` now stores stable Drive folder/file IDs. Local `credentials.json`, `token.json`, and sync log artifacts remain ignored by Git.
+
+Reversible? YES

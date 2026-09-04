@@ -14,6 +14,7 @@ service_account*.json
 # Google Drive local auth artifacts
 integrations/google_drive/credentials.json
 integrations/google_drive/token.json
+integrations/google_drive/sync_log.jsonl
 integrations/google_drive/client_secret*.json
 integrations/google_drive/service-account*.json
 

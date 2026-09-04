@@ -1,6 +1,6 @@
 # Google Drive Integration
 
-Status: PREPARED, CREDENTIAL FILE SAVED, NOT AUTHENTICATED
+Status: AUTHENTICATED AND SYNCED
 Date: 2026-09-04
 
 ## Purpose
@@ -65,6 +65,8 @@ This prints the Google authorization URL while the local callback server waits.
 ## Known Blocker
 
 Google may block authorization for an OAuth app in Testing mode unless the signed-in account is listed as a test user in Google Cloud Console. In that case no token is created and no Drive folder is created.
+
+This development project should remain External + Testing unless a later decision explicitly changes that. Do not publish the app or invent homepage/privacy-policy URLs only to make local development OAuth work.
 
 ## Non-Goals
 

@@ -29,7 +29,8 @@ Date: 2026-09-04
 
 - No physical Capi v0 has been modeled, sliced, or printed.
 - No filament palette is frozen.
-- No Google Drive credentials or folder IDs are configured.
+- Google Drive credentials and token are configured locally and ignored by Git.
+- Google Drive folder/file IDs are recorded in `config/drive_manifest.json`.
 - No content, sales, or production analytics data exists.
 - Visual IP rules are drafted but not yet validated against real model sheets.
 

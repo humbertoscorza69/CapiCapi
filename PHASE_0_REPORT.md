@@ -41,13 +41,13 @@ Date: 2026-09-04
 
 ## 5. Drive Integration Status
 
-Status: PREPARED, NOT AUTHENTICATED.
+Status: AUTHENTICATED AND SYNCED.
 
-The integration includes a dry-run-first sync script and manifest. It has not created folders or uploaded files because credentials are not configured.
+The integration includes a dry-run-first sync script and manifest. It created a separate `CAPICAPI` folder in Google Drive and mirrored the configured documents. Stable Drive file IDs are now stored in `config/drive_manifest.json`.
 
 ## 6. Credentials / Setup Required
 
-The user must provide local Google Drive OAuth credentials in `integrations/google_drive/credentials.json`, copy `.env.example` to `.env`, and run a dry run before any write operation.
+Local Google Drive OAuth credentials are present in `integrations/google_drive/credentials.json`, and the generated OAuth token is present in `integrations/google_drive/token.json`. Both files are ignored by Git and must not be committed.
 
 ## 7. Phase 0 Gate Status
 

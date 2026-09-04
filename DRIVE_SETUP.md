@@ -51,9 +51,9 @@ These are covered by `.gitignore`, but the operator is still responsible for rev
 
 ## Current Status
 
-Drive integration status: PREPARED, CREDENTIAL FILE SAVED, NOT AUTHENTICATED.
+Drive integration status: AUTHENTICATED AND SYNCED.
 
-The local OAuth client secret may be present at `integrations/google_drive/credentials.json`, which is ignored by Git. No token has been created, no Drive folders have been created, and no documents have been uploaded.
+The local OAuth client secret is present at `integrations/google_drive/credentials.json`, which is ignored by Git. The local OAuth token is present at `integrations/google_drive/token.json`, which is also ignored by Git. The configured documents have been mirrored to a separate `CAPICAPI` folder in Google Drive.
 
 ## Known OAuth Blocker
 
@@ -66,3 +66,5 @@ Fix in Google Cloud Console:
 3. Add the Google account that will authorize Drive access under Test users.
 4. Save the change.
 5. Run `python integrations/google_drive/sync.py --apply --no-browser` again.
+
+This project is intended to stay in External + Testing mode during development. Do not publish the app or create fake homepage/privacy-policy URLs just to support local development.
