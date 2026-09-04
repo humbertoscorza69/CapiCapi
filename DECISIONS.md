@@ -113,3 +113,19 @@ Alternatives considered: Publishing the app; creating fake homepage/privacy-poli
 Consequences: `config/drive_manifest.json` now stores stable Drive folder/file IDs. Local `credentials.json`, `token.json`, and sync log artifacts remain ignored by Git.
 
 Reversible? YES
+
+## Decision D-0008
+
+Date: 2026-09-04
+
+Decision: CAPICAPI uses a two-tier operating filesystem: Git/GitHub for code, docs, schemas, agent definitions, prompts, n8n workflows, integrations, tests, and lightweight metadata; Google Drive for heavy operational assets.
+
+Reason: The business needs both version-controlled technical truth and a low-friction human asset workspace for raw media, 3D files, slicer files, test print media, generated media, approvals, exports, and agent outputs.
+
+Evidence: The approved Phase 0 filesystem architecture requires separate responsibilities between local/GitHub and Drive and a low-friction media inbox for phone/raw asset dumps. The Drive hierarchy was created through the authenticated Google Drive integration and the manifest now stores stable folder IDs.
+
+Alternatives considered: Keeping heavy assets in Git; treating Drive folder names as the database; introducing a database before real workflow volume exists.
+
+Consequences: Heavy/operational assets stay out of Git. Structured metadata starts as JSON/CSV under `data/metadata` and validates against schemas. Future n8n workflows must use IDs and metadata, not filenames alone.
+
+Reversible? YES

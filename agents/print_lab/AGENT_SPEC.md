@@ -25,7 +25,9 @@ Own slicer experiments, physical print tests, measured production records, and c
 ## Allowed Files / Documents
 
 - `docs/experiments/PRINT_EXPERIMENT_PROTOCOL.md`
-- `docs/manufacturing/*`
+- `docs/product/FDM_DESIGN_STANDARD.md`
+- `docs/product/COLOR_DFM_STANDARD.md`
+- `docs/product/PRINT_STANDARD.md`
 - `production/*`
 - `data/printing/*`
 - `schemas/print_experiment_result.v1.schema.json`

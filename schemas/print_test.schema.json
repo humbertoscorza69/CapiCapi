@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capicapi.local/schemas/print_test.schema.json",
+  "title": "CAPICAPI Print Test Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "print_test_id", "capi_id", "model_revision_id", "status", "measurements"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "print_test_id": { "type": "string", "pattern": "^PT-CAPI-S[0-9]{2}-[0-9]{3}-[0-9]{4}$" },
+    "capi_id": { "type": "string", "pattern": "^CAPI-S[0-9]{2}-[0-9]{3}$" },
+    "model_revision_id": { "type": "string", "pattern": "^CAPI-S[0-9]{2}-[0-9]{3}-M[0-9]{3}$" },
+    "status": { "type": "string", "enum": ["PLANNED", "RUNNING", "PASS", "FAIL", "BLOCKED", "ARCHIVED"] },
+    "printer": { "type": ["string", "null"] },
+    "nozzle_mm": { "type": ["number", "null"] },
+    "size_mm": { "type": ["number", "null"] },
+    "layer_height_mm": { "type": ["number", "null"] },
+    "batch_size": { "type": ["integer", "null"], "minimum": 1 },
+    "measurements": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "finished_product_weight_g": { "type": ["number", "null"], "minimum": 0 },
+        "purge_waste_g": { "type": ["number", "null"], "minimum": 0 },
+        "prime_tower_g": { "type": ["number", "null"], "minimum": 0 },
+        "actual_print_time_minutes": { "type": ["number", "null"], "minimum": 0 },
+        "operator_labor_minutes": { "type": ["number", "null"], "minimum": 0 },
+        "measured_unit_cost": { "type": ["number", "null"], "minimum": 0 }
+      }
+    },
+    "drive_folder_id": { "type": ["string", "null"] },
+    "drive_asset_ids": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": "array", "items": { "type": "string" } }
+  }
+}

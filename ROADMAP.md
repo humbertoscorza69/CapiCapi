@@ -33,7 +33,7 @@ Objectives:
 
 Acceptance criteria:
 
-- `docs/product/CAPI_MASTER_SPEC.md` accepted.
+- `docs/brand/CAPI_MASTER_SPEC.md` accepted.
 - `docs/brand/VISUAL_LANGUAGE.md` accepted.
 - `docs/product/CAPI_V0_BRIEF.md` accepted.
 - Manufacturing standards are ready for digital DFM review.

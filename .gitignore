@@ -37,4 +37,22 @@ Thumbs.db
 *.tmp
 *.bak
 *.log
+*.jsonl
 archive/tmp/
+
+# Heavy/operational assets belong in Google Drive, not Git
+*.stl
+*.3mf
+*.step
+*.stp
+*.obj
+*.blend
+*.gcode
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.psd
+*.ai

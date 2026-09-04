@@ -25,8 +25,10 @@ Evaluate printability, supports, overhangs, color-Z behavior, geometry robustnes
 
 ## Allowed Files / Documents
 
-- `docs/manufacturing/*`
-- `docs/product/CAPI_MASTER_SPEC.md`
+- `docs/product/FDM_DESIGN_STANDARD.md`
+- `docs/product/COLOR_DFM_STANDARD.md`
+- `docs/product/PRINT_STANDARD.md`
+- `docs/brand/CAPI_MASTER_SPEC.md`
 - `docs/product/CAPI_V0_BRIEF.md`
 - `schemas/color_z_audit.v1.schema.json`
 - `schemas/agent_handoff.v1.schema.json`
@@ -55,8 +57,8 @@ Evaluate printability, supports, overhangs, color-Z behavior, geometry robustnes
 
 ## Memory / Source Of Truth
 
-- `docs/manufacturing/FDM_DESIGN_STANDARD.md`
-- `docs/manufacturing/COLOR_DFM_STANDARD.md`
+- `docs/product/FDM_DESIGN_STANDARD.md`
+- `docs/product/COLOR_DFM_STANDARD.md`
 - `docs/experiments/PRINT_EXPERIMENT_PROTOCOL.md`
 
 ## KPIs

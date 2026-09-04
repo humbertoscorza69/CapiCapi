@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capicapi.local/schemas/publication.schema.json",
+  "title": "CAPICAPI Social Publication Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "publication_id", "content_id", "platform", "status", "approval"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "publication_id": { "type": "string", "pattern": "^PUB-[0-9]{4}-[0-9]{6}$" },
+    "content_id": { "type": "string", "pattern": "^CONTENT-[0-9]{4}-[0-9]{6}$" },
+    "platform": { "type": "string" },
+    "status": { "type": "string", "enum": ["DRAFT", "REVIEW", "APPROVED", "SCHEDULED", "PUBLISHED", "ANALYZED", "REJECTED", "BLOCKED"] },
+    "scheduled_at": { "type": ["string", "null"], "format": "date-time" },
+    "published_at": { "type": ["string", "null"], "format": "date-time" },
+    "platform_post_id": { "type": ["string", "null"] },
+    "platform_url": { "type": ["string", "null"], "format": "uri" },
+    "approval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "approved_by", "approved_at"],
+      "properties": {
+        "status": { "type": "string", "enum": ["NOT_REQUESTED", "PENDING", "APPROVED", "REJECTED", "CHANGE_REQUESTED"] },
+        "approved_by": { "type": ["string", "null"] },
+        "approved_at": { "type": ["string", "null"], "format": "date-time" }
+      }
+    }
+  }
+}

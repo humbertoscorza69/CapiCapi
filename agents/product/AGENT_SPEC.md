@@ -26,7 +26,9 @@ Own CAPICAPI product/IP rules, character system, rarity system, and series archi
 
 - `docs/product/*`
 - `docs/brand/VISUAL_LANGUAGE.md`
-- `docs/manufacturing/*`
+- `docs/product/FDM_DESIGN_STANDARD.md`
+- `docs/product/COLOR_DFM_STANDARD.md`
+- `docs/product/PRINT_STANDARD.md`
 - `DECISIONS.md`
 - `schemas/*`
 
@@ -54,7 +56,7 @@ Own CAPICAPI product/IP rules, character system, rarity system, and series archi
 
 ## Memory / Source Of Truth
 
-- `docs/product/CAPI_MASTER_SPEC.md`
+- `docs/brand/CAPI_MASTER_SPEC.md`
 - `docs/product/CAPI_V0_BRIEF.md`
 - `docs/product/RARITY_SYSTEM.md`
 - `docs/product/SERIES_ARCHITECTURE.md`

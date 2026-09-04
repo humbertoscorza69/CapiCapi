@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "agent": "PRINT_AGENT",
+  "allowed_tools": [
+    "slicer_export_read",
+    "print_test_record_write",
+    "google_drive_test_asset_reference",
+    "schema_validation"
+  ],
+  "forbidden_tools": [
+    "fake_measurement",
+    "support_exception_without_decision",
+    "filament_purchase"
+  ]
+}

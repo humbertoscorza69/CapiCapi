@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "agent": "ANALYTICS_AGENT",
+  "allowed_tools": [
+    "metadata_read",
+    "analytics_export_read",
+    "analysis_report_write",
+    "schema_validation"
+  ],
+  "forbidden_tools": [
+    "fake_data",
+    "metric_redefinition_without_decision",
+    "secret_readout"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capicapi.local/schemas/series.schema.json",
+  "title": "CAPICAPI Series Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "series_id", "name", "status", "capi_ids", "rarity_policy"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "series_id": { "type": "string", "pattern": "^S[0-9]{2}$" },
+    "name": { "type": ["string", "null"] },
+    "status": { "type": "string", "enum": ["NOT_STARTED", "CONCEPT", "DESIGN_REVIEW", "DFM_REVIEW", "PRINT_TEST", "APPROVED", "RELEASED", "RETIRED", "BLOCKED"] },
+    "theme": { "type": ["string", "null"] },
+    "capi_ids": { "type": "array", "items": { "type": "string", "pattern": "^CAPI-S[0-9]{2}-[0-9]{3}$" } },
+    "rarity_policy": { "type": ["string", "null"] },
+    "release_window": { "type": ["string", "null"] },
+    "drive_folder_id": { "type": ["string", "null"] },
+    "notes": { "type": "array", "items": { "type": "string" } }
+  }
+}

@@ -13,6 +13,15 @@ Versioning:
 
 Current schemas:
 
+- `capi.schema.json`
+- `series.schema.json`
+- `model_revision.schema.json`
+- `print_test.schema.json`
+- `production_batch.schema.json`
+- `content_item.schema.json`
+- `experiment.schema.json`
+- `publication.schema.json`
+- `agent_event.schema.json`
 - `agent_handoff.v1.schema.json`
 - `phase_gate.v1.schema.json`
 - `color_z_audit.v1.schema.json`

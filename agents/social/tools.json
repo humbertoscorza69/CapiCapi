@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "agent": "SOCIAL_AGENT",
+  "allowed_tools": [
+    "publication_record_prepare",
+    "platform_asset_package",
+    "approval_status_read"
+  ],
+  "forbidden_tools": [
+    "publish_without_approval",
+    "credential_print",
+    "platform_permission_change"
+  ]
+}

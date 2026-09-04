@@ -9,7 +9,7 @@ This repository is the canonical technical source of truth. Google Drive may mir
 Active work is limited to:
 
 - Phase 0 - Project Operating System
-- Phase 1 - Product / Brand Foundations documentation foundation only
+- Phase 0 architecture audit only
 
 Out of scope for this first run:
 
@@ -53,18 +53,21 @@ The slicer is part of product design.
 ## Repository Map
 
 - `docs/brand` - visual language and brand/IP rules
-- `docs/product` - master character spec, rarity, series architecture
-- `docs/manufacturing` - FDM and AMS Lite color design standards
+- `docs/product` - physical product, print, packaging, rarity, and series architecture
+- `docs/automation` - n8n, approval flow, and integration architecture
 - `docs/experiments` - physical print and content experiment protocols
 - `docs/marketing` - content bible and creative taxonomy
 - `docs/operations` - source-of-truth, phase gates, version control
 - `docs/research` - verified external references and research notes
-- `agents` - agent specifications and templates
+- `agents` - approved agent contracts, prompts, tools, and preserved detailed specs
+- `n8n` - reserved version-controlled n8n workflow structure
 - `schemas` - versioned JSON Schemas for structured handoffs
 - `integrations` - prepared integrations, starting with Google Drive
 - `config` - non-secret manifests and configuration
+- `data/metadata` - lightweight MVP metadata records
+- `logs` - non-secret local log contracts and generated-log homes
 - `models`, `production`, `data`, `scripts`, `archive` - controlled work areas for later phases
 
 ## Immediate Next Action
 
-Review `PHASE_0_REPORT.md`, confirm the Phase 0 gate, then begin Phase 1 by turning `docs/product/CAPI_MASTER_SPEC.md` and `docs/product/CAPI_V0_BRIEF.md` into a digital Capi v0 design brief ready for DFM review.
+Review `PHASE_0_ARCHITECTURE_AUDIT.md` and `PHASE_0_REPORT.md`. Do not begin Phase 1 until the Phase 0 architecture is accepted.

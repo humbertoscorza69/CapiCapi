@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "agent": "CONTENT_AGENT",
+  "allowed_tools": [
+    "local_repo_read",
+    "content_record_write",
+    "google_drive_media_reference",
+    "approval_packet_prepare"
+  ],
+  "forbidden_tools": [
+    "social_publish",
+    "unsupported_product_claim",
+    "fake_performance_data"
+  ]
+}

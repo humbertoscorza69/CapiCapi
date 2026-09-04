@@ -16,6 +16,7 @@ Objectives:
 - draft foundational standards
 - define agent specifications
 - prepare schemas and Google Drive integration
+- implement local/GitHub and Drive filesystem architecture
 
 Required artifacts:
 
@@ -28,12 +29,14 @@ Required artifacts:
 - schemas
 - Drive manifest and setup docs
 - `PHASE_0_REPORT.md`
+- `PHASE_0_ARCHITECTURE_AUDIT.md`
 
 Acceptance criteria:
 
 - artifacts exist in the local repo
 - Drive integration is prepared without credentials
 - phase gates and decisions are documented
+- Drive operational hierarchy is created idempotently
 
 Unresolved risks:
 
@@ -54,11 +57,11 @@ Objectives:
 
 Required artifacts:
 
-- `docs/product/CAPI_MASTER_SPEC.md`
+- `docs/brand/CAPI_MASTER_SPEC.md`
 - `docs/product/CAPI_V0_BRIEF.md`
 - `docs/brand/VISUAL_LANGUAGE.md`
-- `docs/manufacturing/FDM_DESIGN_STANDARD.md`
-- `docs/manufacturing/COLOR_DFM_STANDARD.md`
+- `docs/product/FDM_DESIGN_STANDARD.md`
+- `docs/product/COLOR_DFM_STANDARD.md`
 
 Acceptance criteria:
 

@@ -188,6 +188,28 @@ def ensure_drive_path(service: Any, manifest: dict[str, Any], drive_path: str) -
     return parent_id, parts[-1]
 
 
+def ensure_folder_path(service: Any, manifest: dict[str, Any], drive_path: str) -> str:
+    parts = [part for part in drive_path.split("/") if part]
+    if not parts:
+        raise SyncError("Folder path cannot be empty.")
+
+    root_name = manifest["root_folder_name"]
+    if parts[0] != root_name:
+        raise SyncError(f"Folder path must start with {root_name}: {drive_path}")
+
+    parent_id = (
+        os.getenv("CAPICAPI_DRIVE_ROOT_FOLDER_ID")
+        or manifest.get("root_folder_id")
+        or ensure_folder(service, root_name, None)
+    )
+    manifest["root_folder_id"] = parent_id
+
+    for folder_name in parts[1:]:
+        parent_id = ensure_folder(service, folder_name, parent_id)
+
+    return parent_id
+
+
 def update_or_create_doc(
     service: Any,
     libs: dict[str, Any],
@@ -244,6 +266,9 @@ def sync(manifest_path: Path, apply: bool, open_browser: bool = True) -> int:
 
     if not apply:
         print("DRY RUN - no Google authentication attempted and no Drive writes performed.")
+        for folder in manifest.get("folders", []):
+            status = "known" if folder.get("drive_folder_id") else "needs-id"
+            print(f"{status}: folder {folder['drive_path']}")
         for item in planned:
             doc = item["doc"]
             status = "changed" if item["changed"] else "unchanged"
@@ -252,6 +277,19 @@ def sync(manifest_path: Path, apply: bool, open_browser: bool = True) -> int:
 
     libs = require_google_client_libs()
     service = authenticate(libs, open_browser=open_browser)
+
+    for folder in manifest.get("folders", []):
+        folder_id = ensure_folder_path(service, manifest, folder["drive_path"])
+        folder["drive_folder_id"] = folder_id
+        log_event(
+            manifest,
+            {
+                "event": "ensured_folder",
+                "drive_path": folder["drive_path"],
+                "drive_folder_id": folder_id,
+            },
+        )
+        print(f"ensured folder: {folder['drive_path']}")
 
     for item in planned:
         doc = item["doc"]

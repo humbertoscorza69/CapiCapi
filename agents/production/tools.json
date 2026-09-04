@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "agent": "PRODUCTION_AGENT",
+  "allowed_tools": [
+    "local_repo_read",
+    "metadata_write",
+    "inventory_record_prepare",
+    "schema_validation"
+  ],
+  "forbidden_tools": [
+    "edition_claim_without_inventory",
+    "purchase",
+    "shipping_label_purchase"
+  ]
+}

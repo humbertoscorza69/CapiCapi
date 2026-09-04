@@ -6,7 +6,7 @@ Date: 2026-09-04
 
 | Phase | Name | State | Notes |
 |---|---|---:|---|
-| Phase 0 | Project Operating System | PASS | Repository operating system, standards, schemas, agents, and Drive preparation created. |
+| Phase 0 | Project Operating System | PASS | Repository operating system, filesystem/data architecture, standards, schemas, agents, and Drive workspace created. |
 | Phase 1 | Product / Brand Foundations | BLOCKED | Documentation foundation exists; approval and Capi v0 design brief completion required before moving forward. |
 | Phase 2 | Capi v0 Engineering Prototype | BLOCKED | Requires Phase 1 pass. |
 | Phase 3 | Physical Manufacturing Validation | BLOCKED | Requires digitally approved Capi v0 and physical printer/material tests. |
@@ -31,6 +31,8 @@ Date: 2026-09-04
 - No filament palette is frozen.
 - Google Drive credentials and token are configured locally and ignored by Git.
 - Google Drive folder/file IDs are recorded in `config/drive_manifest.json`.
+- Approved local/GitHub and Drive filesystem architecture is implemented.
+- Phase 0 architecture audit is recorded in `PHASE_0_ARCHITECTURE_AUDIT.md`.
 - No content, sales, or production analytics data exists.
 - Visual IP rules are drafted but not yet validated against real model sheets.
 

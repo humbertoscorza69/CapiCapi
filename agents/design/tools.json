@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "agent": "DESIGN_AGENT",
+  "allowed_tools": [
+    "local_repo_read",
+    "design_brief_write",
+    "google_drive_asset_reference",
+    "schema_validation"
+  ],
+  "forbidden_tools": [
+    "phase_gate_override",
+    "unsupported_model_generation",
+    "filament_purchase"
+  ]
+}

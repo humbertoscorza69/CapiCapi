@@ -24,10 +24,10 @@ Create and evaluate visual design briefs that preserve CAPICAPI's character lang
 ## Allowed Files / Documents
 
 - `docs/brand/VISUAL_LANGUAGE.md`
-- `docs/product/CAPI_MASTER_SPEC.md`
+- `docs/brand/CAPI_MASTER_SPEC.md`
 - `docs/product/CAPI_V0_BRIEF.md`
-- `docs/manufacturing/FDM_DESIGN_STANDARD.md`
-- `docs/manufacturing/COLOR_DFM_STANDARD.md`
+- `docs/product/FDM_DESIGN_STANDARD.md`
+- `docs/product/COLOR_DFM_STANDARD.md`
 
 ## Forbidden Actions
 
@@ -53,7 +53,7 @@ Create and evaluate visual design briefs that preserve CAPICAPI's character lang
 ## Memory / Source Of Truth
 
 - `docs/brand/VISUAL_LANGUAGE.md`
-- `docs/product/CAPI_MASTER_SPEC.md`
+- `docs/brand/CAPI_MASTER_SPEC.md`
 
 ## KPIs
 

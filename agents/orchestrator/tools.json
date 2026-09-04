@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "agent": "ORCHESTRATOR",
+  "allowed_tools": [
+    "local_repo_read",
+    "local_repo_write_docs",
+    "git_status",
+    "schema_validation",
+    "google_drive_manifest_read"
+  ],
+  "forbidden_tools": [
+    "content_publish",
+    "purchase",
+    "secret_readout"
+  ]
+}
