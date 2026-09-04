@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capicapi.local/schemas/color_z_audit.v1.schema.json",
+  "title": "CAPICAPI Color-Z Audit v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "candidate_id",
+    "created_at",
+    "truth_level",
+    "colors",
+    "vertical_ranges",
+    "filament_swaps",
+    "purge_volume_g",
+    "purge_ratio",
+    "prime_tower_required",
+    "flush_to_infill_opportunity",
+    "units_per_plate",
+    "printer_hours_per_unit",
+    "status",
+    "issues"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "candidate_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "truth_level": {
+      "type": "string",
+      "enum": [
+        "MEASURED",
+        "ESTIMATED",
+        "PROVISIONAL",
+        "TBD"
+      ]
+    },
+    "colors": {
+      "type": "array",
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "role"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          },
+          "material": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "hex": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^#?[0-9A-Fa-f]{6}$"
+          }
+        }
+      }
+    },
+    "vertical_ranges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "color_name",
+          "z_min_mm",
+          "z_max_mm"
+        ],
+        "properties": {
+          "color_name": {
+            "type": "string"
+          },
+          "z_min_mm": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "z_max_mm": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "filament_swaps": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "purge_volume_g": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "purge_ratio": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "prime_tower_required": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "flush_to_infill_opportunity": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "units_per_plate": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "printer_hours_per_unit": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL",
+        "BLOCKED"
+      ]
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

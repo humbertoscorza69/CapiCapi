@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capicapi.local/schemas/drive_manifest.v1.schema.json",
+  "title": "CAPICAPI Drive Manifest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "root_folder_name",
+    "log_path",
+    "documents"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "root_folder_name": {
+      "type": "string"
+    },
+    "root_folder_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "log_path": {
+      "type": "string"
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "repo_path",
+          "drive_path",
+          "drive_file_id",
+          "mirror_type",
+          "last_synced_at",
+          "source_hash"
+        ],
+        "properties": {
+          "repo_path": {
+            "type": "string"
+          },
+          "drive_path": {
+            "type": "string"
+          },
+          "drive_file_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "mirror_type": {
+            "type": "string",
+            "enum": [
+              "google_doc",
+              "plain_file"
+            ]
+          },
+          "last_synced_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "source_hash": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

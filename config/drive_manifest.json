@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0.0",
+  "root_folder_name": "CAPICAPI",
+  "root_folder_id": null,
+  "log_path": "integrations/google_drive/sync_log.jsonl",
+  "documents": [
+    {
+      "repo_path": "README.md",
+      "drive_path": "CAPICAPI/Operating System/README",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "PROJECT_STATUS.md",
+      "drive_path": "CAPICAPI/Operating System/PROJECT STATUS",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "ROADMAP.md",
+      "drive_path": "CAPICAPI/Operating System/ROADMAP",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "DECISIONS.md",
+      "drive_path": "CAPICAPI/Operating System/DECISIONS",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "docs/operations/PHASE_REGISTER.md",
+      "drive_path": "CAPICAPI/Operating System/PHASE REGISTER",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "docs/product/CAPI_MASTER_SPEC.md",
+      "drive_path": "CAPICAPI/Product/CAPI MASTER SPEC",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "docs/product/CAPI_V0_BRIEF.md",
+      "drive_path": "CAPICAPI/Product/CAPI V0 BRIEF",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "docs/product/RARITY_SYSTEM.md",
+      "drive_path": "CAPICAPI/Product/RARITY SYSTEM",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "docs/product/SERIES_ARCHITECTURE.md",
+      "drive_path": "CAPICAPI/Product/SERIES ARCHITECTURE",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "docs/brand/VISUAL_LANGUAGE.md",
+      "drive_path": "CAPICAPI/Brand/VISUAL LANGUAGE",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "docs/manufacturing/FDM_DESIGN_STANDARD.md",
+      "drive_path": "CAPICAPI/Manufacturing/FDM DESIGN STANDARD",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "docs/manufacturing/COLOR_DFM_STANDARD.md",
+      "drive_path": "CAPICAPI/Manufacturing/COLOR DFM STANDARD",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "docs/experiments/PRINT_EXPERIMENT_PROTOCOL.md",
+      "drive_path": "CAPICAPI/Experiments/PRINT EXPERIMENT PROTOCOL",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "docs/experiments/EXPERIMENTATION_PROTOCOL.md",
+      "drive_path": "CAPICAPI/Experiments/EXPERIMENTATION PROTOCOL",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "docs/marketing/CONTENT_BIBLE.md",
+      "drive_path": "CAPICAPI/Marketing/CONTENT BIBLE",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "docs/marketing/CREATIVE_TAXONOMY.md",
+      "drive_path": "CAPICAPI/Marketing/CREATIVE TAXONOMY",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    },
+    {
+      "repo_path": "PHASE_0_REPORT.md",
+      "drive_path": "CAPICAPI/Operating System/PHASE 0 REPORT",
+      "drive_file_id": null,
+      "mirror_type": "google_doc",
+      "last_synced_at": null,
+      "source_hash": null
+    }
+  ]
+}

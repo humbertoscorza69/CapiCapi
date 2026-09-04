@@ -1,0 +1,39 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+client_secret*.json
+client-secrets*.json
+service-account*.json
+service_account*.json
+*.pem
+*.key
+
+# Google Drive local auth artifacts
+integrations/google_drive/credentials.json
+integrations/google_drive/token.json
+integrations/google_drive/client_secret*.json
+integrations/google_drive/service-account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local generated logs and temporary exports
+*.tmp
+*.bak
+*.log
+archive/tmp/

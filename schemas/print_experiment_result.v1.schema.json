@@ -1,0 +1,221 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capicapi.local/schemas/print_experiment_result.v1.schema.json",
+  "title": "CAPICAPI Print Experiment Result v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "experiment_id",
+    "created_at",
+    "candidate_id",
+    "printer",
+    "nozzle_mm",
+    "size_mm",
+    "layer_height_mm",
+    "batch_size",
+    "status",
+    "measurements",
+    "slicer_estimates",
+    "variance_notes",
+    "blind_quality_score",
+    "issues"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "experiment_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "candidate_id": {
+      "type": "string"
+    },
+    "printer": {
+      "type": "string"
+    },
+    "nozzle_mm": {
+      "type": "number"
+    },
+    "size_mm": {
+      "type": "number",
+      "enum": [
+        40,
+        50,
+        60
+      ]
+    },
+    "layer_height_mm": {
+      "type": "number",
+      "enum": [
+        0.08,
+        0.12,
+        0.16
+      ]
+    },
+    "batch_size": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL",
+        "BLOCKED"
+      ]
+    },
+    "measurements": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "finished_product_weight_g",
+        "purge_waste_g",
+        "prime_tower_g",
+        "failed_material_g",
+        "total_filament_g",
+        "actual_print_time_minutes",
+        "operator_labor_minutes",
+        "filament_cost",
+        "electricity_cost_estimate",
+        "cost_per_unit"
+      ],
+      "properties": {
+        "finished_product_weight_g": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "purge_waste_g": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "prime_tower_g": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "failed_material_g": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "total_filament_g": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "actual_print_time_minutes": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "operator_labor_minutes": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "filament_cost": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "electricity_cost_estimate": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "cost_per_unit": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "slicer_estimates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "estimated_time_minutes",
+        "estimated_filament_g",
+        "estimated_filament_swaps",
+        "estimated_purge_g"
+      ],
+      "properties": {
+        "estimated_time_minutes": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "estimated_filament_g": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "estimated_filament_swaps": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "estimated_purge_g": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "variance_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "blind_quality_score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 10
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

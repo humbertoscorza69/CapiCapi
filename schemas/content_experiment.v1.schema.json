@@ -1,0 +1,317 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capicapi.local/schemas/content_experiment.v1.schema.json",
+  "title": "CAPICAPI Content Experiment v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "experiment_id",
+    "created_at",
+    "status",
+    "hypothesis",
+    "platform",
+    "variables",
+    "outcomes",
+    "viral_score",
+    "commercial_score",
+    "approval"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "experiment_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "DRAFT",
+        "APPROVED",
+        "PUBLISHED",
+        "MEASURED",
+        "REJECTED",
+        "BLOCKED"
+      ]
+    },
+    "hypothesis": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "variables": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "character",
+        "hook_type",
+        "hook_text",
+        "first_frame",
+        "narrative_type",
+        "duration_seconds",
+        "reveal_time_seconds",
+        "audio_type",
+        "text_density",
+        "human_presence",
+        "manufacturing_shot",
+        "call_to_action",
+        "caption_style",
+        "posting_time"
+      ],
+      "properties": {
+        "character": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hook_type": {
+          "type": "string"
+        },
+        "hook_text": {
+          "type": "string"
+        },
+        "first_frame": {
+          "type": "string"
+        },
+        "narrative_type": {
+          "type": "string"
+        },
+        "duration_seconds": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "reveal_time_seconds": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "audio_type": {
+          "type": "string"
+        },
+        "text_density": {
+          "type": "string"
+        },
+        "human_presence": {
+          "type": "boolean"
+        },
+        "manufacturing_shot": {
+          "type": "boolean"
+        },
+        "call_to_action": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "caption_style": {
+          "type": "string"
+        },
+        "posting_time": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "product_claims": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "outcomes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "one_sec_hold_rate",
+        "three_sec_hold_rate",
+        "average_watch_time_seconds",
+        "completion_rate",
+        "rewatch_rate",
+        "likes",
+        "comments",
+        "shares",
+        "saves",
+        "profile_visits",
+        "follows",
+        "store_clicks",
+        "add_to_cart",
+        "purchases",
+        "revenue"
+      ],
+      "properties": {
+        "one_sec_hold_rate": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "three_sec_hold_rate": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "average_watch_time_seconds": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "completion_rate": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "rewatch_rate": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "likes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "comments": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "shares": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "saves": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "profile_visits": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "follows": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "store_clicks": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "add_to_cart": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "purchases": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "revenue": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "viral_score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "commercial_score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "approval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "required",
+        "status",
+        "approved_by",
+        "approved_at"
+      ],
+      "properties": {
+        "required": {
+          "type": "boolean"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "NOT_REQUESTED",
+            "PENDING",
+            "APPROVED",
+            "REJECTED",
+            "EDIT_REQUESTED"
+          ]
+        },
+        "approved_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "approved_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}
