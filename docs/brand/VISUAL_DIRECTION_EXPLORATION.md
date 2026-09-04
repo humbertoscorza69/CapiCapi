@@ -1,14 +1,22 @@
-# VISUAL DIRECTION EXPLORATION v1.2
+# VISUAL DIRECTION EXPLORATION v1.3
 
-Status: DRAFT - PHASE 1A AMENDED
-Date: 2026-09-04
+Status: ROUND 1 EXPERIMENT PROPOSED - AWAITING HUMAN APPROVAL
+Date: 2026-09-05
 Truth level: PROVISIONAL
 
 ## Purpose
 
-Phase 1A explores four materially different candidate art directions for the CAPICAPI base character before any 3D master is modeled.
+Phase 1A explores the physical DNA of the CAPICAPI base character before any 3D master is modeled. Round 0 explored four art-direction lanes. The owner reviewed its twelve candidates and requested a new morphological experiment without selecting a winner or authorizing downstream development.
 
 The goal is not to choose the cutest capybara or the best render. The goal is to identify proprietary visual DNA that survives role, costume, material, and series changes while remaining compatible with Bambu Lab A1 FDM production.
+
+## Current Gate And Evidence
+
+Round 0 is retained as exploratory evidence: A1-A3, B1-B3, C1-C3, and D1-D3. No candidate or lane has been selected, rejected, or promoted by this amendment. Its existing images and observation records remain unchanged.
+
+Round 1 is a proposed signature morphological hook experiment, not a refinement of A/B/C/D and not Phase 1B. The family roster, sample count, and exact prompts below require explicit owner approval before any Round 1 image generation. Base Character Round views and all downstream work remain blocked.
+
+The owner's reference summary motivates large readable masses, collectible clarity, immediate capybara recognition, future role capacity, simple geometry, and eventual FDM production. Individual additional reference images are not identified in this review input; this proposal uses those stated principles without claiming image-specific analysis. External designs, including the oversized-head example, are explanatory inputs only and must not be copied or attached as whole-character generation targets.
 
 ## Phase 1A Boundary
 
@@ -21,7 +29,8 @@ Do not:
 - create Series 01
 - approve a permanent production master
 - treat generated candidate images as final reference sheets
-- begin multi-view generation before Round 0 human review
+- begin Round 1 generation before explicit approval of this experiment
+- begin multi-view development without a separate owner decision after hero exploration
 
 Do:
 
@@ -32,7 +41,7 @@ Do:
 - test whether visual DNA survives expression and role stress tests
 - require human approval before Phase 1B
 
-## Four Candidate Directions
+## Four Candidate Directions - Round 0 Historical Lanes
 
 These are exploration lanes, not final choices. None is approved.
 
@@ -106,7 +115,7 @@ Risks:
 
 Do not begin by asking the image model to create five perfectly consistent views of each candidate in one generation. Multi-view image generation can introduce geometry drift between views and contaminate visual-direction comparison.
 
-Round 0 generates exactly one neutral front-3/4 hero concept for each direction:
+Round 0 generated three independent candidates per direction, each containing exactly one neutral front-3/4 hero concept (12 images total). This executed amendment superseded the original one-image-per-direction count:
 
 - A - Grounded Loaf Collectible
 - B - Designer Toy Mascot
@@ -131,11 +140,163 @@ Every candidate must use:
 
 Round 0 evaluates form language only.
 
-Human review determines which candidates deserve full Base Character Round development.
+Human review requested additional morphological exploration. Round 0 approval does not authorize Round 1 or Base Character Round generation.
+
+## Round 1 - Signature Morphological Hook Experiment
+
+### Research Question
+
+With color, costume, accessories, props, branding, role, and special expression removed, can a simple structural rule make the neutral form memorable as a potential CAPICAPI character while it still immediately reads as capybara-derived?
+
+Both requirements matter: CAPYBARA RECOGNITION + PROPRIETARY CHARACTER IDENTITY. A strange form that loses capybara recognition fails the first requirement; a pleasant generic capybara leaves the second unresolved. "Ownable" here is a design hypothesis about recognizable, repeatable form, not a claim of legal exclusivity or proven market recognition.
+
+This round varies character architecture, proportion logic, silhouette, and mass distribution. It does not compare rendering styles, faceting, eye decoration, or progressively larger chibi heads. Each family must be describable as a construction rule without relying on a costume, color, or facial expression.
+
+### Proposed Scope
+
+- Ten morphological families, M01-M10, with two independent hero samples each: 20 images total if approved.
+- Candidate IDs: R1-M01-S1 / R1-M01-S2 through R1-M10-S1 / R1-M10-S2. IDs are metadata, never text in the image.
+- Both samples use the exact same shared prompt plus the exact same family prompt. They are independent generations, not edits of each other or unrecorded prompt revisions.
+- Two samples provide a limited variance check, not statistical proof. Screen both samples within each family before comparing structural hypotheses across families.
+- M01-M09 isolate different dominant structural decisions; M10 explicitly tests a combination. Avoid adding secondary exaggerations that collapse the isolated hypotheses into the combination family.
+- The proposed body architecture is local to each hypothesis, not a decision about the eventual master. Quadruped and upright options both remain open. Architecture is a recorded variable and a possible confound; this is a breadth screen, not a factorial causal experiment.
+- No alternate-architecture reruns, third samples, replacements, or additional views are included in the proposed 20-image budget. Further experiments require a later human decision.
+
+### Family Roster And Predictions
+
+These advantages and risks are predictions, not observations of generated candidates.
+
+| ID / family | Structural hypothesis and proposed architecture | Material distinction | Expected advantages | Expected risks |
+|---|---|---|---|---|
+| M01 - Cranial Vault | Upright animal-derived base; a tall broad cranium rises above a restrained projecting muzzle and compact torso. | Upper skull dominates; not enlarged cheeks or a uniformly enlarged spherical head. | Memorable crown-to-face relationship; facial area for future expression. | Generic big-head toy drift, bear read, top-heavy form, ear fragility. |
+| M02 - Muzzle Shelf | Quadruped; one broad deep blunt muzzle projects forward from a modest cranium and ordinary compact torso. | Forward facial projection dominates, not lateral cheeks or the whole skull. | Strong capybara snout signal; simple verbally describable hook. | Duck bill, pig/hippo read, muzzle underside overhang, nose-heavy balance. |
+| M03 - Cheek Yoke | Upright animal-derived base; two broad lower-cheek masses form a continuous lateral yoke around a restrained blunt muzzle. | Lower face widens sideways; muzzle projection and upper skull stay restrained. | Recognizable lower-face outline; low-detail expression potential. | Hamster/chipmunk drift, beard-like read, excessive facial bulk. |
+| M04 - Belly Core | Upright animal-derived base; an enormous forward belly/torso carries a noticeably small but readable capybara head and reduced stout extremities. | Abdominal mass dominates; feet remain small and skull is not enlarged. | Clear body-first hook; few large robust masses; collectible presence. | Generic round mascot, swallowed head identity, costume may conceal the hook, material volume. |
+| M05 - Stump Architecture | Quadruped; a moderately deep ordinary torso rests on exceptionally short, broad limb columns with visible paw endings. | Limb shortening/thickening is isolated; body is not flattened and paws are not enlarged. | Sturdy stance; memorable compressed leg rhythm; potential structural robustness. | Could look like ordinary loaf anatomy, poorly resolved leg gaps, weak distinctiveness. |
+| M06 - Paw Foundation | Upright animal-derived base; two conspicuously oversized thick bare hind paws anchor a restrained torso and normal-sized capybara head. | Footprint dominates; legs remain visibly separate in form and belly stays restrained. | Memorable base outline; stable-looking foundation; unobstructed head. | Shoes or human feet, generic game mascot, toe detail, body-to-paw undercuts. |
+| M07 - Compressed Slab | Quadruped; head and torso are both vertically compressed into a wide, very low continuous mass with a flattened but recognizable blunt snout. | Whole-body compression changes the entire envelope, unlike M05's shortened limbs. | Strong thumbnail outline; low center of mass; few major shapes. | Generic pancake/blob, capybara face loss, reduced expression and role space. |
+| M08 - Rearward Rail | Quadruped; a compact head and forebody lead into a markedly elongated torso extending rearward at a largely consistent depth. | Longitudinal extension dominates, not flatness, large belly, or enlarged rear haunch. | Unusual repeatable length rhythm; clear departure from chibi; large continuous surfaces. | Dachshund/sausage read, generic elongated animal, belly bridging, print footprint. |
+| M09 - Nested Head | Upright animal-derived base; a modest capybara head sits low within a high broad shoulder/body mass that rises behind it. | Identity comes from head insertion and the surrounding body, not a giant skull or belly. | Memorable head/body junction; integrated masses; potential robustness. | Turtle shell or worn collar read, neck ambiguity, shoulders obscure ears, limited role capacity. |
+| M10 - Opposed Masses | Quadruped; a broad dominant blunt muzzle and a raised heavy rear haunch are joined by a visibly lower, substantial midbody. | Deliberate compound rule: front/rear mass contrast plus a back dip, not uniform elongation. | Distinctive two-mass silhouette; memorable structural rhythm; potential family rule. | Deformed/segmented read, species drift, narrowed connector fragility, confounded causes. |
+
+### Fair Comparison Controls
+
+Use one front-3/4 hero image per call, the same square canvas, same model/version and exposed quality settings, same approximate camera azimuth and modest elevation, same plain light neutral-grey background, same diffuse lighting, and uniform matte medium neutral-grey prototype material across every visible surface, including eyes and nose. No floor horizon, pedestal, dramatic shadows, glossy eyes, dark nose paint, faceted styling, fur, or decorative texture.
+
+Center the full character and fit its longest projected dimension to approximately the same canvas span, leaving a clear border. Do not force equal character height: that would unfairly shrink the distinguishing horizontal extent of M07/M08. Canvas and camera controls are presentation constraints, not approved physical sizes or character ratios. Do not stretch or warp images to normalize framing.
+
+Keep the shared capybara recognition cues constant in intent: a blunt broad projecting snout, small rounded high-set ears, small widely spaced eyes, sturdy animal paws, and no visible long tail. A family may distort a mass but must preserve enough of these cues to read immediately as capybara-derived. Use restrained smooth mass construction for every family so surface styling cannot substitute for architecture.
+
+Neutral pose means a relaxed, stable pose appropriate to the proposed body architecture. Upright forms retain animal-derived anatomy, with short forepaws close to the torso; they do not acquire a human chest, waist, hands, or legs. Quadrupeds stand quietly on sturdy paws. Pose energy and facial emotion are not variables in this round.
+
+Use no Round 0 candidate as a mandatory visual template for this breadth experiment. Later reference development still requires the specifically approved hero as image context. Do not attach an external collectible as a design target. Record model/version, settings and seed if exposed; mark unavailable fields unknown rather than inventing reproducibility. Keep both samples' prompts identical. A missing hypothesis or constraint violation is a generation-validity issue, not evidence that the hypothesis itself failed.
+
+### Exact Prompt Assembly
+
+Prompt version: R1-MORPH-v1.0 (PROPOSED). Each call uses the shared block below, followed by a blank line and one family block verbatim. Use that assembled prompt unchanged for both independent samples. Family/sample IDs are recorded outside the prompt; do not add them as image labels. No generation is authorized by the existence of these prompts.
+
+#### Shared Prompt
+
+```text
+Create exactly one full-body front-three-quarter hero concept of an original capybara-derived collectible prototype. Explore the family-specific structural hypothesis below through a few large readable masses. This is an exploratory form hypothesis, not a final character or approved proportion system. Use a square image, plain light neutral-grey background without a horizon, uniform matte medium neutral-grey clay on every surface including eyes and nose, smooth simple surfaces, and soft even diffuse lighting with only a faint contact shadow. Show the entire character centered, viewed at approximately 45 degrees from the front and slightly above, with restrained perspective. Fit the longest projected character dimension to about three quarters of the image span with a clear border; preserve the family's natural height, width, and length. Use a relaxed stable neutral base pose appropriate to its animal-derived body architecture and a neutral closed-mouth expression. Preserve an unmistakable capybara-derived blunt broad snout, small rounded high-set ears, small widely spaced simple eyes, sturdy animal paws, and no visible long tail. Keep eye and nose features in the same grey material. Use thick continuous connections, broad integrated ear roots, and simple robust forms plausible for later FDM development. Do not weaken the structural experiment merely to make the character conventionally cute. No costume, accessories, props, role, theme, environment, pedestal, selected colors, filament palette, fur, hair, surface texture, decorative faceting, text, branding, cinematic lighting, glossy parts, separate parts, thin projections, individual fingers or toes, anime eyes, sparkling oversized eyes, human facial structure, or human body anatomy. No turnarounds, multiple views, expression examples, technical drawings, or dimensions. The visual hook must come from the specified mass arrangement alone. Generate a single concept image, not 3D geometry.
+```
+
+#### M01 - Cranial Vault
+
+```text
+Test a tall broad cranial vault above a restrained blunt capybara muzzle and a compact upright animal-derived torso. Concentrate the exaggeration in the upper skull, with a long continuous crown contour rather than a uniformly enlarged ball head. Keep cheeks, belly, and paws restrained; keep short forepaws close to the torso. The hook is a high cranial mass over a low-set capybara face. Avoid a generic big-head tiny-body toy, bear head, helmet, or crest.
+```
+
+#### M02 - Muzzle Shelf
+
+```text
+Test a dominant forward-projecting muzzle on a quiet quadruped capybara base. Make the blunt snout one unusually broad, deep, solid rounded mass extending from a modest cranium, with its underside flowing substantially into the head. Keep lateral cheeks, torso, and limbs restrained. The hook is the large forward muzzle mass, not a larger skull. Preserve snout depth and capybara recognition; avoid a thin bill, trunk, pig nose, tusks, or a long canine snout.
+```
+
+#### M03 - Cheek Yoke
+
+```text
+Test a laterally dominant lower face on a compact upright animal-derived capybara base. Two broad cheek masses merge into a continuous thick yoke around a restrained blunt projecting muzzle, below a modest upper cranium. Keep belly, feet, and muzzle projection restrained; keep short forepaws close to the torso. The hook is the wide lower-face span beneath a narrower crown. Avoid stuffed food pouches, buck teeth, whiskers, beard forms, and hamster or chipmunk anatomy.
+```
+
+#### M04 - Belly Core
+
+```text
+Test a body-dominant upright animal-derived capybara built around one enormous forward belly and torso mass. Place a noticeably small but clearly capybara-derived head above it, with a readable blunt muzzle, short stout forepaws near the body, and reduced sturdy hind paws. The hook is the vast abdominal mass carrying the small distinct head. Keep shoulders, cheeks, and feet restrained. Avoid a generic spherical mascot, human potbelly anatomy, or a face embedded directly in the belly.
+```
+
+#### M05 - Stump Architecture
+
+```text
+Test exceptionally short, broad limb columns beneath a quiet quadruped capybara with an otherwise moderately deep, compact torso and restrained head. Keep distinct sturdy paw endings visible with shallow readable leg separations. The hook is the near-absence of leg length while the body retains depth. Do not flatten or elongate the torso, enlarge the paws, or enlarge the head. Avoid disappearing feet, deep unsupported belly gaps, and an undifferentiated blob.
+```
+
+#### M06 - Paw Foundation
+
+```text
+Test two conspicuously oversized thick bare hind paws as the dominant foundation of an upright animal-derived capybara. Use a restrained torso and capybara head, short visible sturdy hind-limb forms, and small forepaws resting close to the body. The hook is the broad paw footprint beneath a compact character. Keep the belly and skull restrained. Paws must be integrated animal anatomy with simple rounded continuous volumes, never shoes, soles, human feet, gloves, or separated toes.
+```
+
+#### M07 - Compressed Slab
+
+```text
+Test strong vertical compression of the entire quadruped capybara: both head and torso become one very low, wide continuous volume. Retain a shallow but unmistakably blunt projecting capybara muzzle, small integrated ears, and short visible sturdy paws. The hook is the flattened whole-character envelope, not merely short legs. Keep length compact and avoid a dominant separate belly. Do not turn the form into a pancake prop, puddle, featureless blob, or crawling action pose.
+```
+
+#### M08 - Rearward Rail
+
+```text
+Test a markedly elongated quadruped capybara torso extending rearward from a compact recognizable head and forebody. Maintain substantial, largely consistent torso depth along the extension, supported by short robust legs at the front and rear. The hook is the long continuous rearward body rhythm behind the compact face. Avoid flattening the body, enlarging a rear haunch, or enlarging the head. Preserve a blunt capybara snout and small ears; avoid canine anatomy, a long tail, segmented forms, or a stretched neck.
+```
+
+#### M09 - Nested Head
+
+```text
+Test a modest capybara head seated low within a high broad shoulder and body mass on a compact upright animal-derived base. Let the continuous back and shoulders rise behind the head while leaving the blunt projecting muzzle, eyes, and small ears clearly visible. Keep belly, skull, and paws restrained, with short forepaws near the torso. The hook is the head nested inside the surrounding upper-body envelope. All surrounding volume is anatomy, never a collar, hood, shell, armor, human trapezius, or separate rim.
+```
+
+#### M10 - Opposed Masses
+
+```text
+Test a compound quadruped capybara architecture: a broad dominant blunt muzzle at the front and a raised heavy rear haunch joined by a visibly lower, substantial midbody. Make the dip in the back a calm continuous anatomical transition while preserving a thick robust connection and sturdy short paws. Keep the cranium restrained. The hook is the contrasting front and rear masses with a lower connecting body. Avoid a uniformly elongated torso, pinched waist, hump appendage, segmented toy, action pose, or broken-looking spine.
+```
+
+### Evaluation And Observation Record
+
+Begin with generation validity: was the requested mass rule actually expressed, are the neutral comparison controls met, and are there artifacts or unrequested secondary exaggerations? Record VALID, DRIFTED, or UNCLEAR with concrete evidence. Preserve every result. A drifted sample is not silently replaced or counted as a clean test of the family.
+
+For valid or interpretable samples, record each criterion separately using 1 (weak/contradicted), 3 (mixed), 5 (strong apparent evidence), or UNKNOWN. Intermediate scores are allowed with notes. These are qualitative judgments, not measured print results. No weighted total, automatic winner, or automatic advancement.
+
+| Required criterion | Review question |
+|---|---|
+| Capybara recognition | With labels hidden, does it immediately read as capybara-derived rather than another animal or generic mascot? |
+| Ownable silhouette | Does the outline carry a repeatable identity beyond the facial marks? |
+| Signature morphological hook | Can the distinctive mass relationship be stated in one short sentence and pointed to in the form? |
+| Memorability at thumbnail/silhouette scale | When viewed small, is the mass rule still clear, and can the viewer recall it after looking away? |
+| Collectible appeal | Does it invite attachment as a physical object, including when it is unusual rather than conventionally cute? |
+| Future expression capacity | Does the neutral face leave plausible room for expression without rebuilding the hook? Mark untested. |
+| Future costume/role capacity | Are there plausible attachment/coverage zones that leave the hook visible? Mark untested; generate no role concepts. |
+| FDM suitability | Are there apparent overhang, bridging, build-orientation, or stability concerns for later A1 investigation? |
+| Structural robustness / absence of fragile geometry | Are ears, paws, protruding muzzle, and mass connections substantial, with no visible fragile necks? |
+| Ability to support a coherent character family | Could the construction rule repeat across future variants without becoming a single gimmick? Mark untested. |
+| Distance from generic cute-capybara language | Is the construction meaningfully different from an ordinary cute capybara? |
+| Distance from generic mascot / designer-toy language | Is the identity more specific than familiar big head, bean body, plush, or game-mascot conventions? |
+
+The two non-compensating review questions are capybara recognition and distinctive structural identity. Appeal cannot erase failure of either. A slightly strange but memorable construction may deserve further exploration ahead of an attractive generic one; the human decides. Compare evidence and tradeoffs, not summed scores.
+
+Review each hero at full size and as the same image displayed small. Assess its outer contour in that view; dedicated black silhouette sheets or other views are not generated in this round. Record silhouette findings as single-view and provisional. Occluded anatomy and all-view consistency remain UNKNOWN. FDM suitability and robustness are apparent risks only; support-free feasibility, minimum features, balance, and physical strength remain unverified until later geometry, slicing, and physical tests.
+
+Each future sample record must include experiment_id, family_id, candidate_id, sample_index, proposed/observed body architecture, prompt_version, exact assembled prompt, model/provider/settings/seed availability, generation timestamp, Drive file ID, content hash, constraint validity, hypothesis fidelity, criterion scores with evidence/unknowns, one-sentence hook, strongest/weakest feature, genericness and species drift, apparent FDM risks, and human disposition with date/reason. Store independent sample observations before a family comparison; do not infer observation records from these predicted advantages and risks.
+
+### Evidence Storage And Review Gate
+
+Git owns this experiment protocol, prompts, and future lightweight structured metadata under `data/metadata/visual_exploration`. After generation approval, heavy images belong under `CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS/M01` through `M10`, with metadata mirrors in `METADATA`. These are planned paths only; do not create empty asset folders or claim generated assets now. Record stable Drive IDs when created; filenames are not the database. Retain original generations, including failed or later rejected samples, with disposition metadata rather than deletion or overwriting.
+
+Round 0 observations remain historical records; the owner's reviewed-without-selection outcome is recorded in D-0011 and current project status. Round 1 starts as PROPOSED / GENERATION_NOT_AUTHORIZED. After explicit approval, record the approved prompt version and scope, then generate only that scope. Present all samples grouped by morphological family. The owner may request more exploration, retain specific hypotheses, reject families, or authorize a specific subsequent step; no sample automatically advances to a turnaround or Phase 1B.
 
 ## Base Character Round
 
-Only surviving Round 0 candidates proceed to the Base Character Round.
+This future step remains blocked during Round 1 proposal and generation. Only specifically human-approved hero candidates, from whichever exploratory round the owner selects, may proceed after a separate Base Character Round authorization.
 
 Required views:
 
@@ -145,7 +306,7 @@ Required views:
 - back
 - silhouette
 
-For later Base Character Round views, use the approved Round 0 Hero Concept itself as a mandatory image reference to minimize geometry drift.
+For later Base Character Round views, use the specifically approved Hero Concept itself as a mandatory image reference to minimize geometry drift. Record its candidate ID and Drive file ID. No Round 0 candidate is currently approved as that reference.
 
 All Base Character Round candidates must use:
 
@@ -285,20 +446,15 @@ Create Direction D for CAPICAPI: Sculptural Art Toy. Stronger plane and silhouet
 
 ## Decision Workflow
 
-1. Human reviews these four Round 0 Hero Concept Screen prompts.
-2. Generate Direction A Round 0 hero concept only after prompt approval.
-3. Generate Direction B Round 0 hero concept using the same constraints.
-4. Generate Direction C Round 0 hero concept using the same constraints.
-5. Generate Direction D Round 0 hero concept using the same constraints.
-6. Normalize all Round 0 concepts for background, scale, framing, material, pose, and lighting.
-7. Score the Round 0 concepts with the evaluation scorecard.
-8. Human chooses which directions survive, require revision, or are rejected.
-9. Only surviving directions receive Base Character Round view-sheet development.
-10. Use each approved Round 0 hero concept as a mandatory image reference for later front, front 3/4, side, back, and silhouette views.
-11. Only surviving Base Character Round directions receive expression tests.
-12. Only surviving expression-tested directions receive role stress tests.
-13. Human chooses: approve one for Phase 1B, revise, combine specific traits, request more exploration, or reject all.
-14. Only after approval, enter Phase 1B provisional visual master/reference pack.
+1. Preserve the twelve Round 0 candidates and observations as evidence. Owner review requested more exploration with no winner.
+2. Present this proposed Round 1 roster, two samples per family, shared controls, and exact prompts for human review. CURRENT STOP.
+3. Only after explicit approval, record approved scope/version and generate the twenty proposed single-view samples if that scope is accepted.
+4. Check constraint and hypothesis fidelity, then observe both samples within each family before cross-family comparison. Preserve failures and uncertainty.
+5. Human reviews capybara recognition and structural identity together; no automatic ranking, winner, or body-architecture lock.
+6. Human may request another hypothesis, revision, a separately scoped architecture comparison, or specific hero survivors. None of these actions is assumed.
+7. Only after explicit Base Character Round authorization, develop front, front 3/4, side, back, and silhouette references using each selected hero as mandatory image context.
+8. Later surviving bases may receive separately authorized expression tests, followed by role stress tests under their existing standards.
+9. Only an explicit Phase 1B decision admits a provisional visual master/reference pack. Final proportions and the production master remain subject to later engineering evidence.
 
 ## Output Package Per Direction
 
@@ -319,6 +475,6 @@ Each direction should eventually produce:
 
 ## Human Decision Required
 
-The project owner must approve the Round 0 Hero Concept Screen prompts before generation.
+The project owner must approve or amend the proposed Round 1 experiment, including its ten morphological families, two independent samples per family, and shared-plus-family prompts, before generation.
 
-The project owner must later decide which visual directions proceed to Base Character Round development, and eventually which direction enters Phase 1B. The agent may recommend, but must not autonomously select the final direction.
+No Round 1 images, turnarounds, expression sheets, role tests, Series 01 work, filament palette, or 3D geometry are authorized in this documentation pass. Human review comes next; the agent must not autonomously select a winner or advance development.

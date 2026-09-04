@@ -17,32 +17,32 @@
       "drive_path": "CAPICAPI/Operating System/PROJECT STATUS",
       "drive_file_id": "1Q79zpRUHoRq2YHTmWp73pVOkx5bWaFj3l5jTikkP12E",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T21:04:32.736165Z",
-      "source_hash": "e25792c35c969cef1dce88bc511f3dbf87f4fd4177d17550a7bfcb288e611624"
+      "last_synced_at": "2026-09-04T22:52:44.995404Z",
+      "source_hash": "3dde982a38df7d36a632657f04e21e461bdf8f137e839d065267df4e136feaa4"
     },
     {
       "repo_path": "ROADMAP.md",
       "drive_path": "CAPICAPI/Operating System/ROADMAP",
       "drive_file_id": "1KUPTWlU1LTe1FLaet2YPYdXtTIvDEMkGNx70dLOwnfE",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T21:04:35.517234Z",
-      "source_hash": "1d91787681a88a52d17e92b884ab58268baaac4e2cf28e70989a9586d23a2826"
+      "last_synced_at": "2026-09-04T22:52:47.899687Z",
+      "source_hash": "0dba9d9549f22e343b511b868fbfb51f4ec5d1dcd69657f19e80565bba7831ba"
     },
     {
       "repo_path": "DECISIONS.md",
       "drive_path": "CAPICAPI/Operating System/DECISIONS",
       "drive_file_id": "1S16rOvZcG0-mjZ37aHliH7Hj-s4kfhPMRCmJw1xWubQ",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T21:04:38.305999Z",
-      "source_hash": "ebc29b0a37ca6d3fa4c7c68ba37d38a8390e4dbe333f15b8b8ec8da0fca0081d"
+      "last_synced_at": "2026-09-04T22:52:50.742385Z",
+      "source_hash": "da7dad9f8f21129319ca4643634c67dfca2c3ec25f5d913c52ea893c301ca261"
     },
     {
       "repo_path": "docs/operations/PHASE_REGISTER.md",
       "drive_path": "CAPICAPI/Operating System/PHASE REGISTER",
       "drive_file_id": "1lewVHcH-HNFpILJW3_BqbvQzYyqqTeUosk1iEWb3Ekg",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T21:04:41.375858Z",
-      "source_hash": "f51d7ae3e800f9858baa758f7b4f256608999e5faa9f304f2531e7215b2f2a70"
+      "last_synced_at": "2026-09-04T22:52:53.821824Z",
+      "source_hash": "e5bb443ae23f63fd22e8e5accba5f0906086f6a45973e2489187a1621d6ae1b6"
     },
     {
       "repo_path": "docs/brand/CAPI_MASTER_SPEC.md",
@@ -57,8 +57,8 @@
       "drive_path": "CAPICAPI/Brand/CAPI VISUAL DNA",
       "drive_file_id": "1uhQn5MhYA6gLaWSgFgMNNrixvxYXU1HTbX01kD6RXFw",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T21:04:58.894374Z",
-      "source_hash": "193e745f2e4690801af1306fdf0b6580e47bc63a83a74b12858c990399d9f18d"
+      "last_synced_at": "2026-09-04T22:52:56.855851Z",
+      "source_hash": "cfe3378f091fdf282d9a8d5952179361723b9fcd4404aed2ba4b635fe276214c"
     },
     {
       "repo_path": "docs/brand/CHARACTER_REFERENCE_STANDARD.md",
@@ -73,8 +73,8 @@
       "drive_path": "CAPICAPI/Brand/VISUAL DIRECTION EXPLORATION",
       "drive_file_id": "1NhYDABPyZq7kmSeFdLHpM60fbJ16Oz8Bu9VdIC7bH74",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T21:05:04.036049Z",
-      "source_hash": "ae7ae949f44fca4d7c48bd2698ad9af326968d72129d8cc67ce84b524c026181"
+      "last_synced_at": "2026-09-04T22:53:00.022035Z",
+      "source_hash": "7fa3bdd976cc997e44fd070e4ef8fb1537f8813bee5303a536c95320c78feacd"
     },
     {
       "repo_path": "docs/product/3D_MODELING_BIBLE.md",
@@ -89,8 +89,8 @@
       "drive_path": "CAPICAPI/Product/MASTER CHARACTER PIPELINE",
       "drive_file_id": "17KD57EPTl4EXOQW4iGIKmX_a_m1pPFbfD_y692BZlAg",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T21:05:20.542896Z",
-      "source_hash": "ad89058fc822413f2b2d9c5547bb14dbf011b1bfbe46de8bac2df5ed7bc43e97"
+      "last_synced_at": "2026-09-04T22:53:02.941913Z",
+      "source_hash": "00e54ec49051bf14e737156a1246ec10363991c103821516735f5322063c6d21"
     },
     {
       "repo_path": "docs/product/CAPI_V0_BRIEF.md",

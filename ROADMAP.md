@@ -26,7 +26,7 @@ Objectives:
 
 - Define what makes a CAPICAPI character recognizable before final 3D modeling.
 - Create the standard for future approved reference images.
-- Define four materially different visual direction candidates for human evaluation.
+- Retain the four Round 0 art directions as evidence and explore distinct Round 1 morphological hypotheses after explicit experiment approval; no Round 0 winner is selected.
 - Define how visual identity survives costume, role, and series changes.
 - Create the modeling bible without modeling Capi v0.
 
@@ -34,7 +34,7 @@ Acceptance criteria:
 
 - `docs/brand/CAPI_VISUAL_DNA.md` exists and is accepted or revised.
 - `docs/brand/CHARACTER_REFERENCE_STANDARD.md` exists and is accepted or revised.
-- `docs/brand/VISUAL_DIRECTION_EXPLORATION.md` defines the four-direction exploration workflow, Round 0 hero concept screen, base character round, expression test, role stress test, scorecard, and visual reference policy.
+- `docs/brand/VISUAL_DIRECTION_EXPLORATION.md` preserves Round 0 and proposes the Round 1 morphological hook experiment, exact prompts, and review gates before later base views, expressions, or role tests.
 - `docs/product/3D_MODELING_BIBLE.md` and `docs/product/MASTER_CHARACTER_PIPELINE.md` define future 3D handoff rules.
 - Human owner explicitly approves the next visual direction step.
 

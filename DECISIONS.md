@@ -165,3 +165,21 @@ Consequences: No visual generation begins until the four Round 0 hero concept pr
 Amendment: Round 0 screens one neutral front-3/4 matte neutral-grey clay/prototype hero concept per direction before any multi-view generation. Surviving Round 0 concepts become mandatory image references for later front, front 3/4, side, back, and silhouette view development.
 
 Reversible? YES, with owner approval and a recorded replacement exploration decision.
+
+## Decision D-0011
+
+Date: 2026-09-05
+
+Decision: Retain Round 0 as exploratory evidence without selecting a winner or advancing development. Prepare a new Round 1 signature morphological hook experiment for explicit human review before generation.
+
+Reason: The owner wants construction rules that provide both immediate capybara recognition and a distinctive neutral base identity. Render style, conventional cuteness, costumes, color, expression, and a progression of larger chibi heads do not answer that question.
+
+Evidence: Owner reviewed Round 0 and explicitly requested different morphological hypotheses, fair neutral-grey comparison controls, exact generation prompts, and a stop before generation. The earlier executed Round 0 scope was three independent samples per A/B/C/D direction (12 total), superseding D-0010's original one-per-direction count.
+
+Alternatives considered: Selecting a Round 0 winner; continuing only A/B/C/D refinements; testing only head-size changes; proceeding to turnarounds.
+
+Consequences: `docs/brand/VISUAL_DIRECTION_EXPLORATION.md` v1.3 proposes ten families, two independent hero samples each (20 images), with exact shared-plus-family prompts, validity checks, and twelve evaluation criteria. This roster, count, and prompt version are a proposal, not owner-approved generation scope. Quadruped/loaf and upright/mascot remain open. Original Round 0 media and observations are preserved; this entry records the subsequent reviewed-without-selection outcome without rewriting those historical observations.
+
+Gate: Round 1 GENERATION_NOT_AUTHORIZED until explicit owner approval. No turnarounds, expression sheets, role tests, final proportions, filament palette, 3D geometry, or Series 01 work. Approval of the experiment alone does not authorize any later development step.
+
+Reversible? YES, with an explicit owner decision recorded before changing scope or advancing the gate.

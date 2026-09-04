@@ -1,7 +1,7 @@
-# PHASE REGISTER v1.1
+# PHASE REGISTER v1.2
 
 Status: ACTIVE
-Date: 2026-09-04
+Date: 2026-09-05
 
 Each phase must carry objectives, required artifacts, acceptance criteria, unresolved risks, and explicit state.
 
@@ -46,13 +46,13 @@ Unresolved risks:
 
 ## Phase 1A - CAPICAPI Visual DNA Definition
 
-State: BLOCKED pending human visual approval
+State: BLOCKED pending explicit approval of the Round 1 morphological experiment and prompts. Round 0 reviewed without selection; no downstream development authorized.
 
 Objectives:
 
 - define the required CAPICAPI visual identity attributes before final geometry
 - define the final character reference package standard
-- define four materially different base-character art directions
+- retain four Round 0 art directions as evidence and propose materially different Round 1 morphological construction rules
 - define a future 3D modeling bible without beginning final 3D modeling
 - reclassify `docs/product/CAPI_V0_BRIEF.md` as a future engineering prototype brief
 
@@ -68,10 +68,11 @@ Required artifacts:
 Acceptance criteria:
 
 - visual DNA requirements cover head/body proportions, silhouettes, muzzle, eyes, ears, paws, stance, curvature, expressions, accessory zones, immutable/flexible traits, and forbidden drift
-- exploration process requires four materially different directions evaluated first through a Round 0 neutral front-3/4 hero concept screen, then full base-character views, expression tests, and role stress tests for surviving directions
+- exploration process preserves Round 0 evidence, adds an explicitly approved Round 1 morphological hero screen, and requires separate authorization for later full base-character views, expressions, and role tests
 - no final numeric proportions, filament colors, consumer characters, Capi v0 models, or Series 01 assets are frozen
-- owner approves or revises Round 0 Hero Concept Screen prompts before generation
-- owner decides which Round 0 candidates proceed to Base Character Round development, requests revisions, or requests additional exploration
+- owner approves or amends Round 1 scope and exact prompts before generation; proposed scope is ten families with two independent samples each
+- owner evaluates capybara recognition and distinctive morphological identity together, with no automatic ranking or premature body-architecture selection
+- owner separately authorizes hero survivors for Base Character Round development or requests more exploration; later tests and a Phase 1B decision remain required
 
 Unresolved risks:
 

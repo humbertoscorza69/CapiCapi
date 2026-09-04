@@ -2,6 +2,15 @@
 
 All notable project operating-system changes are recorded here.
 
+## 2026-09-05
+
+### Updated
+
+- Recorded owner review of Round 0 without a winner or downstream authorization.
+- Proposed Round 1: ten distinct morphological families, two independent hero samples per family, exact shared and family prompts, twelve evaluation criteria, and explicit generation approval gate.
+- Kept quadruped/loaf and upright/mascot architectures open and aligned Visual DNA, phase register, master pipeline, roadmap, and project status.
+- Preserved Round 0 assets and historical observations. No Round 1 images or downstream assets generated.
+
 ## 2026-09-04
 
 ### Added

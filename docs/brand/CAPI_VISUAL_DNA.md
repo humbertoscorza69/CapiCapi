@@ -1,7 +1,7 @@
-# CAPI VISUAL DNA v1.0
+# CAPI VISUAL DNA v1.1
 
 Status: DRAFT - PHASE 1A
-Date: 2026-09-04
+Date: 2026-09-05
 Truth level: PROVISIONAL unless explicitly marked otherwise.
 
 ## Purpose
@@ -22,7 +22,9 @@ Current hierarchy:
 
 ## Recognition Test
 
-A Capi must remain recognizable when costume and role-specific accessories are removed or ignored.
+A Capi must remain distinctive when costume, accessories, props, color, branding, role, and special expression are removed. It must also immediately read as capybara-derived. Neither criterion substitutes for the other.
+
+Round 1 tests a signature morphological hook: a deliberate, verbally describable relationship among major masses that could become repeatable character DNA. No hook, numeric ratio, quadruped/loaf architecture, or upright/mascot architecture is selected. The protocol and exact proposed prompts live in `docs/brand/VISUAL_DIRECTION_EXPLORATION.md`; all ten families remain hypotheses awaiting experiment approval.
 
 Recognition signals:
 
@@ -31,7 +33,7 @@ Recognition signals:
 - coherent head/body mass relationship
 - simple readable eye family
 - small integrated ears
-- sturdy low leg/paw language
+- sturdy animal-derived leg/paw language, with relative size and body architecture still exploratory
 - rounded, manufactured-for-FDM form language
 - accessory zones that support the base character rather than hiding it
 
@@ -180,7 +182,7 @@ Forbidden drift:
 
 ## Paw / Leg Language
 
-Paws and legs must communicate a low, sturdy capybara stance while preserving printability.
+Paws and legs must communicate sturdy capybara-derived anatomy while preserving printability. Round 1 may test shortened limbs or enlarged bare paws in either an appropriate quadruped or upright architecture; low quadruped stance is not a universal requirement or selected master decision.
 
 Must define later:
 
@@ -313,7 +315,7 @@ Reject candidates that drift into:
 
 ## Required Phase 1A Outcome
 
-Phase 1A does not approve a final character. It must produce four materially different visual direction packages and a human decision about which direction, if any, should proceed to Phase 1B.
+Phase 1A does not approve a final production character. It must produce sufficient exploratory evidence of both capybara recognition and a repeatable structural identity, followed by a human decision about which candidate, if any, should proceed to Phase 1B. Round 0's four art-direction lanes remain evidence; the active proposal is Round 1 morphological exploration, not mandatory refinement of those lanes.
 
 Human decision options:
 

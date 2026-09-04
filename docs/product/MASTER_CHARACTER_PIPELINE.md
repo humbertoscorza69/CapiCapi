@@ -1,7 +1,7 @@
-# MASTER CHARACTER PIPELINE v1.0
+# MASTER CHARACTER PIPELINE v1.1
 
 Status: ACTIVE - PHASE 1A
-Date: 2026-09-04
+Date: 2026-09-05
 
 ## Purpose
 
@@ -21,8 +21,10 @@ Phase 1A - Visual direction exploration
 
 Objective:
 
-- define four materially different visual directions
-- evaluate each direction first through one neutral front-3/4 Round 0 hero concept, then use surviving hero concepts as references for identical views and role tests
+- retain four Round 0 visual directions and their twelve hero concepts as exploratory evidence
+- propose Round 1 morphological hypotheses to test capybara recognition together with distinctive structural identity; generation requires explicit experiment approval
+- keep quadruped/loaf and upright/mascot architecture open
+- use specifically approved hero concepts as mandatory image references only after separate authorization for base views and later tests
 - choose no final direction without human approval
 
 Artifacts:
@@ -32,7 +34,7 @@ Artifacts:
 - `docs/brand/CHARACTER_REFERENCE_STANDARD.md`
 - exploration scorecard or report later
 
-Gate state after this documentation pass: BLOCKED pending human approval of Round 0 prompts and candidate reference generation.
+Gate state: BLOCKED pending human approval of the Round 1 experiment and exact prompts. Round 0 was reviewed without selection. Proposed scope is ten morphological families with two independent single-view samples each; no generation or downstream development is authorized yet. See `docs/brand/VISUAL_DIRECTION_EXPLORATION.md` and D-0011.
 
 ## Phase 1B - Provisional Visual Master / Reference Pack
 
