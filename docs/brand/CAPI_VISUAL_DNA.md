@@ -1,4 +1,4 @@
-# CAPI VISUAL DNA v1.1
+# CAPI VISUAL DNA v1.2
 
 Status: DRAFT - PHASE 1A
 Date: 2026-09-05
@@ -22,7 +22,7 @@ Current hierarchy:
 
 ## Recognition Test
 
-A Capi must remain distinctive when costume, accessories, props, color, branding, role, and special expression are removed. It must also immediately read as capybara-derived. Neither criterion substitutes for the other.
+A Capi must remain distinctive when costume, accessories, props, color, branding, role, and special expression are removed. It must also immediately read as capybara-derived and support a coherent repeatable accessory/costume system. The platform requirement is DISTINCTIVE MORPHOLOGY + CAPYBARA RECOGNITION + ACCESSORY COMPATIBILITY; none substitutes for another.
 
 Round 1 tests a signature morphological hook: a deliberate, verbally describable relationship among major masses that could become repeatable character DNA. No hook, numeric ratio, quadruped/loaf architecture, or upright/mascot architecture is selected. The protocol and exact proposed prompts live in `docs/brand/VISUAL_DIRECTION_EXPLORATION.md`; all ten families remain hypotheses awaiting experiment approval.
 
@@ -38,6 +38,8 @@ Recognition signals:
 - accessory zones that support the base character rather than hiding it
 
 If a candidate only reads as a Capi because of clothing, props, captioning, or context, it fails visual DNA.
+
+Also assess the reverse: with substantial reasonable costume coverage, enough signature mass relationships and capybara cues must remain exposed or legible through conforming coverage for the character to retain its identity. A hook that routinely disappears under headwear, torso clothing, armor, or rear additions is a platform concern. Naked identity and costumed identity survival require separate records; Round 1 assesses the latter conceptually only, with actual costume tests still blocked.
 
 ## Head / Body Proportions
 
@@ -198,7 +200,7 @@ Forbidden drift:
 - separated toes
 - support-dependent leg gaps
 - human-like shoes as base identity
-- paws hidden completely by costume in standard variants
+- costume replacing the defining paw/stance relationship with a generic footprint; morphology-specific conforming paw coverage may preserve that identity
 
 ## Default Stance
 
@@ -258,23 +260,40 @@ Forbidden expression space:
 
 Expressions must be tested on the same base face, not by redesigning the character each time.
 
-## Accessory Zones
+## Accessory Envelopes And Dressing Architecture
 
-Allowed zones:
+Accessory Compatibility is a hard design constraint for every Round 1 family M01-M10 and the future character platform. CAPICAPI must support repeated Series and roles through a coherent dressing architecture. Custom accessory geometry is expected and does not count as a failure. Do not impose human anatomy, a conventional waist/neck, or generic mascot proportions to make standard clothing fit.
 
-- head top/front
-- face overlay
-- torso/front
-- side body
-- back
-- base/feet contact zone where appropriate
+An Accessory Envelope is the usable conceptual space and structural surface around a base region for future integrated variant geometry. Each envelope records plausible coverage, broad fusion/contact surfaces, adjacent-zone conflicts, and identity cues that must remain visible or legible through coverage. It is not a socket, detachable wardrobe interface, literal cloth-fitting clearance, or numerical specification. Dimensions and manufacturing minimums remain TBD until the appropriate approved visual and physical evidence exists.
 
-Accessory rules:
+Required envelope categories:
 
-- accessory is secondary to the base Capi
-- accessory must be removable in visual analysis without destroying recognition
-- accessory must use fused, thickened, support-aware geometry in 3D
-- accessory may not define the head/body silhouette more strongly than the base form
+| Zone | Future compatibility categories |
+|---|---|
+| Head / crown | Hats, helmets, caps, other headwear; ear accommodation |
+| Face | Glasses, goggles, masks, facial elements; muzzle and eye access |
+| Neck transition | Scarves, collars, necklaces; morphology-specific routes without a human neck |
+| Torso / sides | Shirts, jackets, vests, uniforms, armor; forelimb-root access |
+| Back / rear | Capes, backpacks, rear-mounted geometry |
+| Waist, where applicable | Belts or torso bands without carving a conventional waist |
+| Limbs | Sleeves, wrist/arm elements, held props using broad supported contact |
+| Feet / paws | Morphology-specific footwear or paw additions; ground contact and footprint |
+| Combined regions | Larger role-defining elements and common adjacent-zone combinations |
+
+Dressing rules:
+
+- Preserve the base construction rule across future Series; adapt coverage and accessory geometry rather than rebuilding the base masses for each role.
+- Evaluate common categories individually and together. Headwear/torso, face/neck, and torso/rear coexistence expose conflicts hidden by checking each zone alone.
+- Not every accessory must fit every role unchanged. Mark anatomical non-applicability with a reason and distinguish a local limitation from systematic loss of the platform's role range.
+- Review whether a substantial costume transmits the signature morphology, even when its surface is covered. Do not require every role to leave the sole identifying feature naked.
+- Large role-defining geometry may alter the outer contour, but must leave a credible recognizable combination of signature mass relationships and capybara cues. Branding, palette, and newly invented markers cannot substitute for base identity.
+- Preserve naked recognition when accessories are removed in visual analysis. This is conceptual removal, not a physical assembly requirement.
+- Use fused thickened geometry, broad contact, and support-aware transitions in the intended build orientation. A technically fitting addition that repeatedly needs thin roots, fragile appendages, severe overhangs, supports, or manual assembly is not production-compatible.
+- Follow `docs/product/FDM_DESIGN_STANDARD.md`, `docs/product/COLOR_DFM_STANDARD.md`, and `docs/product/3D_MODELING_BIBLE.md`: use relief where appropriate, defer micro-detail until tested, and avoid recurring fragmented color regions or excessive Color-Z overlap. No palette or printable dimensions are chosen now.
+
+Assess envelope status as PLAUSIBLE, CONSTRAINED, DEAD_END, UNKNOWN, or justified NOT_APPLICABLE. Record an adaptation route, evidence limits, naked identity, costumed identity survival, and FDM concerns. A severe systematic conflict lowers accessory/dressing/identity scores and blocks a recommendation to advance until resolved and human-reviewed. UNKNOWN is not a validated pass. Custom geometry alone is never a reason to remove a family.
+
+Round 1 generates no costumes, role concepts, envelope drawings, turnarounds, or 3D geometry. All envelope and coverage assessments at this stage are written conceptual reasoning; physical fit, strength, support-free behavior, and actual costume identity remain untested. The family review and versioned generation prompts in `docs/brand/VISUAL_DIRECTION_EXPLORATION.md` govern this experiment.
 
 ## Immutable Visual Features
 
@@ -283,8 +302,8 @@ To be finalized after visual master approval. Current provisional immutable feat
 - capybara-derived broad muzzle
 - small integrated ears
 - simple calm eye family
-- compact sturdy body
-- low paw/leg language
+- coherent sturdy body mass relationship, with the particular morphology still exploratory
+- sturdy animal-derived paw/leg language, with relative proportions and architecture still exploratory
 - FDM-friendly rounded forms
 - role/costume subordinate to base identity
 
@@ -315,7 +334,7 @@ Reject candidates that drift into:
 
 ## Required Phase 1A Outcome
 
-Phase 1A does not approve a final production character. It must produce sufficient exploratory evidence of both capybara recognition and a repeatable structural identity, followed by a human decision about which candidate, if any, should proceed to Phase 1B. Round 0's four art-direction lanes remain evidence; the active proposal is Round 1 morphological exploration, not mandatory refinement of those lanes.
+Phase 1A does not approve a final production character. It must produce sufficient exploratory evidence of capybara recognition, repeatable structural identity, and a coherent accessory-compatible dressing architecture, followed by a human decision about which candidate, if any, should proceed to Phase 1B. Round 0's four art-direction lanes remain evidence; the active proposal is Round 1 morphological exploration, not mandatory refinement of those lanes. Actual identity survival under costume still needs separately authorized later tests.
 
 Human decision options:
 

@@ -1,7 +1,7 @@
-# CHARACTER REFERENCE STANDARD v1.0
+# CHARACTER REFERENCE STANDARD v1.1
 
 Status: DRAFT - PHASE 1A
-Date: 2026-09-04
+Date: 2026-09-05
 Truth level: PROVISIONAL
 
 ## Purpose
@@ -136,18 +136,23 @@ Material reference may include:
 
 All material behavior remains `TBD — REQUIRES PHYSICAL TEST`.
 
-## Accessory-Zone Map
+## Accessory-Zone / Envelope Map
 
-Must show where accessories may attach without destroying base recognition:
+The future approved reference package must show the conceptual envelopes defined by `docs/brand/CAPI_VISUAL_DNA.md`, with usable integration surfaces, coverage limits, and identity-preservation rules:
 
 - head
 - face
+- neck transition
 - torso/front
 - side body
 - back
+- waist or morphology-specific band route where applicable
+- limbs, wrists/forepaws, and supported prop-contact areas
 - base/feet where applicable
 
-Each zone must include visual and future DFM notes.
+Each zone must include visual and future DFM notes, neighboring-zone conflicts, justified limitations/non-applicability, and reusable dressing rules. Record both naked identity and identity survival under substantial coverage: cues that remain exposed, mass relationships transmitted through conforming coverage, and coverage that would erase the hook. Include conceptual headwear/torso, face/neck, and torso/rear coexistence checks.
+
+Custom accessories are expected; the map is not a universal interchangeable-parts specification. Fused contact, intended orientation, relief opportunities, and Color-Z concerns must accompany later geometry handoffs. Numerical envelope dimensions and manufacturing limits await the relevant evidence. In Round 1 these are written assessments only: no envelope images, costume examples, or additional views are authorized. Future maps and actual costume evidence require their own phase approval.
 
 ## Immutable-Feature Map
 

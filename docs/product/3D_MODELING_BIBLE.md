@@ -1,7 +1,7 @@
-# 3D MODELING BIBLE v1.0
+# 3D MODELING BIBLE v1.1
 
 Status: DRAFT - PHASE 1A
-Date: 2026-09-04
+Date: 2026-09-05
 Truth level: PROVISIONAL unless explicitly marked `TBD — REQUIRES PHYSICAL TEST`.
 
 ## Purpose
@@ -129,6 +129,8 @@ Bridge limits remain `TBD — REQUIRES PHYSICAL TEST`.
 
 ## 9. Fused-Accessory Rules
 
+Use the approved Accessory Envelope and dressing-architecture records required by `docs/brand/CAPI_VISUAL_DNA.md` and `docs/brand/CHARACTER_REFERENCE_STANDARD.md` as future modeling context. Preserve the base mass rules and a recognizable combination of signature morphology and capybara cues under substantial coverage. Custom integrated accessories are expected; recurring base reconstruction, identity-erasing coverage, or support-dependent integration must return to design review. These are future handoff requirements, not authorization to create accessory or base geometry during Round 1.
+
 Accessories must:
 
 - be fused to the body or a robust contact zone
@@ -137,6 +139,8 @@ Accessories must:
 - avoid thin stems
 - avoid support dependency
 - be visible in the intended views
+
+Check adjacent head/torso, face/neck, and torso/rear envelopes together. Use broad fusion/contact and relief where appropriate; assess the resulting overhangs, bridges, roots, and Color-Z regions in the intended build orientation. A conceptual envelope is not proof of printable clearance, strength, or support-free behavior; validate against the existing FDM and Color DFM standards in the authorized engineering phase. Dressing does not introduce detachable parts, manual assembly, or a selected palette by default.
 
 ## 10. Fragile-Feature Avoidance
 

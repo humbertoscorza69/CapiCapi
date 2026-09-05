@@ -10,6 +10,8 @@ All notable project operating-system changes are recorded here.
 - Proposed Round 1: ten distinct morphological families, two independent hero samples per family, exact shared and family prompts, twelve evaluation criteria, and explicit generation approval gate.
 - Kept quadruped/loaf and upright/mascot architectures open and aligned Visual DNA, phase register, master pipeline, roadmap, and project status.
 - Preserved Round 0 assets and historical observations. No Round 1 images or downstream assets generated.
+- Amended Round 1 with hard accessory compatibility, conceptual dressing envelopes, naked/costumed identity assessments, and three additional scorecard criteria (fifteen total). Prompt proposal R1-MORPH-v1.1 preserves all ten families and clarifies M07/M09/M10 boundaries before generation approval.
+- Updated Visual DNA, future reference-envelope requirements, and modeling handoff rules for repeatable fused dressing geometry and FDM/Color-Z constraints.
 
 ## 2026-09-04
 

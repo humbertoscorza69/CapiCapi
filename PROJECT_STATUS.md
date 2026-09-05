@@ -38,6 +38,7 @@ Date: 2026-09-05
 - Phase 1A architecture and Round 0 framework were owner-approved; no character design is approved.
 - Round 0 was reviewed without selection and remains exploratory evidence in Drive.
 - Round 1 proposes ten morphological families with two independent hero samples each (20 images); this scope and its exact prompts are not yet approved. No Round 1 images exist.
+- Round 1 prompt proposal R1-MORPH-v1.1 adds accessory compatibility as a hard constraint, conceptual accessory envelopes, and fifteen evaluation criteria. M07/M09/M10 retain their hypotheses with clearer dressing-compatible boundaries; all ten families remain proposed.
 - Quadruped/loaf versus upright/mascot remains open; neither architecture is selected.
 - No consumer character has been frozen.
 - No content, sales, or production analytics data exists.
@@ -46,6 +47,7 @@ Date: 2026-09-05
 ## Required Before Phase 1A PASS
 
 - Owner approves or amends the Round 1 experiment and prompts in `docs/brand/VISUAL_DIRECTION_EXPLORATION.md` before generation.
+- Review distinctive morphology, capybara recognition, and coherent accessory compatibility together, including conceptual identity survival under substantial costume coverage; actual costume testing remains a later gate.
 - After approved exploration, owner reviews the evidence and separately authorizes any Base Character Round development using specifically approved hero references.
 - Later base, expression, and role validation and an explicit Phase 1B decision are still required; experiment approval is not Phase 1A completion.
 - No final numeric ratios are frozen unless they come from an approved visual master.

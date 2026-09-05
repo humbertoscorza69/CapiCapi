@@ -17,8 +17,8 @@
       "drive_path": "CAPICAPI/Operating System/PROJECT STATUS",
       "drive_file_id": "1Q79zpRUHoRq2YHTmWp73pVOkx5bWaFj3l5jTikkP12E",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T22:52:44.995404Z",
-      "source_hash": "3dde982a38df7d36a632657f04e21e461bdf8f137e839d065267df4e136feaa4"
+      "last_synced_at": "2026-09-05T00:24:24.532633Z",
+      "source_hash": "4b7a9d35d59a2a82f904c65bd740c13a551e128becc7cf9db5f243331acc4348"
     },
     {
       "repo_path": "ROADMAP.md",
@@ -33,16 +33,16 @@
       "drive_path": "CAPICAPI/Operating System/DECISIONS",
       "drive_file_id": "1S16rOvZcG0-mjZ37aHliH7Hj-s4kfhPMRCmJw1xWubQ",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T22:52:50.742385Z",
-      "source_hash": "da7dad9f8f21129319ca4643634c67dfca2c3ec25f5d913c52ea893c301ca261"
+      "last_synced_at": "2026-09-05T00:24:27.962710Z",
+      "source_hash": "ea5de1c047d202b0ad4733054ae93b835f561d03c1368adcc1bd88dbf9edca37"
     },
     {
       "repo_path": "docs/operations/PHASE_REGISTER.md",
       "drive_path": "CAPICAPI/Operating System/PHASE REGISTER",
       "drive_file_id": "1lewVHcH-HNFpILJW3_BqbvQzYyqqTeUosk1iEWb3Ekg",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T22:52:53.821824Z",
-      "source_hash": "e5bb443ae23f63fd22e8e5accba5f0906086f6a45973e2489187a1621d6ae1b6"
+      "last_synced_at": "2026-09-05T00:24:30.938686Z",
+      "source_hash": "430b8f0c229d79adad8cdbd783438b5131e126e59ce4acc8fb0ea9ac8995d204"
     },
     {
       "repo_path": "docs/brand/CAPI_MASTER_SPEC.md",
@@ -57,40 +57,40 @@
       "drive_path": "CAPICAPI/Brand/CAPI VISUAL DNA",
       "drive_file_id": "1uhQn5MhYA6gLaWSgFgMNNrixvxYXU1HTbX01kD6RXFw",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T22:52:56.855851Z",
-      "source_hash": "cfe3378f091fdf282d9a8d5952179361723b9fcd4404aed2ba4b635fe276214c"
+      "last_synced_at": "2026-09-05T00:24:34.147236Z",
+      "source_hash": "cfb0010a7c069ceb6f427112e05a47e9e608c2534ba65cf2c3fc7e877a4ae7c4"
     },
     {
       "repo_path": "docs/brand/CHARACTER_REFERENCE_STANDARD.md",
       "drive_path": "CAPICAPI/Brand/CHARACTER REFERENCE STANDARD",
       "drive_file_id": "1FhUxb2Kk8Ddb8kV169e33eZRpGheG270wZDapHbwm5M",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T21:05:01.412692Z",
-      "source_hash": "0145419a2903832c3d88249676b0a404f7040d56db4288857473077b633890e2"
+      "last_synced_at": "2026-09-05T00:24:37.009396Z",
+      "source_hash": "6c0df3e6857d6c5a8b59880407f6f257a7b72ab86374a8eace1b5f70b339820c"
     },
     {
       "repo_path": "docs/brand/VISUAL_DIRECTION_EXPLORATION.md",
       "drive_path": "CAPICAPI/Brand/VISUAL DIRECTION EXPLORATION",
       "drive_file_id": "1NhYDABPyZq7kmSeFdLHpM60fbJ16Oz8Bu9VdIC7bH74",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T22:53:00.022035Z",
-      "source_hash": "7fa3bdd976cc997e44fd070e4ef8fb1537f8813bee5303a536c95320c78feacd"
+      "last_synced_at": "2026-09-05T00:24:40.152304Z",
+      "source_hash": "01b4f7bcb2dfc10b88e3e14c34750be5fb40cec97a40997ce9235741f3ede240"
     },
     {
       "repo_path": "docs/product/3D_MODELING_BIBLE.md",
       "drive_path": "CAPICAPI/Product/3D MODELING BIBLE",
       "drive_file_id": "1dq6v6eayZ3Q7AesD_OMJCVrBWyQLmwe80NrO0O65X9Y",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T21:05:17.738069Z",
-      "source_hash": "df705d39c0f655c3043d58f52e0176195138a46e3c251d8121eb4cc55e83b0a6"
+      "last_synced_at": "2026-09-05T00:24:43.372332Z",
+      "source_hash": "0136e180cd133543196fecc43f24488a481c74d759e65bf3cf110fd4c6eaf228"
     },
     {
       "repo_path": "docs/product/MASTER_CHARACTER_PIPELINE.md",
       "drive_path": "CAPICAPI/Product/MASTER CHARACTER PIPELINE",
       "drive_file_id": "17KD57EPTl4EXOQW4iGIKmX_a_m1pPFbfD_y692BZlAg",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-04T22:53:02.941913Z",
-      "source_hash": "00e54ec49051bf14e737156a1246ec10363991c103821516735f5322063c6d21"
+      "last_synced_at": "2026-09-05T00:24:45.948754Z",
+      "source_hash": "803b03f11448c36729bee74f597729974971a9d4ff8853af39c25bf10af55fc8"
     },
     {
       "repo_path": "docs/product/CAPI_V0_BRIEF.md",

@@ -183,3 +183,21 @@ Consequences: `docs/brand/VISUAL_DIRECTION_EXPLORATION.md` v1.3 proposes ten fam
 Gate: Round 1 GENERATION_NOT_AUTHORIZED until explicit owner approval. No turnarounds, expression sheets, role tests, final proportions, filament palette, 3D geometry, or Series 01 work. Approval of the experiment alone does not authorize any later development step.
 
 Reversible? YES, with an explicit owner decision recorded before changing scope or advancing the gate.
+
+## Decision D-0012
+
+Date: 2026-09-05
+
+Decision: Accessory Compatibility is a hard design constraint across all Round 1 morphological families. Evaluate DISTINCTIVE MORPHOLOGY + CAPYBARA RECOGNITION + ACCESSORY COMPATIBILITY together, including conceptual dressing architecture and identity survival under substantial costume coverage.
+
+Reason: CAPICAPI is a repeatable character platform for many future Series and roles. A distinctive naked sculpture is insufficient if routine dressing repeatedly destroys its identity, requires rebuilding the base, or conflicts with fused support-free FDM production.
+
+Evidence: Owner explicitly requested conceptual Accessory Envelopes, three added evaluation criteria, a review of M01-M10 before generation, and a stop without costume tests or Round 1 images.
+
+Alternatives considered: Requiring conventional human anatomy or universal off-the-shelf accessory fit; rejecting families simply because custom geometry is needed; checking naked identity alone.
+
+Consequences: Visual DNA v1.2 and Visual Direction Exploration v1.4 define the hard constraint, envelope categories, adjacent-zone checks, separate naked/costumed identity records, fifteen criteria, and FDM/Color-Z interactions. All ten families remain. The proposed R1-MORPH-v1.1 prompts add envelope guidance to every family and tighten M07 (retain usable volume under compression), M09 (open head/shoulder access), and M10 (broad open back dip) without replacing their structural hypotheses. This is a pre-generation design review, not demonstrated accessory fit or owner approval of the amended prompt set.
+
+Gate: The requested constraint is incorporated. The twenty-image experiment remains PROPOSED / GENERATION_NOT_AUTHORIZED until explicit owner approval. No costume/envelope images, turnarounds, expression sheets, roles, palette, Series 01, or 3D geometry are generated. No family is selected or eliminated.
+
+Reversible? YES, by an explicit owner decision recorded before relaxing the constraint or changing the experiment scope.
