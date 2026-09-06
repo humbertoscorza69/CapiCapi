@@ -1301,4 +1301,3 @@ Individual criterion evidence:
 ## Human Review Gate
 
 No winner, survivor, or final body architecture is selected. Review all originals and the raw criteria before directing any revision, further independent exploration, or explicitly scoped next stage. Limited sample diversity and prompt deviations mean this set does not exhaust the approved hypothesis space. No further images or downstream assets are authorized by this report.
-
