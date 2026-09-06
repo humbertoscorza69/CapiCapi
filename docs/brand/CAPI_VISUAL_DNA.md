@@ -1,7 +1,7 @@
-# CAPI VISUAL DNA v1.2
+# CAPI VISUAL DNA v1.3
 
 Status: DRAFT - PHASE 1A
-Date: 2026-09-05
+Date: 2026-09-06
 Truth level: PROVISIONAL unless explicitly marked otherwise.
 
 ## Purpose
@@ -24,7 +24,7 @@ Current hierarchy:
 
 A Capi must remain distinctive when costume, accessories, props, color, branding, role, and special expression are removed. It must also immediately read as capybara-derived and support a coherent repeatable accessory/costume system. The platform requirement is DISTINCTIVE MORPHOLOGY + CAPYBARA RECOGNITION + ACCESSORY COMPATIBILITY; none substitutes for another.
 
-Round 1 tests a signature morphological hook: a deliberate, verbally describable relationship among major masses that could become repeatable character DNA. No hook, numeric ratio, quadruped/loaf architecture, or upright/mascot architecture is selected. The protocol and exact proposed prompts live in `docs/brand/VISUAL_DIRECTION_EXPLORATION.md`; all ten families remain hypotheses awaiting experiment approval.
+Round 1 tests a signature morphological hook: a deliberate, verbally describable relationship among major masses that could become repeatable character DNA. No hook, numeric ratio, quadruped/loaf architecture, or upright/mascot architecture is selected. The protocol and exact executed prompts live in `docs/brand/VISUAL_DIRECTION_EXPLORATION.md`; all twenty generated candidates await human review. See `docs/brand/ROUND_1_REVIEW.md` for raw criteria and explicit prompt/diversity limitations. Generation artifacts are not new visual rules.
 
 Recognition signals:
 

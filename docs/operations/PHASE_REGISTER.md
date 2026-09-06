@@ -1,7 +1,7 @@
-# PHASE REGISTER v1.3
+# PHASE REGISTER v1.4
 
 Status: ACTIVE
-Date: 2026-09-05
+Date: 2026-09-06
 
 Each phase must carry objectives, required artifacts, acceptance criteria, unresolved risks, and explicit state.
 
@@ -46,7 +46,7 @@ Unresolved risks:
 
 ## Phase 1A - CAPICAPI Visual DNA Definition
 
-State: BLOCKED pending explicit approval of the Round 1 morphological experiment and prompts. Round 0 reviewed without selection; no downstream development authorized.
+State: BLOCKED at Round 1 HUMAN_REVIEW_PENDING. Owner approved generation under D-0013; twenty candidates and their observations are complete. Round 0 remains evidence; no winner or downstream development authorized.
 
 Objectives:
 
@@ -70,7 +70,7 @@ Acceptance criteria:
 - visual DNA requirements cover head/body proportions, silhouettes, muzzle, eyes, ears, paws, stance, curvature, expressions, accessory zones, immutable/flexible traits, and forbidden drift
 - exploration process preserves Round 0 evidence, adds an explicitly approved Round 1 morphological hero screen, and requires separate authorization for later full base-character views, expressions, and role tests
 - no final numeric proportions, filament colors, consumer characters, Capi v0 models, or Series 01 assets are frozen
-- owner approves or amends Round 1 scope and exact prompts before generation; proposed scope is ten families with two independent samples each
+- owner reviews twenty completed Round 1 candidates, their fifteen raw criteria, prompt fidelity, pair diversity, accessory/FDM concerns, and explicit unknowns before any next step
 - owner evaluates capybara recognition, distinctive morphology, and accessory compatibility together, including conceptual envelopes, repeatable dressing architecture, and identity survival under substantial coverage; no automatic ranking or premature body-architecture selection
 - severe systematic accessory/FDM conflicts prevent a recommendation to advance until resolved; custom accessory geometry alone is not a failure, and Round 1 contains no costume generation
 - owner separately authorizes hero survivors for Base Character Round development or requests more exploration; later tests and a Phase 1B decision remain required

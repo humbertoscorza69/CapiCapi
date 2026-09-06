@@ -5,6 +5,14 @@
   "log_path": "integrations/google_drive/sync_log.jsonl",
   "documents": [
     {
+      "repo_path": "docs/brand/ROUND_1_REVIEW.md",
+      "drive_path": "CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS/METADATA/ROUND 1 REVIEW",
+      "drive_file_id": "1VFihzs7ca04QqnNALUexbRtISODxXKAP7luSrU7nCsg",
+      "mirror_type": "google_doc",
+      "last_synced_at": "2026-09-06T02:09:02.169980Z",
+      "source_hash": "a2d875c6b702da93c2d49df4a5448e349cb3db3c5e7835930f78e995e1585209"
+    },
+    {
       "repo_path": "README.md",
       "drive_path": "CAPICAPI/Operating System/README",
       "drive_file_id": "1pAjJH_ufX6GZ0E3NZqAHH6II9lf39dQ-zXXBeTZa5G4",
@@ -17,8 +25,8 @@
       "drive_path": "CAPICAPI/Operating System/PROJECT STATUS",
       "drive_file_id": "1Q79zpRUHoRq2YHTmWp73pVOkx5bWaFj3l5jTikkP12E",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-05T00:24:24.532633Z",
-      "source_hash": "4b7a9d35d59a2a82f904c65bd740c13a551e128becc7cf9db5f243331acc4348"
+      "last_synced_at": "2026-09-06T02:09:04.775957Z",
+      "source_hash": "074e111f0eed3fa0fd1be4746b31d8d62e9c62e0be631fba85d3bfb7a2bff50b"
     },
     {
       "repo_path": "ROADMAP.md",
@@ -33,16 +41,16 @@
       "drive_path": "CAPICAPI/Operating System/DECISIONS",
       "drive_file_id": "1S16rOvZcG0-mjZ37aHliH7Hj-s4kfhPMRCmJw1xWubQ",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-05T00:24:27.962710Z",
-      "source_hash": "ea5de1c047d202b0ad4733054ae93b835f561d03c1368adcc1bd88dbf9edca37"
+      "last_synced_at": "2026-09-06T02:09:08.163009Z",
+      "source_hash": "7705eaa5a5be3586fcb05c870f82a7a70971a6477fbce8ccc7e14dfcb32e290f"
     },
     {
       "repo_path": "docs/operations/PHASE_REGISTER.md",
       "drive_path": "CAPICAPI/Operating System/PHASE REGISTER",
       "drive_file_id": "1lewVHcH-HNFpILJW3_BqbvQzYyqqTeUosk1iEWb3Ekg",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-05T00:24:30.938686Z",
-      "source_hash": "430b8f0c229d79adad8cdbd783438b5131e126e59ce4acc8fb0ea9ac8995d204"
+      "last_synced_at": "2026-09-06T02:09:11.693349Z",
+      "source_hash": "6c2d3cf4e83615e19cb57acde5ca007627bac87a939391288b11a2ab28d41b8b"
     },
     {
       "repo_path": "docs/brand/CAPI_MASTER_SPEC.md",
@@ -57,8 +65,8 @@
       "drive_path": "CAPICAPI/Brand/CAPI VISUAL DNA",
       "drive_file_id": "1uhQn5MhYA6gLaWSgFgMNNrixvxYXU1HTbX01kD6RXFw",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-05T00:24:34.147236Z",
-      "source_hash": "cfb0010a7c069ceb6f427112e05a47e9e608c2534ba65cf2c3fc7e877a4ae7c4"
+      "last_synced_at": "2026-09-06T02:09:15.077702Z",
+      "source_hash": "7f0ce7ac6ddfe58683c70beb16a2c5c897585b6f1638f2053ed986440c196d2a"
     },
     {
       "repo_path": "docs/brand/CHARACTER_REFERENCE_STANDARD.md",
@@ -73,8 +81,8 @@
       "drive_path": "CAPICAPI/Brand/VISUAL DIRECTION EXPLORATION",
       "drive_file_id": "1NhYDABPyZq7kmSeFdLHpM60fbJ16Oz8Bu9VdIC7bH74",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-05T00:24:40.152304Z",
-      "source_hash": "01b4f7bcb2dfc10b88e3e14c34750be5fb40cec97a40997ce9235741f3ede240"
+      "last_synced_at": "2026-09-06T02:09:17.937447Z",
+      "source_hash": "a772a18f1aa1dc72c2e649f7ab731651fe0f61954a206bac7bb242713d2ffc8c"
     },
     {
       "repo_path": "docs/product/3D_MODELING_BIBLE.md",
@@ -89,8 +97,8 @@
       "drive_path": "CAPICAPI/Product/MASTER CHARACTER PIPELINE",
       "drive_file_id": "17KD57EPTl4EXOQW4iGIKmX_a_m1pPFbfD_y692BZlAg",
       "mirror_type": "google_doc",
-      "last_synced_at": "2026-09-05T00:24:45.948754Z",
-      "source_hash": "803b03f11448c36729bee74f597729974971a9d4ff8853af39c25bf10af55fc8"
+      "last_synced_at": "2026-09-06T02:09:20.784467Z",
+      "source_hash": "06888c084b32e38f6695b0ca6f74458f90a2c49ca33103c8967441b28e898d7d"
     },
     {
       "repo_path": "docs/product/CAPI_V0_BRIEF.md",
@@ -780,6 +788,66 @@
       "drive_path": "CAPICAPI/99_ARCHIVE",
       "drive_folder_id": "1gduklb3-gnE-_OWvNU3S6UOFy4uebooz",
       "purpose": "Drive archive and version history"
+    },
+    {
+      "drive_path": "CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS",
+      "drive_folder_id": "1fxNk36z75zjgwT1E12hBuq0YXDaS_2oH",
+      "purpose": "Round 1 morphological exploration evidence"
+    },
+    {
+      "drive_path": "CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS/M01",
+      "drive_folder_id": "15aHa6Mam8TBwTKgVpYZkGhO29FC_T0xr",
+      "purpose": "Round 1 morphological exploration evidence"
+    },
+    {
+      "drive_path": "CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS/M02",
+      "drive_folder_id": "1-N45gH_HGCVQ9KKlOeoHMRmOB9YD67-W",
+      "purpose": "Round 1 morphological exploration evidence"
+    },
+    {
+      "drive_path": "CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS/M03",
+      "drive_folder_id": "12hdiyQRANuSdF-JzRithRyZ2dept4TX0",
+      "purpose": "Round 1 morphological exploration evidence"
+    },
+    {
+      "drive_path": "CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS/M04",
+      "drive_folder_id": "1mAzV8tDSXeuHV67VFl-yDEe81KMQJ17S",
+      "purpose": "Round 1 morphological exploration evidence"
+    },
+    {
+      "drive_path": "CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS/M05",
+      "drive_folder_id": "1O34KmrwTB10ieuNz9K--S6nux3cSqUb9",
+      "purpose": "Round 1 morphological exploration evidence"
+    },
+    {
+      "drive_path": "CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS/M06",
+      "drive_folder_id": "1nidiaLR82FS2nY-WeC_bK62oEV8gxeIL",
+      "purpose": "Round 1 morphological exploration evidence"
+    },
+    {
+      "drive_path": "CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS/M07",
+      "drive_folder_id": "1hc0umTXJfczRo1BpZp_d8-lBIeANYEwb",
+      "purpose": "Round 1 morphological exploration evidence"
+    },
+    {
+      "drive_path": "CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS/M08",
+      "drive_folder_id": "1JWyB4xkcsLWiM1MGMleGxKsDfE9I0gYM",
+      "purpose": "Round 1 morphological exploration evidence"
+    },
+    {
+      "drive_path": "CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS/M09",
+      "drive_folder_id": "1s0qkQI8l92wiaEINFOJYSxGWukg7au4m",
+      "purpose": "Round 1 morphological exploration evidence"
+    },
+    {
+      "drive_path": "CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS/M10",
+      "drive_folder_id": "1wV6C58k2RLqySkXOLRPYhTzKDVvD3NEC",
+      "purpose": "Round 1 morphological exploration evidence"
+    },
+    {
+      "drive_path": "CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS/METADATA",
+      "drive_folder_id": "1hsQ5YAXyScd5PWoTKb3GsYGo5pTs0tSC",
+      "purpose": "Round 1 morphological exploration evidence"
     }
   ]
 }

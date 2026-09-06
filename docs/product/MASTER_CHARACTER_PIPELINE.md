@@ -1,7 +1,7 @@
-# MASTER CHARACTER PIPELINE v1.2
+# MASTER CHARACTER PIPELINE v1.3
 
 Status: ACTIVE - PHASE 1A
-Date: 2026-09-05
+Date: 2026-09-06
 
 ## Purpose
 
@@ -35,7 +35,7 @@ Artifacts:
 - `docs/brand/CHARACTER_REFERENCE_STANDARD.md`
 - exploration scorecard or report later
 
-Gate state: BLOCKED pending human approval of the Round 1 experiment and exact prompts. Round 0 was reviewed without selection. Proposed scope is ten morphological families with two independent single-view samples each; no generation or downstream development is authorized yet. See `docs/brand/VISUAL_DIRECTION_EXPLORATION.md` and D-0011.
+Gate state: BLOCKED at Round 1 HUMAN_REVIEW_PENDING. Twenty independent hero calls used the exact approved R1-MORPH-v1.1 prompts under D-0013. Their images, raw criteria, envelope observations, and pair-diversity limitations are available in `docs/brand/ROUND_1_REVIEW.md` and structured metadata. No candidate is selected and no downstream development is authorized. Round 0 remains reviewed-without-selection evidence.
 
 ## Phase 1B - Provisional Visual Master / Reference Pack
 

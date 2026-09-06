@@ -1,13 +1,13 @@
 # Project Status
 
-Date: 2026-09-05
+Date: 2026-09-06
 
 ## Gate Summary
 
 | Phase | Name | State | Notes |
 |---|---|---:|---|
 | Phase 0 | Project Operating System | PASS | Owner approved Phase 0; repository and Drive operating structure are active. |
-| Phase 1A | CAPICAPI Visual DNA Definition | BLOCKED | Owner reviewed Round 0 without selection; Round 1 morphological experiment is proposed and awaits explicit generation approval. |
+| Phase 1A | CAPICAPI Visual DNA Definition | BLOCKED | Twenty Round 1 candidates generated under D-0013; human review pending. No winner or downstream authorization. |
 | Phase 1B | Provisional Visual Master / Reference Pack | BLOCKED | Requires owner selection or revision of a Phase 1A visual direction. |
 | Phase 1C | Provisional 3D Master Adapted for DFM | BLOCKED | Requires approved 2D/reference package from Phase 1B. |
 | Phase 2 | Engineering / Physical Capi v0 Validation | BLOCKED | Requires provisional DFM-adapted 3D master; `CAPI_V0_BRIEF.md` is an engineering prototype brief only. |
@@ -37,8 +37,9 @@ Date: 2026-09-05
 - Phase 0 architecture audit is recorded in `PHASE_0_ARCHITECTURE_AUDIT.md`.
 - Phase 1A architecture and Round 0 framework were owner-approved; no character design is approved.
 - Round 0 was reviewed without selection and remains exploratory evidence in Drive.
-- Round 1 proposes ten morphological families with two independent hero samples each (20 images); this scope and its exact prompts are not yet approved. No Round 1 images exist.
-- Round 1 prompt proposal R1-MORPH-v1.1 adds accessory compatibility as a hard constraint, conceptual accessory envelopes, and fifteen evaluation criteria. M07/M09/M10 retain their hypotheses with clearer dressing-compatible boundaries; all ten families remain proposed.
+- Round 1 generation was approved and executed: M01-A / M01-B through M10-A / M10-B, twenty independent new-image calls using exact R1-MORPH-v1.1 prompts. No replacements or edits between samples.
+- All fifteen raw criteria, conceptual envelopes, naked/costumed identity distinction, pair diversity, and prompt drift are recorded in `data/metadata/visual_exploration/round1_hero_observations_2026-09-06.json` and `docs/brand/ROUND_1_REVIEW.md`.
+- Independent calls often yielded limited interpretive diversity. Six outputs missed an upright brief; recurring species ambiguity, surface/digit details, and M09 envelope conflicts require human review. No output is a validated production candidate.
 - Quadruped/loaf versus upright/mascot remains open; neither architecture is selected.
 - No consumer character has been frozen.
 - No content, sales, or production analytics data exists.
@@ -46,7 +47,7 @@ Date: 2026-09-05
 
 ## Required Before Phase 1A PASS
 
-- Owner approves or amends the Round 1 experiment and prompts in `docs/brand/VISUAL_DIRECTION_EXPLORATION.md` before generation.
+- Owner reviews all twenty Round 1 outputs and their individual observations before selecting any next exploration or development step.
 - Review distinctive morphology, capybara recognition, and coherent accessory compatibility together, including conceptual identity survival under substantial costume coverage; actual costume testing remains a later gate.
 - After approved exploration, owner reviews the evidence and separately authorizes any Base Character Round development using specifically approved hero references.
 - Later base, expression, and role validation and an explicit Phase 1B decision are still required; experiment approval is not Phase 1A completion.

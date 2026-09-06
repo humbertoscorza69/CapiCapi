@@ -2,6 +2,15 @@
 
 All notable project operating-system changes are recorded here.
 
+## 2026-09-06
+
+### Updated
+
+- Recorded D-0013 owner approval and executed twenty independent Round 1 hero calls with exact R1-MORPH-v1.1 prompts; no reference images, inter-sample edits, or replacements.
+- Preserved all candidates by M01-A / M01-B through M10-A / M10-B, with raw fifteen-criterion observations, conceptual dressing envelopes, explicit prompt drift, and limited pair-diversity findings.
+- Stored original heavy assets in Drive with checksum verification; retained lightweight review/provenance metadata in Git and mirrored appropriate outputs to Drive.
+- Stopped at Round 1 human review. No winner or downstream assets generated.
+
 ## 2026-09-05
 
 ### Updated

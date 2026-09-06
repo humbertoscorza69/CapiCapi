@@ -1,7 +1,7 @@
-# VISUAL DIRECTION EXPLORATION v1.4
+# VISUAL DIRECTION EXPLORATION v1.5
 
-Status: ROUND 1 EXPERIMENT PROPOSED - AWAITING HUMAN APPROVAL
-Date: 2026-09-05
+Status: ROUND 1 GENERATED - HUMAN REVIEW PENDING
+Date: 2026-09-06
 Truth level: PROVISIONAL
 
 ## Purpose
@@ -14,7 +14,9 @@ The goal is not to choose the cutest capybara or the best render. The goal is to
 
 Round 0 is retained as exploratory evidence: A1-A3, B1-B3, C1-C3, and D1-D3. No candidate or lane has been selected, rejected, or promoted by this amendment. Its existing images and observation records remain unchanged.
 
-Round 1 is a proposed signature morphological hook experiment, not a refinement of A/B/C/D and not Phase 1B. The family roster, sample count, and exact prompts below require explicit owner approval before any Round 1 image generation. Base Character Round views and all downstream work remain blocked.
+Owner approved Round 1 generation on 2026-09-06 under D-0013. Twenty separate new-image calls used the exact R1-MORPH-v1.1 prompts with no image references or edits between samples. Results are M01-A / M01-B through M10-A / M10-B. A maps to proposed S1 and B to S2; stable metadata IDs retain the R1 prefix. All originals are preserved. No winner or survivor is selected; Base Character Round and downstream work remain blocked.
+
+Execution evidence and all fifteen raw criteria per sample are recorded in `data/metadata/visual_exploration/round1_hero_observations_2026-09-06.json` and the human-readable `docs/brand/ROUND_1_REVIEW.md`. Independent calls did not consistently produce materially different interpretations. Prompt deviations, recurring ambiguous species identity, and M09's accessory-envelope concerns remain explicit review findings, not hidden replacements or approved design traits.
 
 The owner's reference summary motivates large readable masses, collectible clarity, immediate capybara recognition, future role capacity, simple geometry, and eventual FDM production. Individual additional reference images are not identified in this review input; this proposal uses those stated principles without claiming image-specific analysis. External designs, including the oversized-head example, are explanatory inputs only and must not be copied or attached as whole-character generation targets.
 
@@ -29,7 +31,7 @@ Do not:
 - create Series 01
 - approve a permanent production master
 - treat generated candidate images as final reference sheets
-- begin Round 1 generation before explicit approval of this experiment
+- generate additional or replacement Round 1 samples without a new owner decision
 - begin multi-view development without a separate owner decision after hero exploration
 
 Do:
@@ -152,10 +154,10 @@ Three requirements apply together: DISTINCTIVE MORPHOLOGY + CAPYBARA RECOGNITION
 
 This round varies character architecture, proportion logic, silhouette, and mass distribution. It does not compare rendering styles, faceting, eye decoration, or progressively larger chibi heads. Each family must be describable as a construction rule without relying on a costume, color, or facial expression.
 
-### Proposed Scope
+### Approved And Executed Scope
 
-- Ten morphological families, M01-M10, with two independent hero samples each: 20 images total if approved.
-- Candidate IDs: R1-M01-S1 / R1-M01-S2 through R1-M10-S1 / R1-M10-S2. IDs are metadata, never text in the image.
+- Ten morphological families, M01-M10, with two independently generated hero samples each: 20 images total, no replacement generations.
+- Display IDs: M01-A / M01-B through M10-A / M10-B. Stable IDs: R1-M01-A / R1-M01-B through R1-M10-A / R1-M10-B. A/B map to proposed S1/S2 in metadata. IDs are never text in the generated image.
 - Both samples use the exact same shared prompt plus the exact same family prompt. They are independent generations, not edits of each other or unrecorded prompt revisions.
 - Two samples provide a limited variance check, not statistical proof. Screen both samples within each family before comparing structural hypotheses across families.
 - M01-M09 isolate different dominant structural decisions; M10 explicitly tests a combination. Avoid adding secondary exaggerations that collapse the isolated hypotheses into the combination family.
@@ -251,7 +253,7 @@ Use no Round 0 candidate as a mandatory visual template for this breadth experim
 
 ### Exact Prompt Assembly
 
-Prompt version: R1-MORPH-v1.1 (PROPOSED, accessory-envelope amendment). Supersedes the ungenerated v1.0 proposal. Each call uses the shared block below, followed by a blank line and one family block verbatim. Use that assembled prompt unchanged for both independent samples. Family/sample IDs are recorded outside the prompt; do not add them as image labels. No generation is authorized by the existence of these prompts.
+Prompt version: R1-MORPH-v1.1 (APPROVED AND EXECUTED under D-0013; accessory-envelope amendment). Supersedes the ungenerated v1.0 proposal. Each call used the shared block below, followed by a blank line and one family block verbatim. The assembled prompt was unchanged between independent samples, with no references or edits. These archived prompts do not authorize additional generation.
 
 #### Shared Prompt
 
@@ -355,9 +357,9 @@ Also record accessory_envelopes (one entry per applicable zone, including status
 
 ### Evidence Storage And Review Gate
 
-Git owns this experiment protocol, prompts, and future lightweight structured metadata under `data/metadata/visual_exploration`. After generation approval, heavy images belong under `CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS/M01` through `M10`, with metadata mirrors in `METADATA`. These are planned paths only; do not create empty asset folders or claim generated assets now. Record stable Drive IDs when created; filenames are not the database. Retain original generations, including failed or later rejected samples, with disposition metadata rather than deletion or overwriting.
+Git owns this protocol, exact prompts, structured observation metadata, and the review report. Heavy images are stored under `CAPICAPI/01_PRODUCT/BASE_CAPI/CONCEPT/ROUND_1_MORPHOLOGICAL_HOOKS/M01` through `M10`, with metadata/review mirrors in `METADATA`. Stable Drive file/folder IDs and integrity checks are recorded in metadata and the manifest. Local originals are staged under ignored `archive/tmp/phase_1a_round1_morphological_hooks`; heavy assets are not committed to Git. Preserve drifted and later rejected samples rather than deleting or overwriting evidence.
 
-Round 0 observations remain historical records; the owner's reviewed-without-selection outcome is recorded in D-0011 and current project status. Round 1 starts as PROPOSED / GENERATION_NOT_AUTHORIZED. After explicit approval, record the approved prompt version and scope, then generate only that scope. Present all samples grouped by morphological family. The owner may request more exploration, retain specific hypotheses, reject families, or authorize a specific subsequent step; no sample automatically advances to a turnaround or Phase 1B.
+Round 0 observations remain historical records; its reviewed-without-selection outcome is D-0011. Round 1 is now REVIEW / HUMAN_REVIEW_PENDING after the D-0013 generation authorization. All twenty samples are grouped by family, with raw criteria and pair-diversity limitations visible. The owner may request more exploration, retain specific hypotheses, reject families, or authorize a specific next step; no sample automatically advances to a turnaround or Phase 1B.
 
 ## Base Character Round
 
@@ -512,10 +514,10 @@ Create Direction D for CAPICAPI: Sculptural Art Toy. Stronger plane and silhouet
 ## Decision Workflow
 
 1. Preserve the twelve Round 0 candidates and observations as evidence. Owner review requested more exploration with no winner.
-2. Present this proposed Round 1 roster, two samples per family, shared controls, and exact prompts for human review. CURRENT STOP.
-3. Only after explicit approval, record approved scope/version and generate the twenty proposed single-view samples if that scope is accepted.
-4. Check constraint and hypothesis fidelity, then observe both samples within each family before cross-family comparison. Preserve failures and uncertainty.
-5. Human reviews capybara recognition, structural identity, and accessory compatibility together, including dressing architecture and conceptual costume survival; no automatic ranking, winner, or body-architecture lock.
+2. Owner approved the Round 1 roster, two independent calls per family, and exact R1-MORPH-v1.1 prompts on 2026-09-06 (D-0013).
+3. Twenty single-view candidates were generated, with no references, edits, or replacements.
+4. Constraint/hypothesis fidelity and all fifteen criteria are recorded for each sample; pair diversity is assessed before cross-family conclusions. Failures and uncertainty are preserved.
+5. CURRENT STOP: human reviews the twenty candidates for capybara recognition, structural identity, and accessory compatibility, including dressing architecture and conceptual costume survival. No automatic ranking, winner, or body-architecture lock.
 6. Human may request another hypothesis, revision, a separately scoped architecture comparison, or specific hero survivors. None of these actions is assumed.
 7. Only after explicit Base Character Round authorization, develop front, front 3/4, side, back, and silhouette references using each selected hero as mandatory image context.
 8. Later surviving bases may receive separately authorized expression tests, followed by role stress tests under their existing standards.
@@ -540,6 +542,6 @@ Each direction should eventually produce:
 
 ## Human Decision Required
 
-The project owner must approve or amend the proposed Round 1 experiment, including its ten morphological families, two independent samples per family, and shared-plus-family prompts, before generation.
+The project owner must now review M01-A / M01-B through M10-A / M10-B and decide the next action. Generation approval has been executed; it does not select any candidate or authorize additional images.
 
-No Round 1 images, turnarounds, expression sheets, role tests, Series 01 work, filament palette, or 3D geometry are authorized in this documentation pass. Human review comes next; the agent must not autonomously select a winner or advance development.
+No turnarounds, expression sheets, costume/role tests, Series 01 work, filament palette, 3D geometry, or downstream assets were generated. Human review comes next; the agent must not autonomously select a winner or advance development.

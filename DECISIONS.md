@@ -201,3 +201,15 @@ Consequences: Visual DNA v1.2 and Visual Direction Exploration v1.4 define the h
 Gate: The requested constraint is incorporated. The twenty-image experiment remains PROPOSED / GENERATION_NOT_AUTHORIZED until explicit owner approval. No costume/envelope images, turnarounds, expression sheets, roles, palette, Series 01, or 3D geometry are generated. No family is selected or eliminated.
 
 Reversible? YES, by an explicit owner decision recorded before relaxing the constraint or changing the experiment scope.
+
+## Decision D-0013
+
+Date: 2026-09-06
+
+Decision: Owner approved Round 1 generation using the exact R1-MORPH-v1.1 shared and family prompts: M01-M10, two independent single-view hero calls per family, twenty candidates total. Display IDs are M01-A / M01-B through M10-A / M10-B; A maps to the proposed S1 and B to S2. Stable record IDs retain the R1 prefix.
+
+Execution: Use separate new-image calls with no image references or edits between samples. Record prompt fidelity, pair diversity, raw criteria, naked identity, conceptual dressing/coverage potential, and provisional FDM concerns honestly. Procedural independence does not guarantee visually different outputs. Preserve every result, including drifted samples, with no silent replacement or automatic winner.
+
+Gate: Authorization covers generation, observation records, Drive storage/sync, and commit/push only. Stop at Round 1 HUMAN_REVIEW_PENDING. No turnarounds, expressions, costumes, roles, Series 01, final colors, 3D geometry, or downstream development is authorized.
+
+Reversible? YES, through a recorded owner decision about the next review step.
